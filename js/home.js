@@ -1,0 +1,243 @@
+/* Coffee Lab — homepage v2 engine
+   1. Canvas frame-sequence scrub hero (Apple-style, scroll-driven)
+   2. Parallax layers  3. Scroll reveals  4. Header mode  5. Section renders */
+
+renderChrome("home");
+document.body.classList.add("home-v2");
+
+const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ============================================================
+   1 · HERO SCRUB
+   ============================================================ */
+const FRAME_COUNT = 72;
+const framePath = i => `assets/hero/f_${String(i).padStart(2, "0")}.jpg`;
+
+const cine = document.getElementById("cine");
+const canvas = document.getElementById("cine-canvas");
+const ctx = canvas.getContext("2d");
+const stages = [...document.querySelectorAll(".cine .stage")];
+const cue = document.querySelector(".scroll-cue");
+
+const frames = new Array(FRAME_COUNT);
+let loadedMax = -1;                    // highest contiguous loaded index
+window.__heroFrame = 0; window.__heroProgress = 0;
+
+function loadFrames(){
+  let contiguous = 0;
+  for (let i = 0; i < FRAME_COUNT; i++){
+    const img = new Image();
+    img.src = framePath(i);
+    img.onload = () => {
+      frames[i] = img;
+      while (contiguous < FRAME_COUNT && frames[contiguous]) contiguous++;
+      loadedMax = contiguous - 1;
+      needsDraw = true;
+    };
+  }
+}
+
+function sizeCanvas(){
+  const dpr = Math.min(devicePixelRatio || 1, 2);
+  canvas.width = canvas.clientWidth * dpr;
+  canvas.height = canvas.clientHeight * dpr;
+  needsDraw = true;
+}
+
+function drawFrame(i){
+  const img = frames[Math.min(i, Math.max(loadedMax, 0))];
+  if (!img) return;
+  const cw = canvas.width, ch = canvas.height;
+  const s = Math.max(cw / img.width, ch / img.height);      // cover fit
+  const w = img.width * s, h = img.height * s;
+  ctx.drawImage(img, (cw - w) / 2, (ch - h) / 2, w, h);
+}
+
+/* trapezoid fade helper: 0→1 between a..b, hold, 1→0 between c..d */
+const fade = (p, a, b, c, d) =>
+  p < a ? 0 : p < b ? (p - a) / (b - a) : p < c ? 1 : p < d ? 1 - (p - c) / (d - c) : 0;
+
+function heroProgress(){
+  const r = cine.getBoundingClientRect();
+  const total = r.height - innerHeight;
+  return Math.min(1, Math.max(0, -r.top / total));
+}
+
+function updateHero(){
+  const p = heroProgress();
+  window.__heroProgress = p;
+  const f = Math.min(FRAME_COUNT - 1, Math.floor(p * FRAME_COUNT));
+  window.__heroFrame = f;
+  drawFrame(f);
+
+  // text choreography
+  const ops = [
+    fade(p, -0.1, 0.00, 0.20, 0.30),   // stage 1: opening line (visible at rest)
+    fade(p, 0.30, 0.38, 0.52, 0.62),   // stage 2: the promise
+    fade(p, 0.64, 0.74, 2, 3),         // stage 3: CTAs — stays
+  ];
+  stages.forEach((el, i) => {
+    const o = REDUCED ? (i === 2 ? 1 : 0) : ops[i];
+    el.style.opacity = o;
+    el.style.transform = `translateY(${(1 - o) * 26}px)`;
+    el.classList.toggle("interactive", o > 0.5);
+  });
+  if (cue) cue.style.opacity = p > 0.04 ? 0 : 1;
+}
+
+/* ============================================================
+   2 · PARALLAX  ([data-speed] elements drift against scroll)
+   ============================================================ */
+const paras = [...document.querySelectorAll("[data-speed]")];
+function updateParallax(){
+  if (REDUCED) return;
+  const mid = innerHeight / 2;
+  paras.forEach(el => {
+    const r = el.getBoundingClientRect();
+    const delta = (r.top + r.height / 2 - mid) * parseFloat(el.dataset.speed);
+    el.style.transform = `translate3d(0, ${delta.toFixed(1)}px, 0)`;
+  });
+}
+
+/* ============================================================
+   2b · CASE CARDS — mouse scrubbing (drag + wheel) on the row
+   ============================================================ */
+const caseTrack = document.getElementById("case-track");
+if (caseTrack){
+  // drag-to-scrub with the mouse (touch keeps native scrolling)
+  let dragging = false, startX = 0, startLeft = 0, moved = 0;
+  caseTrack.addEventListener("pointerdown", e => {
+    if (e.pointerType !== "mouse") return;
+    dragging = true; moved = 0;
+    startX = e.clientX; startLeft = caseTrack.scrollLeft;
+    caseTrack.classList.add("dragging");
+    caseTrack.setPointerCapture(e.pointerId);
+  });
+  caseTrack.addEventListener("pointermove", e => {
+    if (!dragging) return;
+    const dx = e.clientX - startX;
+    moved = Math.max(moved, Math.abs(dx));
+    caseTrack.scrollLeft = startLeft - dx;
+  });
+  const endDrag = e => {
+    if (!dragging) return;
+    dragging = false;
+    caseTrack.classList.remove("dragging");   // restoring snap eases to the nearest card
+  };
+  caseTrack.addEventListener("pointerup", endDrag);
+  caseTrack.addEventListener("pointercancel", endDrag);
+  caseTrack.addEventListener("click", e => { if (moved > 6) e.preventDefault(); }, true);
+
+  // vertical wheel scrubs the row — but never traps the page at the ends
+  caseTrack.addEventListener("wheel", e => {
+    if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;   // trackpad horizontal: native
+    const max = caseTrack.scrollWidth - caseTrack.clientWidth;
+    const atStart = caseTrack.scrollLeft <= 0 && e.deltaY < 0;
+    const atEnd = caseTrack.scrollLeft >= max - 1 && e.deltaY > 0;
+    if (atStart || atEnd) return;                          // hand back to page scroll
+    e.preventDefault();
+    caseTrack.scrollLeft += e.deltaY;
+  }, { passive: false });
+}
+
+/* ============================================================
+   3 · REVEALS
+   ============================================================ */
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); }
+}), { threshold: 0.14 });
+
+/* ============================================================
+   4 · HEADER MODE (transparent over the dark hero)
+   ============================================================ */
+const header = document.getElementById("site-header");
+function updateHeader(){
+  const overHero = cine.getBoundingClientRect().bottom > innerHeight * 0.6;
+  header.classList.toggle("over-hero", overHero);
+}
+
+/* ---------- single rAF loop, draws only when needed ---------- */
+let needsDraw = true;
+addEventListener("scroll", () => { needsDraw = true; }, { passive: true });
+addEventListener("resize", sizeCanvas);
+(function loop(){
+  if (needsDraw){
+    needsDraw = false;
+    updateHero(); updateParallax(); updateHeader();
+  }
+  requestAnimationFrame(loop);
+})();
+
+/* ============================================================
+   5 · SECTIONS
+   ============================================================ */
+// Popular picks: approachable openers — medium roasts, one per roaster
+const picks = [];
+{
+  const seen = new Set();
+  const pool = [...COFFEES].sort((a, b) =>
+    (b.sample - a.sample) || (Math.abs(a.roastLevel - 3) - Math.abs(b.roastLevel - 3)) || (a.price - b.price));
+  for (const c of pool){
+    if (!seen.has(c.brand)){ picks.push(c); seen.add(c.brand); }
+    if (picks.length === 8) break;
+  }
+}
+document.getElementById("hero-count-line").innerHTML =
+  `${COFFEES.length} beans.<br>One of them is yours.`;
+document.getElementById("picks-all-btn").textContent = `All ${COFFEES.length} →`;
+document.getElementById("picks-grid").innerHTML = picks.map((c, i) =>
+  coffeeCard(c).replace('class="coffee-card ', `style="transition-delay:${i * 60}ms" class="coffee-card reveal `)).join("");
+
+// Cup tiles
+const cnt = styleCounts();
+document.getElementById("cups").innerHTML = `
+  <a class="cup-tile style-milk reveal" href="directory.html?style=milk">
+    <span class="bgph" style="background-image:url('assets/img/cup-milk.jpg')"></span>
+    <span class="mono-count">${cnt.milk} coffees</span><h3>Milk</h3><p>Body that carries through a latte or kaapi.</p></a>
+  <a class="cup-tile style-black reveal" style="transition-delay:80ms" href="directory.html?style=black">
+    <span class="bgph" style="background-image:url('assets/img/cup-black.jpg')"></span>
+    <span class="mono-count">${cnt.black} coffees</span><h3>Black</h3><p>Nothing between you and the estate.</p></a>
+  <a class="cup-tile style-cold reveal" style="transition-delay:160ms" href="directory.html?style=cold">
+    <span class="bgph" style="background-image:url('assets/img/cup-cold.jpg')"></span>
+    <span class="mono-count">${cnt.cold} coffees</span><h3>Cold</h3><p>Slow-steeped. Summer-proof.</p></a>`;
+
+// Roasters
+const byBrand = {};
+COFFEES.forEach(c => {
+  (byBrand[c.brand] ??= { n: 0, places: new Set() });
+  byBrand[c.brand].n++;
+  c.states.forEach(s => byBrand[c.brand].places.add(s));
+});
+const monoGrads = ["#1F3D2B", "#4A3423", "#96453B", "#2C5238", "#B67F14", "#3A3128", "#6B4A2E", "#14100C", "#7A5A74"];
+const topRoasters = Object.entries(byBrand).sort((a, b) => b[1].n - a[1].n).slice(0, 11);
+const restCount = Object.keys(byBrand).length - topRoasters.length;
+document.getElementById("roasters").innerHTML = topRoasters.map(([name, v], i) => `
+  <a class="roaster-tile reveal" style="transition-delay:${(i % 3) * 70}ms" href="brand.html?brand=${encodeURIComponent(name)}">
+    <span class="monogram" style="background:${monoGrads[i % monoGrads.length]}">${esc(initials(name))}</span>
+    <span><b>${esc(name)}</b><span>${v.n} coffees · ${esc([...v.places].slice(0, 2).join(" · "))}</span></span>
+  </a>`).join("") + `
+  <a class="roaster-tile reveal" style="transition-delay:210ms;justify-content:center;background:var(--g-tile-green);border:none" href="directory.html">
+    <span style="text-align:center"><b style="color:#fff">+ ${restCount} more roasters</b><span style="color:#C4D3BC">browse the full shelf →</span></span>
+  </a>`;
+
+// Surprise me
+document.getElementById("surprise").addEventListener("click", e => {
+  e.preventDefault();
+  const c = COFFEES[Math.floor(Math.random() * COFFEES.length)];
+  location.href = `coffee.html?id=${encodeURIComponent(c.id)}`;
+});
+
+// Newsletter (front-end only)
+document.getElementById("news-form").addEventListener("submit", e => {
+  e.preventDefault();
+  const v = document.getElementById("news-email").value.trim();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) { document.getElementById("news-email").focus(); return; }
+  e.target.style.display = "none";
+  document.getElementById("news-ok").hidden = false;
+});
+
+/* ---------- boot ---------- */
+document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+sizeCanvas();
+loadFrames();
+updateHero(); updateHeader();

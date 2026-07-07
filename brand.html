@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roaster — Coffee Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><circle cx="20" cy="20" r="19" fill="%231F3D2B"/><ellipse cx="20" cy="20" rx="8.5" ry="12" fill="%23DFA126" transform="rotate(24 20 20)"/></svg>'>
+<style>
+  .brand-head{ display:grid; grid-template-columns:0.85fr 1.15fr; gap:46px; padding:34px 0 20px; align-items:start; }
+  .brand-logo{
+    background:#fff; border:1px solid var(--line); border-radius:var(--r-lg);
+    display:flex; align-items:center; justify-content:center;
+    min-height:300px; padding:40px; position:sticky; top:90px;
+  }
+  .brand-logo img, .brand-logo svg{ max-width:100%; max-height:220px; }
+  .brand-logo .mono-big{
+    width:150px; height:150px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+    font-family:var(--font-display); font-weight:700; font-size:3rem; color:#F5F0E1;
+  }
+  .brand-head h1{ font-size:clamp(2rem,4vw,3rem); margin-bottom:10px; }
+  .loc-chip{
+    display:inline-flex; align-items:center; gap:8px;
+    background:#E2EBDF; border:1px solid #BCD0B8; color:var(--canopy);
+    border-radius:999px; padding:7px 16px; font-family:var(--font-mono);
+    font-size:.74rem; letter-spacing:.1em; text-transform:uppercase; margin-bottom:20px;
+  }
+  .loc-chip svg{ width:14px; height:14px; }
+  .brand-about p{ color:#3A362C; margin:0 0 1em; max-width:62ch; }
+  .brand-stats{ display:flex; gap:30px; margin:24px 0 4px; flex-wrap:wrap; }
+  .brand-stats div b{ display:block; font-family:var(--font-display); font-size:1.7rem; color:var(--roast); line-height:1.1; }
+  .brand-stats div span{ font-family:var(--font-mono); font-size:.68rem; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-soft); }
+  .brand-products{ padding:26px 0 84px; }
+  @media (max-width:860px){
+    .brand-head{ grid-template-columns:1fr; }
+    .brand-logo{ position:static; min-height:200px; }
+  }
+</style>
+</head>
+<body>
+<header class="site-header" id="site-header"></header>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="directory.html">Roasters</a> / <span id="crumb-name"></span></nav>
+  <section class="brand-head" id="brand-head"></section>
+  <section class="brand-products">
+    <p class="eyebrow">The shelf</p>
+    <h2>Explore their products</h2>
+    <div class="card-grid" id="brand-grid" style="margin-top:26px"></div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/brands.js"></script>
+<script src="js/app.js"></script>
+<script>
+renderChrome("directory");
+const brandName = new URLSearchParams(location.search).get("brand") || "";
+const coffees = COFFEES.filter(c => c.brand === brandName);
+const head = document.getElementById("brand-head");
+
+if (!coffees.length){
+  head.innerHTML = `<div class="empty-state" style="grid-column:1/-1">
+    <h3>We couldn't find that roaster</h3>
+    <p>They may not be in the directory yet.</p>
+    <a class="btn btn-primary" href="directory.html">Browse the directory</a></div>`;
+  document.querySelector(".brand-products").hidden = true;
+} else {
+  const info = BRAND_INFO[brandName] || {};
+  const display = info.displayName || brandName;
+  document.title = `${display} — Coffee Lab`;
+  document.getElementById("crumb-name").textContent = display;
+
+  const states = [...new Set(coffees.flatMap(c => c.states))];
+  const estates = new Set(coffees.map(c => c.estate).filter(Boolean)).size;
+  const minPrice = Math.min(...coffees.map(c => c.price || Infinity));
+  const monoGrads = ["#1F3D2B","#4A3423","#96453B","#2C5238","#B67F14","#3A3128","#6B4A2E","#14100C","#7A5A74"];
+  const grad = monoGrads[hashCode(brandName) % monoGrads.length];
+
+  const logoHTML = info.img
+    ? `<img src="${info.img}" alt="${esc(info.imgAlt || display + " logo")}">`
+    : `<span class="mono-big" style="background:${grad}">${esc(initials(brandName))}</span>`;
+
+  const aboutHTML = (info.about && info.about.length)
+    ? info.about.map(p => `<p>${esc(p)}</p>`).join("")
+    : `<p>${esc(display)} roasts ${coffees.length} coffee${coffees.length>1?"s":""} in the directory${estates ? ` across ${estates} estate${estates>1?"s":""}` : ""}, from ${esc(states.join(" and "))}. Roast styles run ${esc([...new Set(coffees.map(c=>c.roast))].slice(0,4).join(", ").toLowerCase())}.</p>
+       <p>Every listing carries its full ledger — estate, elevation, varietal, process — so you can taste your way through their shelf with your eyes open.</p>`;
+
+  head.innerHTML = `
+    <div class="brand-logo">${logoHTML}</div>
+    <div>
+      <h1>${esc(display)}</h1>
+      <span class="loc-chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        ${esc(states.join(" · ") || "India")}
+      </span>
+      <div class="brand-about">${aboutHTML}</div>
+      <div class="brand-stats">
+        <div><b>${coffees.length}</b><span>coffees</span></div>
+        ${estates ? `<div><b>${estates}</b><span>estates</span></div>` : ""}
+        ${isFinite(minPrice) ? `<div><b>₹${minPrice}</b><span>from /100g</span></div>` : ""}
+        ${coffees.some(c=>c.sample) ? `<div><b>Yes</b><span>sample packs</span></div>` : ""}
+      </div>
+    </div>`;
+
+  document.getElementById("brand-grid").innerHTML = coffees.map(c => coffeeCard(c)).join("");
+}
+</script>
+</body>
+</html>
