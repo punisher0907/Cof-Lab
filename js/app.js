@@ -114,7 +114,7 @@ function renderChrome(active){
   ];
   document.getElementById("site-header").innerHTML = `
     <div class="wrap">
-      <a class="logo" href="index.html">${logoSVG}<b>Coffee<em>Lab</em></b></a>
+      <a class="logo" href="index.html">${logoSVG}<b>Kaapi <em>Atlas</em></b></a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" onclick="const n=document.querySelector('.main-nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
@@ -127,7 +127,7 @@ function renderChrome(active){
   document.getElementById("site-footer").innerHTML = `
     <div class="wrap">
       <div>
-        <a class="logo" href="index.html">${logoSVG}<b>Coffee<em>Lab</em></b></a>
+        <a class="logo" href="index.html">${logoSVG}<b>Kaapi <em>Atlas</em></b></a>
         <p style="max-width:36ch;font-size:.92rem;margin-top:14px;">One place to know everything about coffee in India — ${COFFEES.length} beans from ${new Set(COFFEES.map(c => c.brand)).size} roasters, and how to find yours.</p>
       </div>
       <div>
@@ -146,8 +146,7 @@ function renderChrome(active){
     </div>
     <div class="footer-note">
       <div class="wrap">
-        <span>COFFEE LAB · THE INDIAN COFFEE DIRECTORY</span>
-        <span>DATA: THE GREAT INDIAN SPECIALTY COFFEE DIRECTORY</span>
+        <span>KAAPI ATLAS · THE INDIAN COFFEE DIRECTORY</span>
       </div>
     </div>`;
 }

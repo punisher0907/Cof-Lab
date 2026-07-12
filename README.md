@@ -1,4 +1,4 @@
-# ☕ Coffee Lab — the Indian coffee directory
+# ☕ Kaapi Atlas — the Indian coffee directory
 
 One place to know everything about coffee in India: browse 613 specialty beans from 58 roasters, match a coffee to your taste in a 2-minute quiz, and learn how coffee actually works.
 

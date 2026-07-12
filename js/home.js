@@ -152,7 +152,7 @@ const io = new IntersectionObserver(es => es.forEach(e => {
    ============================================================ */
 const header = document.getElementById("site-header");
 function updateHeader(){
-  const overHero = cine.getBoundingClientRect().bottom > innerHeight * 0.6;
+  const overHero = scrollY > 56 && cine.getBoundingClientRect().bottom > innerHeight * 0.6;
   header.classList.toggle("over-hero", overHero);
 }
 
