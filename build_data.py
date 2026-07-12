@@ -192,7 +192,7 @@ def rows_from_csv(path):
         if not brand:                          # skip blanks/section dividers
             continue
         price = parse_price(g(r, "Price/100 gms", "Price/100gms", "Price"))
-        link = g(r, "Link")
+        link = g(r, "Link URL", "Link")
         out.append((
             brand, g(r, "Name"), g(r, "Estate"), g(r, "District"),
             g(r, "Elevation MASL", "Elevation"), g(r, "Source Classification"),
