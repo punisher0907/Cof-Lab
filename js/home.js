@@ -228,14 +228,6 @@ document.getElementById("surprise").addEventListener("click", e => {
 });
 
 // Newsletter (front-end only)
-document.getElementById("news-form").addEventListener("submit", e => {
-  e.preventDefault();
-  const v = document.getElementById("news-email").value.trim();
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) { document.getElementById("news-email").focus(); return; }
-  e.target.style.display = "none";
-  document.getElementById("news-ok").hidden = false;
-});
-
 /* ---------- boot ---------- */
 document.querySelectorAll(".reveal").forEach(el => io.observe(el));
 sizeCanvas();
