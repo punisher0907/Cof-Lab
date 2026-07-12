@@ -394,6 +394,7 @@ h3{ font-size:1.2rem; }
   padding:4px 10px; border-radius:999px; box-shadow:var(--shadow);
 }
 .match-card{ position:relative; }
+.buy-btn{ align-self:flex-start; margin-top:8px; font-size:.82rem; padding:7px 14px; }
 
 /* ============================================================
    ARTICLES

@@ -90,6 +90,14 @@ function coffeeCard(c, extraHTML = "", cls = "", footerHTML = ""){
   </a>`;
 }
 
+function buyAttrs(c, source){
+  return `data-buy-id="${esc(c.id)}" data-buy-brand="${esc(c.brand)}" data-buy-source="${esc(source)}"`;
+}
+function buyBtn(c, source){
+  if (!c.link) return "";
+  return `<button class="btn btn-primary buy-btn" ${buyAttrs(c, source)} onclick="event.stopPropagation();window.open(${JSON.stringify(c.link)},'_blank','noopener')">Buy →</button>`;
+}
+
 /* ---------- site chrome ---------- */
 function renderChrome(active){
   const logoSVG = `

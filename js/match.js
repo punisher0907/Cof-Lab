@@ -193,12 +193,12 @@ function showResults(){
   document.getElementById("match-grid").innerHTML = picked.map((r, i) => {
     const reason = r.why.length ? `Why: ${r.why.slice(0, 2).join("; ")}.` : "A strong all-round fit for your answers.";
     return coffeeCard(r.c, `<span class="match-rank">MATCH ${["№1", "№2", "№3"][i]}</span>`, "match-card",
-      `<div class="match-reason">${esc(reason)}</div>`);
+      `<div class="match-reason">${esc(reason)}</div>${buyBtn(r.c, "quiz")}`);
   }).join("");
 
   if (runners.length){
     document.getElementById("runners-wrap").hidden = false;
-    document.getElementById("runners-grid").innerHTML = runners.map(r => coffeeCard(r.c)).join("");
+    document.getElementById("runners-grid").innerHTML = runners.map(r => coffeeCard(r.c, "", "", buyBtn(r.c, "quiz-runner"))).join("");
   }
 
   shell.hidden = true;

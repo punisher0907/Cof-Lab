@@ -149,7 +149,7 @@ function apply(){
   document.getElementById("dir-count").innerHTML = `<b>${list.length}</b> of ${COFFEES.length} coffees`;
   const grid = document.getElementById("dir-grid");
   grid.innerHTML = list.length
-    ? list.map(c => coffeeCard(c)).join("")
+    ? list.map(c => coffeeCard(c, "", "", buyBtn(c, "directory"))).join("")
     : `<div class="empty-state">
         <h3>No coffee matches those filters</h3>
         <p>Loosen a filter or two — or let the quiz do the narrowing for you.</p>
