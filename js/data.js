@@ -39,7 +39,7 @@ const COFFEES = [
   "notes": "Green beans are aged in Amrut whiskry barrels",
   "price": 488,
   "sample": false,
-  "link": ""
+  "link": "https://www.729grams.coffee/product-page/whiskey-barrel-age-coffee"
  },
  {
   "id": "729-grams-coffee-orchardale-naturals",
@@ -79,7 +79,7 @@ const COFFEES = [
   "notes": "SCA 88",
   "price": 477,
   "sample": false,
-  "link": ""
+  "link": "https://www.729grams.coffee/product-page/orchardale-naturals"
  },
  {
   "id": "729-grams-coffee-rose-culture-process",
@@ -118,7 +118,7 @@ const COFFEES = [
   "notes": "Rose derived culture is used for inoculation",
   "price": 445,
   "sample": false,
-  "link": ""
+  "link": "https://www.729grams.coffee/product-page/rose-culture-process"
  },
  {
   "id": "729-grams-coffee-house-blend",
@@ -161,7 +161,7 @@ const COFFEES = [
   "notes": "",
   "price": 335,
   "sample": false,
-  "link": ""
+  "link": "https://www.729grams.coffee/product-page/729-grams-house-blend"
  },
  {
   "id": "729-grams-coffee-dark-side",
@@ -199,7 +199,7 @@ const COFFEES = [
   "notes": "",
   "price": 322,
   "sample": false,
-  "link": ""
+  "link": "https://www.729grams.coffee/product-page/dark-side"
  },
  {
   "id": "agastya-coffee-excelsa-coffea-liberica",
@@ -238,7 +238,7 @@ const COFFEES = [
   "notes": "",
   "price": 285,
   "sample": true,
-  "link": ""
+  "link": "https://www.agastyacoffee.com/product-page/excelsa-coffea-liberica"
  },
  {
   "id": "agastya-coffee-kent-microlot",
@@ -278,7 +278,7 @@ const COFFEES = [
   "notes": "From the few estates in India that grow the Kent Vareital that is linked to beans brought to India by Baba Budan Giri",
   "price": 270,
   "sample": true,
-  "link": ""
+  "link": "https://www.agastyacoffee.com/product-page/kent-microlot"
  },
  {
   "id": "agastya-coffee-mysore-nuggets-extra-bold",
@@ -317,7 +317,7 @@ const COFFEES = [
   "notes": "The beans are graded and 100% are above 6.5 mm and 90% is above 7.5mm",
   "price": 270,
   "sample": true,
-  "link": ""
+  "link": "https://www.agastyacoffee.com/product-page/mysore-nuggets-extra-bold"
  },
  {
   "id": "agastya-coffee-peaberry-washed",
@@ -359,7 +359,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": true,
-  "link": ""
+  "link": "https://www.agastyacoffee.com/product-page/peaberry-arabica"
  },
  {
   "id": "agastya-coffee-palace-field-estate",
@@ -399,7 +399,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://www.agastyacoffee.com/product-page/palace-field-estate"
  },
  {
   "id": "agastya-coffee-kogilahalla-estate",
@@ -440,7 +440,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://www.agastyacoffee.com/product-page/kogilahalla-estate-mysore-nuggets"
  },
  {
   "id": "agastya-coffee-sandalkad-estate",
@@ -481,7 +481,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://www.agastyacoffee.com/product-page/sandalkad-estate"
  },
  {
   "id": "agastya-coffee-modur-estate",
@@ -522,7 +522,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://www.agastyacoffee.com/product-page/modur-estate-mysore-nuggets"
  },
  {
   "id": "agastya-coffee-espresso-blend",
@@ -560,7 +560,7 @@ const COFFEES = [
   "notes": "",
   "price": 225,
   "sample": true,
-  "link": ""
+  "link": "https://www.agastyacoffee.com/product-page/espresso-blend"
  },
  {
   "id": "ainmane-anaerobic-liberica",
@@ -599,7 +599,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://www.ainmane.com/anaerobic-liberica.html"
  },
  {
   "id": "ainmane-hardoor",
@@ -636,7 +636,7 @@ const COFFEES = [
   "notes": "",
   "price": 238,
   "sample": false,
-  "link": ""
+  "link": "https://www.ainmane.com/hardoor-estate.html"
  },
  {
   "id": "ainmane-monsooned-malabar",
@@ -673,7 +673,7 @@ const COFFEES = [
   "notes": "",
   "price": 236,
   "sample": false,
-  "link": ""
+  "link": "https://www.ainmane.com/monsooned-malabar.html"
  },
  {
   "id": "ainmane-baarbara-estate",
@@ -714,7 +714,7 @@ const COFFEES = [
   "notes": "",
   "price": 232,
   "sample": false,
-  "link": ""
+  "link": "https://www.ainmane.com/baarbara-estate.html"
  },
  {
   "id": "ainmane-caf-blend",
@@ -754,7 +754,7 @@ const COFFEES = [
   "notes": "",
   "price": 228,
   "sample": false,
-  "link": ""
+  "link": "https://www.ainmane.com/cafe-blend.html"
  },
  {
   "id": "ainmane-honey-processed",
@@ -791,7 +791,7 @@ const COFFEES = [
   "notes": "",
   "price": 207,
   "sample": false,
-  "link": ""
+  "link": "https://www.ainmane.com/honey-processed.html"
  },
  {
   "id": "ainmane-anaerobic-naturals",
@@ -830,7 +830,7 @@ const COFFEES = [
   "notes": "",
   "price": 207,
   "sample": false,
-  "link": ""
+  "link": "https://www.ainmane.com/anaerobic-naturals.html"
  },
  {
   "id": "ainmane-arabica-naturals",
@@ -870,7 +870,7 @@ const COFFEES = [
   "notes": "",
   "price": 207,
   "sample": false,
-  "link": ""
+  "link": "https://www.ainmane.com/arabica-naturals.html"
  },
  {
   "id": "ainmane-excelsa-coffea-liberica",
@@ -908,7 +908,7 @@ const COFFEES = [
   "notes": "",
   "price": 207,
   "sample": false,
-  "link": ""
+  "link": "https://www.ainmane.com/excelsa.html"
  },
  {
   "id": "ainmane-kudlur",
@@ -946,7 +946,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://www.ainmane.com/kudlur-1.html"
  },
  {
   "id": "ainmane-skandapuri",
@@ -986,7 +986,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://www.ainmane.com/skandapuri-estate-arabica.html"
  },
  {
   "id": "ainmane-kabbe-estate",
@@ -1027,7 +1027,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://www.ainmane.com/kabbe-estate.html"
  },
  {
   "id": "alchemist-coffee-company-air-percolation-blend",
@@ -1065,7 +1065,7 @@ const COFFEES = [
   "notes": "",
   "price": 258,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/air-percolation-roast"
  },
  {
   "id": "alchemist-coffee-company-mooley-manay-naturals",
@@ -1105,7 +1105,7 @@ const COFFEES = [
   "notes": "",
   "price": 258,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/mooleh-manay-naturals"
  },
  {
   "id": "alchemist-coffee-company-primus-victus",
@@ -1136,7 +1136,7 @@ const COFFEES = [
   "notes": "",
   "price": 256,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/primusvictus"
  },
  {
   "id": "alchemist-coffee-company-kalledevarapura-washed",
@@ -1177,7 +1177,7 @@ const COFFEES = [
   "notes": "",
   "price": 248,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/kalledevarapura-speciality"
  },
  {
   "id": "alchemist-coffee-company-balanoor-washed",
@@ -1218,7 +1218,7 @@ const COFFEES = [
   "notes": "",
   "price": 248,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/balanoor-speciality-bbtc"
  },
  {
   "id": "alchemist-coffee-company-kalledevarapura-honey",
@@ -1260,7 +1260,7 @@ const COFFEES = [
   "notes": "",
   "price": 246,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/kalledevarapura-psd"
  },
  {
   "id": "alchemist-coffee-company-earth-immersion-blend",
@@ -1296,7 +1296,7 @@ const COFFEES = [
   "notes": "",
   "price": 246,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/earth"
  },
  {
   "id": "alchemist-coffee-company-balanoor-espresso",
@@ -1337,7 +1337,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/balanoor-espresso"
  },
  {
   "id": "alchemist-coffee-company-kalledevarapura-espresso",
@@ -1376,7 +1376,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/kalledevarapura-washed-espresso-roast"
  },
  {
   "id": "alchemist-coffee-company-rasasastra-arabica",
@@ -1407,7 +1407,7 @@ const COFFEES = [
   "notes": "",
   "price": 218,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/xn-rasastra-x-xfb39h"
  },
  {
   "id": "alchemist-coffee-company-fire-vienna-roast",
@@ -1439,7 +1439,7 @@ const COFFEES = [
   "notes": "",
   "price": 218,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/fire-vienna-roast"
  },
  {
   "id": "alchemist-coffee-company-rasasastra-espresso",
@@ -1470,7 +1470,7 @@ const COFFEES = [
   "notes": "",
   "price": 198,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/xn-rasastra-y-xfb39h"
  },
  {
   "id": "alchemist-coffee-company-koraput-naturals",
@@ -1512,7 +1512,7 @@ const COFFEES = [
   "notes": "",
   "price": 106,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/koraput-naturals"
  },
  {
   "id": "alchemist-coffee-company-koraput-washed",
@@ -1555,7 +1555,7 @@ const COFFEES = [
   "notes": "",
   "price": 100,
   "sample": false,
-  "link": ""
+  "link": "https://alchemistcoffeecompany.in/shop/ols/products/koraput-washed"
  },
  {
   "id": "araku-anniversary-edit",
@@ -1594,7 +1594,7 @@ const COFFEES = [
   "notes": "Sourced from Gondi Rapa, Gondivalasa and Doravalasa, this blend brings together one natural and two washed coffees, grown at elevations between 3,691 and 3,967 ft. Cultivated under silver oak and native forest shade, each plot follows regenerative farming practices that preserve both biodiversity and flavour integrity.",
   "price": 780,
   "sample": false,
-  "link": ""
+  "link": "https://www.arakucoffee.in/products/anniversary-edition-coffee-araku"
  },
  {
   "id": "araku-summer-edit",
@@ -1638,7 +1638,7 @@ const COFFEES = [
   "notes": "On the steep, rocky slopes of Degu Gasarapalli in Hukumpeta, Oranaini Apparao cultivates coffee at 1,170 metres, where elevation, soil and shade come together to shape a slower, more deliberate harvest. Under a canopy of silver oak trees, the cherries ripen gradually, allowing sugars to develop with care — resulting in a coffee that carries both structure and clarity.",
   "price": 432,
   "sample": false,
-  "link": ""
+  "link": "https://www.arakucoffee.in/products/summer-edit-coffee"
  },
  {
   "id": "araku-grand-reserve",
@@ -1680,7 +1680,7 @@ const COFFEES = [
   "notes": "Blend of arabica processed in two ways",
   "price": 356,
   "sample": true,
-  "link": ""
+  "link": "https://www.arakucoffee.in/products/grande-reserve?variant=45285599609152"
  },
  {
   "id": "araku-micro-climate",
@@ -1722,7 +1722,7 @@ const COFFEES = [
   "notes": "The coffee grows on river island of Baankubedda",
   "price": 252,
   "sample": true,
-  "link": ""
+  "link": "https://www.arakucoffee.in/products/micro-climate?variant=45298582815040"
  },
  {
   "id": "araku-selection",
@@ -1764,7 +1764,7 @@ const COFFEES = [
   "notes": "Blend of arabica processed in three ways",
   "price": 236,
   "sample": true,
-  "link": ""
+  "link": "https://www.arakucoffee.in/products/selection?variant=45276007629120"
  },
  {
   "id": "araku-signature",
@@ -1806,7 +1806,7 @@ const COFFEES = [
   "notes": "Blend of arabica processed in two ways",
   "price": 216,
   "sample": true,
-  "link": ""
+  "link": "https://www.arakucoffee.in/products/signature?variant=45276007530816"
  },
  {
   "id": "badra-coffee-sovereign-grand-reserve",
@@ -1848,7 +1848,7 @@ const COFFEES = [
   "notes": "This rare microlot undergoes anaerobic fermentation with papaya and sapota for four days, followed by twenty-one days of slow shade drying that enhances its natural fruit complexity and sweetness.",
   "price": 420,
   "sample": false,
-  "link": ""
+  "link": "https://badracoffee.com/collections/our-award-winning-coffees/products/sovereign-grand-reserve"
  },
  {
   "id": "badra-coffee-liberica-highland-reserve",
@@ -1891,7 +1891,7 @@ const COFFEES = [
   "notes": "The cherries undergo a 5-day anaerobic fermentation in sealed barrels to build depth and complexity, followed by a slow 25-day drying period on raised beds under shade to preserve sweetness and balance.",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://badracoffee.com/collections/our-award-winning-coffees/products/liberica-highland-reserve"
  },
  {
   "id": "badra-coffee-kanfora-prestige-reserve",
@@ -1935,7 +1935,7 @@ const COFFEES = [
   "notes": "This premium microlot undergoes a precise four-day fermentation followed by twenty-one days of slow, controlled drying that amplifies its natural sweetness.",
   "price": 360,
   "sample": false,
-  "link": ""
+  "link": "https://badracoffee.com/collections/our-award-winning-coffees/products/kanfora-prestige-reserve-award-winning-coffee"
  },
  {
   "id": "badra-coffee-temple-mountain",
@@ -1976,7 +1976,7 @@ const COFFEES = [
   "notes": "",
   "price": 272,
   "sample": true,
-  "link": ""
+  "link": "https://badracoffee.com/collections/our-award-winning-coffees/products/temple-mountain"
  },
  {
   "id": "badra-coffee-misty-heights",
@@ -2018,7 +2018,7 @@ const COFFEES = [
   "notes": "",
   "price": 234,
   "sample": true,
-  "link": ""
+  "link": "https://badracoffee.com/collections/our-award-winning-coffees/products/misty-heights"
  },
  {
   "id": "badra-coffee-mocha-magic",
@@ -2060,7 +2060,7 @@ const COFFEES = [
   "notes": "",
   "price": 228,
   "sample": true,
-  "link": ""
+  "link": "https://badracoffee.com/collections/our-award-winning-coffees/products/mocha"
  },
  {
   "id": "badra-coffee-kaapi-nirvana",
@@ -2102,7 +2102,7 @@ const COFFEES = [
   "notes": "",
   "price": 172,
   "sample": true,
-  "link": ""
+  "link": "https://badracoffee.com/collections/our-award-winning-coffees/products/kaapi-nirvana"
  },
  {
   "id": "bili-hu-rum-barrel-aged",
@@ -2144,7 +2144,7 @@ const COFFEES = [
   "notes": "",
   "price": 720,
   "sample": false,
-  "link": ""
+  "link": "https://bilihu.in/products/rum-barrel-aged-coffee-1?variant=53202479776043"
  },
  {
   "id": "bili-hu-whiskey-barrel-aged-coffee",
@@ -2185,7 +2185,7 @@ const COFFEES = [
   "notes": "",
   "price": 720,
   "sample": true,
-  "link": ""
+  "link": "https://bilihu.in/collections/micro-lots/products/whiskey-barrel-aged-coffee"
  },
  {
   "id": "bili-hu-lot-19-kalledevarapura-estate",
@@ -2227,7 +2227,7 @@ const COFFEES = [
   "notes": "",
   "price": 360,
   "sample": false,
-  "link": ""
+  "link": "https://bilihu.in/products/lot-19-kdp?variant=52391096484139"
  },
  {
   "id": "bili-hu-balur-estate-lot-1",
@@ -2265,7 +2265,7 @@ const COFFEES = [
   "notes": "",
   "price": 340,
   "sample": false,
-  "link": ""
+  "link": "https://bilihu.in/products/balur-estate-dark-roast?variant=52391063650603"
  },
  {
   "id": "bili-hu-100-arabica-dark",
@@ -2304,7 +2304,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": true,
-  "link": ""
+  "link": "https://bilihu.in/products/arabica-blend-dark-roast?variant=37656998215878"
  },
  {
   "id": "bili-hu-monsooned-malabar",
@@ -2342,7 +2342,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": true,
-  "link": ""
+  "link": "https://bilihu.in/products/monsooned-malabar?variant=37656906727622"
  },
  {
   "id": "bili-hu-balur-estate-lot-2",
@@ -2382,7 +2382,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://bilihu.in/collections/single-origins/products/single-estate-coffee-balur"
  },
  {
   "id": "bili-hu-gunibyle-estate-san-ramon",
@@ -2423,7 +2423,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://bilihu.in/collections/micro-lots/products/sandroman-gunibyle-estate"
  },
  {
   "id": "bili-hu-gunibyle-estate",
@@ -2464,7 +2464,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://bilihu.in/products/gunibyle-estate?variant=37656550834374"
  },
  {
   "id": "bili-hu-aghora-estate",
@@ -2505,7 +2505,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://bilihu.in/products/aghora-estate-1?variant=37656838766790"
  },
  {
   "id": "bili-hu-kalledevarapura-estate",
@@ -2546,7 +2546,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://bilihu.in/products/kalledevarapura-estate?variant=44835609346347"
  },
  {
   "id": "bili-hu-mysore-nuggets-extra-bold",
@@ -2586,7 +2586,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://bilihu.in/products/mysore-nuggets-extra-bold?variant=37656887951558"
  },
  {
   "id": "bili-hu-70-30-arabica-robusta",
@@ -2626,7 +2626,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": false,
-  "link": ""
+  "link": "https://bilihu.in/products/70-30-arabica-robusta-blend?variant=42330598310086"
  },
  {
   "id": "bili-hu-80-20-arabica-robusta",
@@ -2666,7 +2666,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": false,
-  "link": ""
+  "link": "https://bilihu.in/products/80-20-arabica-robusta-blend?variant=45746095620395"
  },
  {
   "id": "bili-hu-100-arabica-medium",
@@ -2707,7 +2707,7 @@ const COFFEES = [
   "notes": "Blend of Arabica from 2 plantations",
   "price": 260,
   "sample": true,
-  "link": ""
+  "link": "https://bilihu.in/products/arabica-blend-medium-roast?variant=50827910054187"
  },
  {
   "id": "bili-hu-balur-estate-lot-3",
@@ -2747,7 +2747,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": false,
-  "link": ""
+  "link": "https://bilihu.in/products/balur-estate-robusta-pulp-sundried?variant=46227366576427"
  },
  {
   "id": "black-baza-coffee-kombucha-honey-br-hills",
@@ -2786,7 +2786,7 @@ const COFFEES = [
   "notes": "After pulping the seeds are fermented in kombucha for 96 hours",
   "price": 288,
   "sample": false,
-  "link": ""
+  "link": "https://www.blackbazacoffee.com/products/kombucha-honey"
  },
  {
   "id": "black-baza-coffee-potter-wasp-br-hills",
@@ -2823,7 +2823,7 @@ const COFFEES = [
   "notes": "",
   "price": 252,
   "sample": false,
-  "link": ""
+  "link": "https://www.blackbazacoffee.com/products/potter-wasp"
  },
  {
   "id": "black-baza-coffee-frogmouth-nilgiris",
@@ -2864,7 +2864,7 @@ const COFFEES = [
   "notes": "",
   "price": 244,
   "sample": false,
-  "link": ""
+  "link": "https://www.blackbazacoffee.com/products/frogmouth"
  },
  {
   "id": "black-baza-coffee-kaati-palani-hills",
@@ -2905,7 +2905,7 @@ const COFFEES = [
   "notes": "",
   "price": 244,
   "sample": false,
-  "link": ""
+  "link": "https://www.blackbazacoffee.com/products/kaati"
  },
  {
   "id": "black-baza-coffee-jumping-ant-br-hills",
@@ -2944,7 +2944,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://www.blackbazacoffee.com/products/jumping-ant"
  },
  {
   "id": "black-baza-coffee-galaxy-frog-br-hills-nilgiris",
@@ -2986,7 +2986,7 @@ const COFFEES = [
   "notes": "The Galaxy Frog is a vibrant blend of Washed Arabicas (including Peaberries) and semi-washed Honeys",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://www.blackbazacoffee.com/products/galaxy-frog"
  },
  {
   "id": "black-baza-coffee-wanderoo-br-hills",
@@ -3026,7 +3026,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://www.blackbazacoffee.com/products/wanderoo"
  },
  {
   "id": "black-baza-coffee-loris-br-hills",
@@ -3064,7 +3064,7 @@ const COFFEES = [
   "notes": "",
   "price": 232,
   "sample": false,
-  "link": ""
+  "link": "https://www.blackbazacoffee.com/products/loris"
  },
  {
   "id": "black-baza-coffee-tiger-beetle-br-hills",
@@ -3107,7 +3107,7 @@ const COFFEES = [
   "notes": "",
   "price": 232,
   "sample": false,
-  "link": ""
+  "link": "https://www.blackbazacoffee.com/products/tiger-beetle"
  },
  {
   "id": "black-baza-coffee-ottis-br-hills-wayanad",
@@ -3150,7 +3150,7 @@ const COFFEES = [
   "notes": "80/20 Blend of Arabica and Robusta",
   "price": 232,
   "sample": false,
-  "link": ""
+  "link": "https://www.blackbazacoffee.com/products/otter"
  },
  {
   "id": "black-baza-coffee-ficus-br-hills-wayanad",
@@ -3193,7 +3193,7 @@ const COFFEES = [
   "notes": "Grown under the shade of ficus tree, this is a 70/30 blend of Arabica and Robusta",
   "price": 232,
   "sample": true,
-  "link": ""
+  "link": "https://www.blackbazacoffee.com/products/ficus"
  },
  {
   "id": "black-baza-coffee-chukki-br-hills",
@@ -3233,7 +3233,7 @@ const COFFEES = [
   "notes": "",
   "price": 232,
   "sample": true,
-  "link": ""
+  "link": "https://www.blackbazacoffee.com/products/chukki"
  },
  {
   "id": "bloom-coffee-roasters-kolli-berry-estate-naturals-chikmagalur-light-roast",
@@ -3272,7 +3272,7 @@ const COFFEES = [
   "notes": "Ripe cherries were picked and meticulously sorted, then fermented anaerobically for 96 hours before being dried on raised beds for 28 days",
   "price": 390,
   "sample": false,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/light-roasts/products/kolli-berry-estate-naturals-chikmagalur-light-roast"
  },
  {
   "id": "bloom-coffee-roasters-salawara-estate-naturals",
@@ -3311,7 +3311,7 @@ const COFFEES = [
   "notes": "For this Naturals, Chandragiri cherries were picked ripe, cleaned, give a float test and were put in the bio-reactor to ferment for 36 hours. The cherries were inoculated with yeast during the fermentation. They were then dried over 26 day",
   "price": 350,
   "sample": false,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/light-roasts/products/salawara-estate-bio-reactor-naturals-sakleshpur-light-roast"
  },
  {
   "id": "bloom-coffee-roasters-udaigiri-estate-naturals-chikmagalur-light-roast",
@@ -3352,7 +3352,7 @@ const COFFEES = [
   "notes": "",
   "price": 340,
   "sample": false,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/light-roasts/products/udaigiri-estate-naturals-chikmagalur-light-roast"
  },
  {
   "id": "bloom-coffee-roasters-salawara-estate-anaerobic-yellow-honey",
@@ -3391,7 +3391,7 @@ const COFFEES = [
   "notes": "",
   "price": 340,
   "sample": false,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/light-roasts/products/salawara-estate-anaerobic-yellow-honey-sakleshpur-light-roast"
  },
  {
   "id": "bloom-coffee-roasters-venkids-valley-estate-the-red-honey",
@@ -3428,7 +3428,7 @@ const COFFEES = [
   "notes": "",
   "price": 320,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/light-roasts/products/venkids-valley-estate-the-red-honey"
  },
  {
   "id": "bloom-coffee-roasters-salawara-estate-red-honey",
@@ -3466,7 +3466,7 @@ const COFFEES = [
   "notes": "The Cherries were pulped Lightly, leaving a lot of the mucilage and were then fermented Anaerobically for 72 hours before they were slow dried for 22 days.",
   "price": 300,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/light-roasts/products/salawara-estate-red-honey-sakleshpur-light-roast"
  },
  {
   "id": "bloom-coffee-roasters-kelachandra-estate-naturals",
@@ -3504,7 +3504,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/light-roasts/products/kelachandra-estate-naturals-chikmagalur-light-roast"
  },
  {
   "id": "bloom-coffee-roasters-hoysala-estate-naturals",
@@ -3544,7 +3544,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/light-roasts/products/hoysala-estate-naturals-chikmagalur-light-roast"
  },
  {
   "id": "bloom-coffee-roasters-salawara-estate-yeast-washed",
@@ -3583,7 +3583,7 @@ const COFFEES = [
   "notes": "This washed process went through an Anaerobic yeast Fermentation before pulping, and then the coffee was washed thoroughly to remove the mucilage.",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/light-roasts/products/salawara-estate-naturals-sakleshpur-light-roast"
  },
  {
   "id": "bloom-coffee-roasters-anai-kadu-naturals",
@@ -3622,7 +3622,7 @@ const COFFEES = [
   "notes": "24 hour in fruit Aerobic Fermentation, slow dried for 28 days",
   "price": 280,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/light-roasts/products/anai-kadu-naturals-coorg-light-roast"
  },
  {
   "id": "bloom-coffee-roasters-meera",
@@ -3663,7 +3663,7 @@ const COFFEES = [
   "notes": "Meera features two incredible coffees, our staple washed arabica from Coorg’s favourite plantation, the Venkids Valley Estate, and a stunning “Natural Naturals“ from the Krishnagiri Estate, located in some of the highest elevations of Chikmagalur. What do we get when we blend a clean bright washed and a super sweet, jammy Natural Naturals? A yummy, sweet, super complex, rich espresso, which holds its own in milk beverages as well!",
   "price": 280,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/light-roasts/products/meera-medium-light-roast?variant=42464836714682"
  },
  {
   "id": "bloom-coffee-roasters-harley-estate-vienna-roast",
@@ -3704,7 +3704,7 @@ const COFFEES = [
   "notes": "",
   "price": 280,
   "sample": false,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/dark-roasts/products/harley-estate-vienna-roast-naturals-sakleshpur"
  },
  {
   "id": "bloom-coffee-roasters-hoysala-estate-washed",
@@ -3740,7 +3740,7 @@ const COFFEES = [
   "notes": "",
   "price": 270,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/light-roasts/products/hoysala-estate-washed-chikmagalur-medium-light-roast"
  },
  {
   "id": "bloom-coffee-roasters-high-brix-honey",
@@ -3779,7 +3779,7 @@ const COFFEES = [
   "notes": "The beans of the highest brix are identified (colour coded bands are given to workers at the estate to pick the cherries). They are sorted for defects twice before using the penagos washer + pulper. Floats are removed and the coffee beans with little bit of mucilage are dried on raised beds. They are exposed to the morning sun for the first two days and then completely dried in shade for a period of 20-25 days.",
   "price": 270,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/medium-roasts/products/pulney-coffee-washed-pulney-hills-medium-roast?variant=41447971717306"
  },
  {
   "id": "bloom-coffee-roasters-balanoor-plantations-kent",
@@ -3820,7 +3820,7 @@ const COFFEES = [
   "notes": "",
   "price": 270,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/medium-roasts/products/balanoor-plantations-kents-medium-roast?variant=42104516149434"
  },
  {
   "id": "bloom-coffee-roasters-salawara-estate-washed",
@@ -3858,7 +3858,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/dark-roasts/products/salawara-estate-dark-roast?variant=39361112801466"
  },
  {
   "id": "bloom-coffee-roasters-papakuchi-coffee",
@@ -3896,7 +3896,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/light-roasts/products/papkuchi-coffee-washed-coorg-light-roast?variant=40623909732538"
  },
  {
   "id": "bloom-coffee-roasters-venkids-valley-estate-washed",
@@ -3938,7 +3938,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/medium-roasts/products/venkids-valley-estate-medium-dark?variant=39361096286394"
  },
  {
   "id": "bloom-coffee-roasters-vin-van-gogh",
@@ -3980,7 +3980,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/medium-roasts/products/vin-van-gogh?variant=39360965673146"
  },
  {
   "id": "bloom-coffee-roasters-kid-dynamite",
@@ -4018,7 +4018,7 @@ const COFFEES = [
   "notes": "This blend features the lovely washed arabica from the Salawara Estate, and the natural processed robusta from the Kottaram Estate in Wayanad, Kerala.",
   "price": 220,
   "sample": false,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/dark-roasts/products/kid-dynamite-dark-roast-copy?variant=44606041718970"
  },
  {
   "id": "bloom-coffee-roasters-satchmo",
@@ -4060,7 +4060,7 @@ const COFFEES = [
   "notes": "",
   "price": 210,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/dark-roasts/products/satchmo-dark-roast?variant=39360916062394"
  },
  {
   "id": "bloom-coffee-roasters-ro-busta-rhymes",
@@ -4095,7 +4095,7 @@ const COFFEES = [
   "notes": "This blend features the lovely washed arabica from the Moganad Estate, and the natural processed robusta from the Venkids Valley Estate. Washed Arabica and Naturals Robusta",
   "price": 200,
   "sample": true,
-  "link": ""
+  "link": "https://bloomcoffeeroasters.in/collections/dark-roasts/products/ro-busta-rhymes-medium-dark-roast?variant=39601966121146"
  },
  {
   "id": "bloom-coffee-roasters-pulney-coffee",
@@ -4182,7 +4182,7 @@ const COFFEES = [
   "notes": "Ripe coffee cherries were split into eleven barrels of 120 kg each, with inoculants gradually added to ten barrels while one was kept as a control. The barrels were sealed and left indoors for a 72-hour fermentation, with the kombucha batch opened after 24 hours to allow oxygen exposure, as the SCOBY (Symbiotic Culture of Bacteria and Yeast) requires it to remain active. Once fermentation was complete, the cherries were dried on raised beds for 20 to 25 days.",
   "price": 560,
   "sample": false,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/kalledevarapura-estate-the-fermentation-edit"
  },
  {
   "id": "blue-tokai-coffee-warsanlyngdoh-coffee-collective-nongrynang",
@@ -4223,7 +4223,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/warsanlyngdoh-coffee-collective"
  },
  {
   "id": "blue-tokai-coffee-amruthavarshini-estate",
@@ -4264,7 +4264,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/amruthavarshini-estate"
  },
  {
   "id": "blue-tokai-coffee-krishnagiri-estate",
@@ -4303,7 +4303,7 @@ const COFFEES = [
   "notes": "",
   "price": 280,
   "sample": false,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/krishnagiri-estate-dark"
  },
  {
   "id": "blue-tokai-coffee-kolli-beri-estate",
@@ -4343,7 +4343,7 @@ const COFFEES = [
   "notes": "",
   "price": 280,
   "sample": false,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/kolli-berri-estate"
  },
  {
   "id": "blue-tokai-coffee-ratnagiri-estate-estate-natural-dark-room",
@@ -4382,7 +4382,7 @@ const COFFEES = [
   "notes": "It was shaped by a 60-hour fermentation with a custom culture, then dried slowly for 13 days in the estate’s climate-controlled dark room.\n \n A rare facility found at only a handful of estates worldwide, the dark room is fully sealed and fitted with precision racks. It holds temperature between 2°C and 30°C and maintains humidity at 10%. Slow drying with this level of control deepens flavour, preserves sweetness, and brings clarity to the cup.\n \n Antony, our roaster, approached the roast with a carefully extended Maillard phase to build natural sweetness, finishing Light to let the coffee’s character shine.",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/ratnagiri-estate-dark-room-natural"
  },
  {
   "id": "blue-tokai-coffee-skia-nelaji",
@@ -4427,7 +4427,7 @@ const COFFEES = [
   "notes": "Two separate coffees sold as a pair, Ripe, high-density cherries were pulped with the mucilage left intact, then placed in sealed tanks for a 72-hour anaerobic fermentation. A yeast strain purpose-built for controlled fermentation was introduced during this stage to develop complexity. One lot is honey sun dried and the second lot is put through thermal shock, was immersed in hot water, then rapidly cooled in ice. It was then mechanically washed and dried slowly under shade.",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/skia-coffee-pack-of-2"
  },
  {
   "id": "blue-tokai-coffee-basankhan-estate",
@@ -4464,7 +4464,7 @@ const COFFEES = [
   "notes": "",
   "price": 224,
   "sample": true,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/basankhan-estate#BrewID"
  },
  {
   "id": "blue-tokai-coffee-kalledevarapura-estate-honey",
@@ -4506,7 +4506,7 @@ const COFFEES = [
   "notes": "The picking of coffee cherries at Kalledevarapura is carried out across four rounds to ensure that the best cherries are picked.",
   "price": 224,
   "sample": true,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/kalledevarapura-pulp-sun-dried"
  },
  {
   "id": "blue-tokai-coffee-silver-oak-caf-blend",
@@ -4546,7 +4546,7 @@ const COFFEES = [
   "notes": "Blend from Karnataka and Tamil Nadu",
   "price": 224,
   "sample": true,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/silver-oak-cafe-blend"
  },
  {
   "id": "blue-tokai-coffee-st-joseph-estate-palani-hills",
@@ -4587,7 +4587,7 @@ const COFFEES = [
   "notes": "",
   "price": 224,
   "sample": true,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/st-joseph-estate"
  },
  {
   "id": "blue-tokai-coffee-baarbara-estate",
@@ -4628,7 +4628,7 @@ const COFFEES = [
   "notes": "",
   "price": 224,
   "sample": true,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/baarbara-estate"
  },
  {
   "id": "blue-tokai-coffee-attikan-estate-br-hills",
@@ -4668,7 +4668,7 @@ const COFFEES = [
   "notes": "During harvest season, three rounds of handpicking the ripe fruits take place.",
   "price": 224,
   "sample": true,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/attikan-estate"
  },
  {
   "id": "blue-tokai-coffee-monsoon-malabaraa-hoysala-estate",
@@ -4709,7 +4709,7 @@ const COFFEES = [
   "notes": "The green beans are monsooned when left to interact with monsoon winds",
   "price": 224,
   "sample": true,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/monsoon-malabar"
  },
  {
   "id": "blue-tokai-coffee-dhak-blend",
@@ -4750,7 +4750,7 @@ const COFFEES = [
   "notes": "",
   "price": 208,
   "sample": true,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/dhak-blend"
  },
  {
   "id": "blue-tokai-coffee-amaltas-blend-nelliampathi-servarayan-hills",
@@ -4790,7 +4790,7 @@ const COFFEES = [
   "notes": "",
   "price": 208,
   "sample": true,
-  "link": ""
+  "link": "https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans/products/amaltas-blend"
  },
  {
   "id": "bombay-island-coffee-company-mysore-nuggets-extra-bold",
@@ -4828,7 +4828,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://www.bombayisland.com/collections/coffee/products/mysore-nuggets-extra-bold"
  },
  {
   "id": "bombay-island-coffee-company-vienna-roast",
@@ -4864,7 +4864,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://www.bombayisland.com/collections/coffee/products/vienna-roast"
  },
  {
   "id": "bombay-island-coffee-company-thogarihunkal-estate",
@@ -4904,7 +4904,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://www.bombayisland.com/collections/coffee/products/thogarihunkal-estate"
  },
  {
   "id": "bombay-island-coffee-company-bynemara-estate",
@@ -4944,7 +4944,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://www.bombayisland.com/collections/coffee/products/bynemara-estate"
  },
  {
   "id": "bombay-island-coffee-company-community-blend",
@@ -4978,7 +4978,7 @@ const COFFEES = [
   "notes": "",
   "price": 220,
   "sample": true,
-  "link": ""
+  "link": "https://www.bombayisland.com/collections/coffee/products/community-blend"
  },
  {
   "id": "bombay-island-coffee-company-breakfast-blend",
@@ -5018,7 +5018,7 @@ const COFFEES = [
   "notes": "",
   "price": 220,
   "sample": true,
-  "link": ""
+  "link": "https://www.bombayisland.com/collections/coffee/products/breakfast-blend"
  },
  {
   "id": "bombay-island-coffee-company-full-city-roast",
@@ -5058,7 +5058,7 @@ const COFFEES = [
   "notes": "",
   "price": 220,
   "sample": true,
-  "link": ""
+  "link": "https://www.bombayisland.com/collections/coffee/products/full-city-roast"
  },
  {
   "id": "bombay-island-coffee-company-espresso-blend",
@@ -5097,7 +5097,7 @@ const COFFEES = [
   "notes": "",
   "price": 220,
   "sample": true,
-  "link": ""
+  "link": "https://www.bombayisland.com/collections/coffee/products/espresso-blend"
  },
  {
   "id": "boojee-ratnagiri-estate-estate-jasmine-kissed-cranberry",
@@ -5137,7 +5137,7 @@ const COFFEES = [
   "notes": "Carbonic Fermentation, Dried for 30 days",
   "price": 398,
   "sample": false,
-  "link": ""
+  "link": "https://boojeecafe.com/products/ratnagiri-naturals?variant=50181364252990"
  },
  {
   "id": "boojee-boojee-medium-dark-roast-baarbara-estate",
@@ -5178,7 +5178,7 @@ const COFFEES = [
   "notes": "",
   "price": 358,
   "sample": true,
-  "link": ""
+  "link": "https://boojeecafe.com/products/espresso-blend-medium-dark-roast-cocoa-caramel-nut?variant=48331661869374"
  },
  {
   "id": "boojee-boojee-vienna-roast-baarbara-estate",
@@ -5218,7 +5218,7 @@ const COFFEES = [
   "notes": "",
   "price": 318,
   "sample": true,
-  "link": ""
+  "link": "https://boojeecafe.com/products/thogarihunkal-estate-medium-roast-citrus-orange-blossom-candy?variant=44454832832830"
  },
  {
   "id": "broot-jungle-jam",
@@ -5257,7 +5257,7 @@ const COFFEES = [
   "notes": "",
   "price": 500,
   "sample": false,
-  "link": ""
+  "link": "https://brootcoffee.com/products/the-kaimara-belt-natural-process"
  },
  {
   "id": "broot-cultured-42",
@@ -5296,7 +5296,7 @@ const COFFEES = [
   "notes": "42 hours of controlled anoxic fermentation, guided through selective inoculation",
   "price": 460,
   "sample": false,
-  "link": ""
+  "link": "https://brootcoffee.com/products/cultured-42?variant=45506542764223"
  },
  {
   "id": "broot-brute-force",
@@ -5336,7 +5336,7 @@ const COFFEES = [
   "notes": "",
   "price": 390,
   "sample": true,
-  "link": ""
+  "link": "https://brootcoffee.com/products/brute-force-specialty-espresso-blend-dark"
  },
  {
   "id": "broot-ratnagiri-estate-natural-cut",
@@ -5375,7 +5375,7 @@ const COFFEES = [
   "notes": "",
   "price": 360,
   "sample": false,
-  "link": ""
+  "link": "https://brootcoffee.com/products/ratnagiri-natural-cut-1"
  },
  {
   "id": "broot-ratnagiri-estate-washed-cut",
@@ -5415,7 +5415,7 @@ const COFFEES = [
   "notes": "",
   "price": 360,
   "sample": false,
-  "link": ""
+  "link": "https://brootcoffee.com/products/ratnagiri-washed-cut"
  },
  {
   "id": "broot-barbara-s-bakery",
@@ -5453,7 +5453,7 @@ const COFFEES = [
   "notes": "",
   "price": 358,
   "sample": true,
-  "link": ""
+  "link": "https://brootcoffee.com/products/baarbara-estate-washed"
  },
  {
   "id": "broot-golden-titan",
@@ -5493,7 +5493,7 @@ const COFFEES = [
   "notes": "",
   "price": 356,
   "sample": true,
-  "link": ""
+  "link": "https://brootcoffee.com/products/golden-titan-specialty-espresso-blend"
  },
  {
   "id": "broot-dark-honey",
@@ -5531,7 +5531,7 @@ const COFFEES = [
   "notes": "",
   "price": 350,
   "sample": true,
-  "link": ""
+  "link": "https://brootcoffee.com/products/unnaki-estate-dark-honey"
  },
  {
   "id": "broot-house-no-02",
@@ -5569,7 +5569,7 @@ const COFFEES = [
   "notes": "",
   "price": 332,
   "sample": false,
-  "link": ""
+  "link": "https://brootcoffee.com/products/grindstone-copy"
  },
  {
   "id": "broot-harbor-malabar",
@@ -5608,7 +5608,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": true,
-  "link": ""
+  "link": "https://brootcoffee.com/products/monsoon-malabar"
  },
  {
   "id": "broot-velvet-harmony",
@@ -5650,7 +5650,7 @@ const COFFEES = [
   "notes": "",
   "price": 292,
   "sample": true,
-  "link": ""
+  "link": "https://brootcoffee.com/products/velvet-harmony-home-cafe-blend-1"
  },
  {
   "id": "broot-pure-elegance",
@@ -5687,7 +5687,7 @@ const COFFEES = [
   "notes": "",
   "price": 292,
   "sample": true,
-  "link": ""
+  "link": "https://brootcoffee.com/products/pure-elegance-home-cafe-blend"
  },
  {
   "id": "broot-grindstone",
@@ -5728,7 +5728,7 @@ const COFFEES = [
   "notes": "",
   "price": 220,
   "sample": false,
-  "link": ""
+  "link": "https://brootcoffee.com/products/grindstone"
  },
  {
   "id": "broot-standard-house",
@@ -5766,7 +5766,7 @@ const COFFEES = [
   "notes": "",
   "price": 150,
   "sample": false,
-  "link": ""
+  "link": "https://brootcoffee.com/products/standard-house"
  },
  {
   "id": "caarabi-rum-barrel-aged",
@@ -5805,7 +5805,7 @@ const COFFEES = [
   "notes": "The green coffee spends three months aging in premium rum barrels",
   "price": 875,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/ratnagiri-estaterum-barrel-aged-coffee"
  },
  {
   "id": "caarabi-whiskey-barrel-aged",
@@ -5846,7 +5846,7 @@ const COFFEES = [
   "notes": "Naturally processed beans are aged in emptied single malt whiskey barrels for 30 days",
   "price": 875,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/ratnagiri-estate-whiskey-barrel-aged"
  },
  {
   "id": "caarabi-ratnagiri-estate-estate-yeast-carbonic-naturals",
@@ -5885,7 +5885,7 @@ const COFFEES = [
   "notes": "",
   "price": 675,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/ratnagiri-estate-yeast-carbonic-naturals"
  },
  {
   "id": "caarabi-yc-culture-naturals-ratnagiri-estate-estate",
@@ -5923,7 +5923,7 @@ const COFFEES = [
   "notes": "",
   "price": 675,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/yc-culture-naturals-ratnagiri-estate"
  },
  {
   "id": "caarabi-anaerobic-naturals-ammikulavi-estate",
@@ -5960,7 +5960,7 @@ const COFFEES = [
   "notes": "",
   "price": 675,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/anaerobic-naturals-ammikulavi"
  },
  {
   "id": "caarabi-attikan-estate-cultured-naturals",
@@ -5999,7 +5999,7 @@ const COFFEES = [
   "notes": "",
   "price": 625,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/attikan-estate-cultured-naturals"
  },
  {
   "id": "caarabi-lab-room-naturals-ratnagiri-estate-estate",
@@ -6037,7 +6037,7 @@ const COFFEES = [
   "notes": "",
   "price": 625,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/ratnagiri-estate-lab-room-naturals"
  },
  {
   "id": "caarabi-wine-yeast-naturals",
@@ -6077,7 +6077,7 @@ const COFFEES = [
   "notes": "",
   "price": 625,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/melkodige-esate-wine-yeast-fermented-anaerobic-naturals"
  },
  {
   "id": "caarabi-nagaland-naturals",
@@ -6117,7 +6117,7 @@ const COFFEES = [
   "notes": "",
   "price": 550,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/nagaland-naturals"
  },
  {
   "id": "caarabi-honey-double-fermentation",
@@ -6158,7 +6158,7 @@ const COFFEES = [
   "notes": "Initially, the coffee cherries are fermented whole without depulping, allowing the fruit to impart rich, fruity flavors and aromas. After this natural fermentation stage, the pulp is removed, and the coffee undergoes a secondary fermentation with a layer of mucilage intact, characteristic of the honey process",
   "price": 500,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/honey-double-fermentation"
  },
  {
   "id": "caarabi-cosy-af",
@@ -6200,7 +6200,7 @@ const COFFEES = [
   "notes": "",
   "price": 475,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/cosy-af"
  },
  {
   "id": "caarabi-karadykan-dual-fermented-washed",
@@ -6242,7 +6242,7 @@ const COFFEES = [
   "notes": "",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/karadykan-estate-dual-fermented-washed"
  },
  {
   "id": "caarabi-ratnagiri-estate-washed-aa-ratnagiri-estate-estate",
@@ -6284,7 +6284,7 @@ const COFFEES = [
   "notes": "",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/ratnagiri-washed-aaa"
  },
  {
   "id": "caarabi-chandragiri-washed",
@@ -6327,7 +6327,7 @@ const COFFEES = [
   "notes": "",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/melkodige-estate-chandragiri-washed"
  },
  {
   "id": "caarabi-man-on-mars",
@@ -6368,7 +6368,7 @@ const COFFEES = [
   "notes": "",
   "price": 425,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/man-on-mars-blend"
  },
  {
   "id": "caarabi-french-roast",
@@ -6400,7 +6400,7 @@ const COFFEES = [
   "notes": "Coffees blended after roasting",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/french-roast"
  },
  {
   "id": "caarabi-baarbara-washed-aa",
@@ -6441,7 +6441,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/baarbara-washed-aa"
  },
  {
   "id": "caarabi-vienna-roast",
@@ -6479,7 +6479,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/vienna-roast"
  },
  {
   "id": "caarabi-espresso-sunshine",
@@ -6518,7 +6518,7 @@ const COFFEES = [
   "notes": "",
   "price": 375,
   "sample": false,
-  "link": ""
+  "link": "https://caarabicoffee.com/collections/shop-coffee/products/espresso-sunshine-blend"
  },
  {
   "id": "caf-handcrafted-orchardale-estate",
@@ -6560,7 +6560,7 @@ const COFFEES = [
   "notes": "The flavours are a result of mixing two different processing methods, one half is slow fermented & slow dried to impart deep rich flavours while the other half undergoes shorter fermentation and faster drying to impart brightness and crisp mouthfeel.",
   "price": 500,
   "sample": false,
-  "link": ""
+  "link": "https://www.cafehandcrafted.com/product-page/orchardale-estate"
  },
  {
   "id": "caf-handcrafted-gemblary-anaerobic-naturals",
@@ -6602,7 +6602,7 @@ const COFFEES = [
   "notes": "",
   "price": 425,
   "sample": false,
-  "link": ""
+  "link": "https://www.cafehandcrafted.com/product-page/gemblary-estate"
  },
  {
   "id": "caf-handcrafted-salawara-frozen-cherry",
@@ -6641,7 +6641,7 @@ const COFFEES = [
   "notes": "",
   "price": 425,
   "sample": false,
-  "link": ""
+  "link": "https://www.cafehandcrafted.com/product-page/salawara-frozen-cherry"
  },
  {
   "id": "caf-handcrafted-baarbara-frozen-cherry",
@@ -6683,7 +6683,7 @@ const COFFEES = [
   "notes": "",
   "price": 425,
   "sample": false,
-  "link": ""
+  "link": "https://www.cafehandcrafted.com/product-page/baarbara-frozen-cherry"
  },
  {
   "id": "caf-handcrafted-bison-valley-estate",
@@ -6724,7 +6724,7 @@ const COFFEES = [
   "notes": "",
   "price": 425,
   "sample": false,
-  "link": ""
+  "link": "https://www.cafehandcrafted.com/product-page/bison-valley-estate"
  },
  {
   "id": "caf-handcrafted-mooley-manay-estate",
@@ -6766,7 +6766,7 @@ const COFFEES = [
   "notes": "",
   "price": 425,
   "sample": false,
-  "link": ""
+  "link": "https://www.cafehandcrafted.com/product-page/mooley-maney"
  },
  {
   "id": "caf-handcrafted-gowri-estate",
@@ -6807,7 +6807,7 @@ const COFFEES = [
   "notes": "",
   "price": 425,
   "sample": false,
-  "link": ""
+  "link": "https://www.cafehandcrafted.com/product-page/gowri"
  },
  {
   "id": "caf-handcrafted-ratnagiri-estate-estate-yeast-natural",
@@ -6847,7 +6847,7 @@ const COFFEES = [
   "notes": "",
   "price": 375,
   "sample": false,
-  "link": ""
+  "link": "https://www.cafehandcrafted.com/product-page/ratnagiri-estate-yeast-natural"
  },
  {
   "id": "caf-handcrafted-liquid-luck",
@@ -6885,7 +6885,7 @@ const COFFEES = [
   "notes": "",
   "price": 375,
   "sample": false,
-  "link": ""
+  "link": "https://www.cafehandcrafted.com/product-page/liquid-luck"
  },
  {
   "id": "caf-handcrafted-stanmore-estate",
@@ -6928,7 +6928,7 @@ const COFFEES = [
   "notes": "",
   "price": 325,
   "sample": false,
-  "link": ""
+  "link": "https://www.cafehandcrafted.com/product-page/stanmore-estate"
  },
  {
   "id": "caf-handcrafted-salawara-anaerobic-naturals",
@@ -6967,7 +6967,7 @@ const COFFEES = [
   "notes": "",
   "price": 325,
   "sample": false,
-  "link": ""
+  "link": "https://www.cafehandcrafted.com/product-page/salawara-estate"
  },
  {
   "id": "coffee-ideas-salawara-reserve",
@@ -7007,7 +7007,7 @@ const COFFEES = [
   "notes": "Fermented in whiskey barrels",
   "price": 400,
   "sample": true,
-  "link": ""
+  "link": "https://coffeeideas.in/product/our-coffees/marcs-signature-blends/light-roast/salawara-estate/"
  },
  {
   "id": "coffee-ideas-balmaadi-wild",
@@ -7047,7 +7047,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": true,
-  "link": ""
+  "link": "https://coffeeideas.in/product/our-coffees/marcs-single-estate-origin/medium-roast-marcs-single-estate-orgin/balmaadi/"
  },
  {
   "id": "coffee-ideas-mahseer-s-hope",
@@ -7088,7 +7088,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": true,
-  "link": ""
+  "link": "https://coffeeideas.in/product/our-coffees/marcs-single-estate-origin/light-roast-marcs-single-estate-orgin/the-mahseer/"
  },
  {
   "id": "coffee-ideas-kaveri-espresso",
@@ -7134,7 +7134,7 @@ const COFFEES = [
   "notes": "85% Arabica, 15% Robusta",
   "price": 300,
   "sample": true,
-  "link": ""
+  "link": "https://coffeeideas.in/product/our-coffees/marcs-signature-blends/medium-roast/kaveri-espresso-blend/"
  },
  {
   "id": "coffee-ideas-malabar-blues",
@@ -7173,7 +7173,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": true,
-  "link": ""
+  "link": "https://coffeeideas.in/product/our-coffees/marcs-signature-blends/dark-roast/malabar-blues/"
  },
  {
   "id": "coffee-ideas-malabar-monsoon",
@@ -7211,7 +7211,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": true,
-  "link": ""
+  "link": "https://coffeeideas.in/product/our-coffees/marcs-single-estate-origin/light-roast-marcs-single-estate-orgin/monsooned-malabar/"
  },
  {
   "id": "coffee-ideas-julien-peak-forest",
@@ -7250,7 +7250,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": true,
-  "link": ""
+  "link": "https://coffeeideas.in/product/our-coffees/marcs-single-estate-origin/light-roast-marcs-single-estate-orgin/julien-peak/"
  },
  {
   "id": "coffee-ideas-old-kent-vienna",
@@ -7289,7 +7289,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": true,
-  "link": ""
+  "link": "https://coffeeideas.in/product/our-coffees/marcs-signature-blends/dark-roast/old-kent-estate/"
  },
  {
   "id": "coffee-ideas-buma-devi-breakfast",
@@ -7328,7 +7328,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": true,
-  "link": ""
+  "link": "https://coffeeideas.in/product/our-coffees/marcs-signature-blends/dark-roast/buma-devi/"
  },
  {
   "id": "coffeeverse-intense-rum-barrel-aged-coffee",
@@ -7369,7 +7369,7 @@ const COFFEES = [
   "notes": "45 day aging",
   "price": 510,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/intense-rum-barrel"
  },
  {
   "id": "coffeeverse-san-ramon",
@@ -7407,7 +7407,7 @@ const COFFEES = [
   "notes": "San Ramon Honey is produced using a unique Double Anaerobic fermentation process that involves yeast. It begins with fermenting the whole fruit before moving on to the beans after pulping The beans are then slowly dried under shade for about 25 to 28 days.",
   "price": 470,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/san-ramon"
  },
  {
   "id": "coffeeverse-praline-symphony",
@@ -7447,7 +7447,7 @@ const COFFEES = [
   "notes": "The coffee cherries had a Brix of 25.8 at harvest and were placed in Bio fermenters after floater removal. A unique strain of Saccharomyces yeast and lactic acid bacteria was added, and the coffee fermented for 72 hours in a nitrogen-rich environment. It was then dried on raised beds for 31 days",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/praline-symphony"
  },
  {
   "id": "coffeeverse-the-lacto-project",
@@ -7486,7 +7486,7 @@ const COFFEES = [
   "notes": "The cherries had a Brix of 25.9 at harvest and were placed in Bio fermenters after floater removal. They were inoculated with various lab-grown cultures, purged with carbon dioxide, and fermented for 96 hours. After fermentation, the beans were dried slowly on raised beds for 31 days, with constant stirring.",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/the-lacto-project"
  },
  {
   "id": "coffeeverse-carbonic-candy",
@@ -7524,7 +7524,7 @@ const COFFEES = [
   "notes": ". The cherries, harvested at a Brix of 25.4, were placed in Bio fermenters with added lab culture microbes and lactic acid bacteria for fermentation in a carbon dioxide-rich environment. After fermentation, the coffee was moved to raised beds for slow drying over 29 days with constant stirring.",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/carbonic-candy"
  },
  {
   "id": "coffeeverse-riverdale-n48-naturals",
@@ -7562,7 +7562,7 @@ const COFFEES = [
   "notes": "",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/riverdale-n48-naturals"
  },
  {
   "id": "coffeeverse-microbe-magic",
@@ -7599,7 +7599,7 @@ const COFFEES = [
   "notes": "The coffee cherries, with a Brix of 24.4 at harvest, underwent a 52-hour fermentation in Bio fermenters with added lab culture microbes. After de-pulping and washing, the coffee was slowly dried on raised beds for 23 days with constant stirring.",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/microbe-magic"
  },
  {
   "id": "coffeeverse-blossom-washed",
@@ -7637,7 +7637,7 @@ const COFFEES = [
   "notes": "This is a 90-hour CULTURE PROCESS washed coffee from the Catuai varietal at our Ratnagiri Estate farm, located at 4,300 feet in the Betamare Patte block. The cherries, with a Brix of 23.2 at harvest, were fermented in stainless-steel fermenters after removing floaters, using a specific strain of yeast and lactic acid bacteria. Following fermentation, they were depulped, washed, and slowly dried on raised beds for 26 days,",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/blossom-washed"
  },
  {
   "id": "coffeeverse-hydro-honey",
@@ -7675,7 +7675,7 @@ const COFFEES = [
   "notes": "It undergoes a careful 15-day drying process in a dark room",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/hydro-honey"
  },
  {
   "id": "coffeeverse-rc-7-naturals",
@@ -7713,7 +7713,7 @@ const COFFEES = [
   "notes": "The Brix of the coffee cherries was 24.6 when harvested and they were put in the fermenters after floater removal. A strain of lab culture microbes were them introduced in a Nitrogen rich environment and allowed to ferment for 60 hours at 2.2 bar pressure. After removing the coffee from the fermenters, it was directly put on raised beds and dried for 29 days.",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/rc-7-naturals"
  },
  {
   "id": "coffeeverse-thermal-shock",
@@ -7752,7 +7752,7 @@ const COFFEES = [
   "notes": "This particular lot goes through an exciting Thermal Shock Anaerobic Fermentation process in high-tech bio fermenters for 36 hours",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/thermal-shock"
  },
  {
   "id": "coffeeverse-flowerette-naturals",
@@ -7792,7 +7792,7 @@ const COFFEES = [
   "notes": "Flower Petal cofermentation",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/flowerette-naturals"
  },
  {
   "id": "coffeeverse-red-fruit-naturals",
@@ -7831,7 +7831,7 @@ const COFFEES = [
   "notes": "Cofermented with red fruit and inoculated with wine yeast for 80 hours",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/red-fruit-naturals"
  },
  {
   "id": "coffeeverse-champagne-naturals",
@@ -7869,7 +7869,7 @@ const COFFEES = [
   "notes": "",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/champagne-naturals"
  },
  {
   "id": "coffeeverse-natural-dark-rooms",
@@ -7907,7 +7907,7 @@ const COFFEES = [
   "notes": "Starting with thermal shock applied to the cherries to enhance sugar readiness for fermentation. The cherries are then fermented for 48 hours with lactic acid bacteria (LAB) to ensure balanced acidity and optimal flavor development. After fermentation, they are dried in a dark room for 12 days, minimizing UV degradation and preserving their complexity",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/dark-room-naturals"
  },
  {
   "id": "coffeeverse-culture-process",
@@ -7948,7 +7948,7 @@ const COFFEES = [
   "notes": "This exceptional coffee undergoes an 80-hour CULTURE PROCESS, sourced from the Catuai varietal at our farm, located 4,400 feet high in the Jeri Patte block. After harvesting with a Brix of 25.8, we placed the cherries in stainless-steel fermenters, adding a specific strain of yeast and lactic acid bacteria. The fermentation took place in a carbon dioxide-rich environment, followed by a slow drying process on raised beds over 29 days with constant stirring.",
   "price": 440,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/culture-process"
  },
  {
   "id": "coffeeverse-frozen-cherry",
@@ -7986,7 +7986,7 @@ const COFFEES = [
   "notes": "Frozen Cherry processing takes inspiration from the wine industry, as whole coffee cherries are fermented and put in a freezer in bags so the sugars accumulate. They are then removed and slow dried on raised beds.",
   "price": 430,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/frozen-cherry-filter-roast-baarbara-estate"
  },
  {
   "id": "coffeeverse-nitrogen-naturals",
@@ -8027,7 +8027,7 @@ const COFFEES = [
   "notes": "",
   "price": 430,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/nitrogen-naturals"
  },
  {
   "id": "coffeeverse-blossom-naturals",
@@ -8070,7 +8070,7 @@ const COFFEES = [
   "notes": "The cherries, with a Brix of 25.2 at harvest, were fermented for 72 hours with a specific yeast and lactobacillus culture in stainless-steel fermenters. After fermentation, the coffee was dried slowly on raised beds over 29 days with constant stirring.",
   "price": 430,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/blossom-naturals"
  },
  {
   "id": "coffeeverse-koraput-honey-black",
@@ -8108,7 +8108,7 @@ const COFFEES = [
   "notes": "The beans are co-fermented with their own sweet pulp using specially selected yeast cultures for 48 hours, enhancing their fruity complexity and natural sweetness. After fermentation, they are dried on raised beds for 21 days in the shade",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/koraput-black-honey"
  },
  {
   "id": "coffeeverse-krishnagiri-honey",
@@ -8146,7 +8146,7 @@ const COFFEES = [
   "notes": "A 72-hour sequential fermentation process is employed with yeast, ensuring that each batch captures the full essence of the yeast used. Following this careful fermentation, the beans are patiently dried for 18 days.",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/krishnagiri-honey"
  },
  {
   "id": "coffeeverse-lot-89",
@@ -8185,7 +8185,7 @@ const COFFEES = [
   "notes": "Fermented for 48 hours in an oxygen-free environment with the help of saccharomyces yeast",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/lot-89"
  },
  {
   "id": "coffeeverse-bewild-canephora",
@@ -8224,7 +8224,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/bewild-canephora"
  },
  {
   "id": "coffeeverse-anugraha-slow-dried-naturals",
@@ -8263,7 +8263,7 @@ const COFFEES = [
   "notes": "Dried the coffee for 45-50 days in the gentle sun",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/anugraha-slow-dried-naturals"
  },
  {
   "id": "coffeeverse-sugar-fermented-naturals",
@@ -8302,7 +8302,7 @@ const COFFEES = [
   "notes": "Coffee cherries are fermented in an anaerobic environment with natural unrefined sugars, known as \"Gud\" in Hindi, for 26 hours. Following fermentation, the cherries undergo a slow drying process that lasts for 22 days",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/sugar-fermented-naturals"
  },
  {
   "id": "coffeeverse-kolli-berri-naturals",
@@ -8340,7 +8340,7 @@ const COFFEES = [
   "notes": "The cherries underwent an 84-hour anaerobic fermentation to enhance clarity and structure. They were then dried in two stages: seven days in shade followed by 25 days in sunLight, avoiding peak afternoon heat.",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/kolli-berri-naturals"
  },
  {
   "id": "coffeeverse-sirangalli-honey",
@@ -8383,7 +8383,7 @@ const COFFEES = [
   "notes": "",
   "price": 390,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/sirangalli-honey"
  },
  {
   "id": "coffeeverse-amruthavarshini-naturals",
@@ -8422,7 +8422,7 @@ const COFFEES = [
   "notes": "",
   "price": 360,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/amrutha-varshini-naturals-specialty-coffee"
  },
  {
   "id": "coffeeverse-yeast-carbonic-naturals",
@@ -8461,7 +8461,7 @@ const COFFEES = [
   "notes": "",
   "price": 360,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/yeast-carbonic-naturals-filter-roast-ratnagiri-estate"
  },
  {
   "id": "coffeeverse-riverdale-washed",
@@ -8501,7 +8501,7 @@ const COFFEES = [
   "notes": "",
   "price": 360,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/riverdale-washed"
  },
  {
   "id": "coffeeverse-komala-washed",
@@ -8543,7 +8543,7 @@ const COFFEES = [
   "notes": "",
   "price": 360,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/komala-washed-coffee"
  },
  {
   "id": "coffeeverse-ratnagiri-estate-washed",
@@ -8586,7 +8586,7 @@ const COFFEES = [
   "notes": "",
   "price": 320,
   "sample": false,
-  "link": ""
+  "link": "https://coffeeverse.in/products/ratnagiri-washed"
  },
  {
   "id": "corridor-seven-riverdale-estate-geisha",
@@ -8624,7 +8624,7 @@ const COFFEES = [
   "notes": "With cherries boasting 30 brix and above, meticulously handpicked, and processed through carbonic maceration for 72 hours",
   "price": 1200,
   "sample": false,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/riverdale-estate-geisha"
  },
  {
   "id": "corridor-seven-melkodige-estate",
@@ -8662,7 +8662,7 @@ const COFFEES = [
   "notes": "The cherries then undergo anaerobic fermentation in sealed drums for 72 hours",
   "price": 444,
   "sample": false,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/melkodige-estate"
  },
  {
   "id": "corridor-seven-salawara-estate-carbonic-maceration",
@@ -8701,7 +8701,7 @@ const COFFEES = [
   "notes": "The cherries are sealed in stainless steel tanks and pressurized with carbon dioxide for 72 hours",
   "price": 428,
   "sample": false,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/salawara-estate-carbonic-maceration"
  },
  {
   "id": "corridor-seven-salawara-estate-bioreactor-naturals",
@@ -8738,7 +8738,7 @@ const COFFEES = [
   "notes": "The coffees were placed in the bioreactor for 72 hours",
   "price": 428,
   "sample": false,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/salawara-estate-bioreactor-naturals"
  },
  {
   "id": "corridor-seven-salawara-estate-pichia-fermentation-hsd",
@@ -8774,7 +8774,7 @@ const COFFEES = [
   "notes": "",
   "price": 420,
   "sample": false,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/salawara-estate-pichia-fermentation-hsd"
  },
  {
   "id": "corridor-seven-salawara-estate-naturals",
@@ -8850,7 +8850,7 @@ const COFFEES = [
   "notes": "",
   "price": 420,
   "sample": false,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/salawara-estate-mosto-fermentation"
  },
  {
   "id": "corridor-seven-ratnagiri-estate-estate-washed",
@@ -8891,7 +8891,7 @@ const COFFEES = [
   "notes": "",
   "price": 328,
   "sample": false,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/ratnagiri-estate-washed-process"
  },
  {
   "id": "corridor-seven-basankhan-estate",
@@ -8930,7 +8930,7 @@ const COFFEES = [
   "notes": "",
   "price": 328,
   "sample": false,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/basankhan-estate"
  },
  {
   "id": "corridor-seven-august-rush-blend",
@@ -8970,7 +8970,7 @@ const COFFEES = [
   "notes": "",
   "price": 320,
   "sample": true,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/august-rush"
  },
  {
   "id": "corridor-seven-baabara-estate-washed-process",
@@ -9010,7 +9010,7 @@ const COFFEES = [
   "notes": "",
   "price": 296,
   "sample": true,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/baarbara"
  },
  {
   "id": "corridor-seven-barista-forte-blend",
@@ -9049,7 +9049,7 @@ const COFFEES = [
   "notes": "",
   "price": 296,
   "sample": false,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/barista-forte"
  },
  {
   "id": "corridor-seven-vienna-roast",
@@ -9086,7 +9086,7 @@ const COFFEES = [
   "notes": "",
   "price": 284,
   "sample": false,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/vienna"
  },
  {
   "id": "corridor-seven-lean-blend",
@@ -9122,7 +9122,7 @@ const COFFEES = [
   "notes": "",
   "price": 284,
   "sample": false,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/lean-blend"
  },
  {
   "id": "corridor-seven-french-roast",
@@ -9154,7 +9154,7 @@ const COFFEES = [
   "notes": "",
   "price": 284,
   "sample": false,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/french"
  },
  {
   "id": "corridor-seven-brim-blend",
@@ -9194,7 +9194,7 @@ const COFFEES = [
   "notes": "",
   "price": 248,
   "sample": false,
-  "link": ""
+  "link": "https://corridorseven.coffee/products/brim-blend"
  },
  {
   "id": "curious-life-coffee-gundikhan-washed-lot-799",
@@ -9230,7 +9230,7 @@ const COFFEES = [
   "notes": "",
   "price": 396,
   "sample": false,
-  "link": ""
+  "link": "https://curiouslifecoffee.com/product/gundikhan-washed-lot-799-filter/"
  },
  {
   "id": "curious-life-coffee-gundikhan-natural-lot-15-57",
@@ -9269,7 +9269,7 @@ const COFFEES = [
   "notes": "",
   "price": 380,
   "sample": false,
-  "link": ""
+  "link": "https://curiouslifecoffee.com/product/gundikhan-natural-lot-272-filter/"
  },
  {
   "id": "curious-life-coffee-bison-house-blend-espresso",
@@ -9310,7 +9310,7 @@ const COFFEES = [
   "notes": "",
   "price": 340,
   "sample": false,
-  "link": ""
+  "link": "https://curiouslifecoffee.com/product/bison-house-blend-2/"
  },
  {
   "id": "curious-life-coffee-honnametti-estate-washed-espresso",
@@ -9351,7 +9351,7 @@ const COFFEES = [
   "notes": "",
   "price": 332,
   "sample": false,
-  "link": ""
+  "link": "https://curiouslifecoffee.com/product/honnamatti-estate-washed-espresso/"
  },
  {
   "id": "dancing-goat-blossom",
@@ -9390,7 +9390,7 @@ const COFFEES = [
   "notes": "",
   "price": 320,
   "sample": false,
-  "link": ""
+  "link": "https://www.dancinggoatcoffee.in/products/blossom/2037129000000679385"
  },
  {
   "id": "dancing-goat-baarbara-estate",
@@ -9430,7 +9430,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://www.dancinggoatcoffee.in/products/baarbara-estate/2037129000003624001"
  },
  {
   "id": "dancing-goat-hunkal-estate",
@@ -9472,7 +9472,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://www.dancinggoatcoffee.in/products/hunkal-estate/2037129000004117001"
  },
  {
   "id": "dancing-goat-ratnagiri-estate-estate",
@@ -9512,7 +9512,7 @@ const COFFEES = [
   "notes": "",
   "price": 225,
   "sample": false,
-  "link": ""
+  "link": "https://www.dancinggoatcoffee.in/products/ratnagiriestate/2037129000000679971"
  },
  {
   "id": "dancing-goat-dg-espresso-roast",
@@ -9549,7 +9549,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://www.dancinggoatcoffee.in/products/dg-espresso-roast/2037129000002539598"
  },
  {
   "id": "dancing-goat-dg-microlot-1",
@@ -9593,7 +9593,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://www.dancinggoatcoffee.in/products/dg-microlot-1/2037129000000680339"
  },
  {
   "id": "davrah-coffee-vasantham",
@@ -9635,7 +9635,7 @@ const COFFEES = [
   "notes": "",
   "price": 210,
   "sample": false,
-  "link": ""
+  "link": "https://www.davrahcoffee.com/products/vasantham?variant=48105607954676"
  },
  {
   "id": "davrah-coffee-amudham",
@@ -9669,7 +9669,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://www.davrahcoffee.com/products/amudham?variant=47234852454644"
  },
  {
   "id": "davrah-coffee-kolli-kappi",
@@ -9703,7 +9703,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://www.davrahcoffee.com/products/kolli-kaapi?variant=48009169731828"
  },
  {
   "id": "davrah-coffee-centum",
@@ -9738,7 +9738,7 @@ const COFFEES = [
   "notes": "",
   "price": 190,
   "sample": false,
-  "link": ""
+  "link": "https://www.davrahcoffee.com/products/coffee-and-tea-example-product-3?variant=47247365144820"
  },
  {
   "id": "davrah-coffee-pramadham",
@@ -9773,7 +9773,7 @@ const COFFEES = [
   "notes": "",
   "price": 170,
   "sample": false,
-  "link": ""
+  "link": "https://www.davrahcoffee.com/products/pramadham?variant=47890485936372"
  },
  {
   "id": "davrah-coffee-top-takkar",
@@ -9808,7 +9808,7 @@ const COFFEES = [
   "notes": "",
   "price": 160,
   "sample": false,
-  "link": ""
+  "link": "https://www.davrahcoffee.com/products/coffee-and-tea-example-product-1?variant=47247371403508"
  },
  {
   "id": "davrah-coffee-sugam",
@@ -9842,7 +9842,7 @@ const COFFEES = [
   "notes": "",
   "price": 150,
   "sample": false,
-  "link": ""
+  "link": "https://www.davrahcoffee.com/products/sugam?variant=47247377629428"
  },
  {
   "id": "devan-s-celebration-blend",
@@ -9874,7 +9874,7 @@ const COFFEES = [
   "notes": "",
   "price": 420,
   "sample": false,
-  "link": ""
+  "link": "https://www.devans.in/products/celebration"
  },
  {
   "id": "devan-s-monsooned-malabar",
@@ -9905,7 +9905,7 @@ const COFFEES = [
   "notes": "",
   "price": 225,
   "sample": false,
-  "link": ""
+  "link": "https://www.devans.in/products/monsoon-malabar-coffee"
  },
  {
   "id": "devan-s-organic-arabica",
@@ -9936,7 +9936,7 @@ const COFFEES = [
   "notes": "",
   "price": 225,
   "sample": false,
-  "link": ""
+  "link": "https://www.devans.in/products/organic-arabica-coffee-1"
  },
  {
   "id": "devan-s-arabica-plantation-aaa-mysore-nuggets",
@@ -9970,7 +9970,7 @@ const COFFEES = [
   "notes": "",
   "price": 225,
   "sample": false,
-  "link": ""
+  "link": "https://www.devans.in/products/arabica-plantation-coffee"
  },
  {
   "id": "devan-s-arabica-plantation-aaa-dark-roast",
@@ -10004,7 +10004,7 @@ const COFFEES = [
   "notes": "",
   "price": 225,
   "sample": false,
-  "link": ""
+  "link": "https://www.devans.in/products/arabica-plantation-coffee-dark-roast"
  },
  {
   "id": "devan-s-oriental-espresso-blend",
@@ -10068,7 +10068,7 @@ const COFFEES = [
   "notes": "",
   "price": 210,
   "sample": false,
-  "link": ""
+  "link": "https://www.devans.in/products/arabica-peaberry-dark-roast-coffee"
  },
  {
   "id": "devan-s-viennese-blend",
@@ -10132,7 +10132,7 @@ const COFFEES = [
   "notes": "",
   "price": 210,
   "sample": false,
-  "link": ""
+  "link": "https://www.devans.in/products/arabica-coffee"
  },
  {
   "id": "devan-s-lodhi-blend",
@@ -10164,7 +10164,7 @@ const COFFEES = [
   "notes": "",
   "price": 210,
   "sample": false,
-  "link": ""
+  "link": "https://www.devans.in/products/lodhi-blend-coffee"
  },
  {
   "id": "devan-s-arabica-peaberry-light",
@@ -10195,7 +10195,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://www.devans.in/products/peaberry-coffee"
  },
  {
   "id": "devan-s-arabica-plantation-aa",
@@ -10229,7 +10229,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://www.devans.in/products/arabica-plantation-coffee-1"
  },
  {
   "id": "devan-s-special-blend",
@@ -10263,7 +10263,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://www.devans.in/products/special-blend-coffee"
  },
  {
   "id": "el-bueno-whisk-it-up",
@@ -10303,7 +10303,7 @@ const COFFEES = [
   "notes": "Whiskey Barrel Aged",
   "price": 384,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/whisk-it-up/"
  },
  {
   "id": "el-bueno-berried-treasure",
@@ -10341,7 +10341,7 @@ const COFFEES = [
   "notes": "Anerobic fermentation in bio fermenters for 48 hours with lab isolated microbes before drying on raised beds for 23 days as a natural processed coffee",
   "price": 352,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/berried-treasure/"
  },
  {
   "id": "el-bueno-cacao-me-crazy",
@@ -10383,7 +10383,7 @@ const COFFEES = [
   "notes": "In cherry fermentation for 36 hours with inoculated with lab microbes with vacuum impregnation process and dried on raised beds for 26 days",
   "price": 352,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/cacao-me-crazy/"
  },
  {
   "id": "el-bueno-golden-glow",
@@ -10423,7 +10423,7 @@ const COFFEES = [
   "notes": "",
   "price": 352,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/golden-glow/"
  },
  {
   "id": "el-bueno-lime-wired",
@@ -10461,7 +10461,7 @@ const COFFEES = [
   "notes": "",
   "price": 336,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/lime-wired/"
  },
  {
   "id": "el-bueno-sunset-slurp",
@@ -10500,7 +10500,7 @@ const COFFEES = [
   "notes": "",
   "price": 336,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/sunset-slurp/"
  },
  {
   "id": "el-bueno-apple-of-my-brew",
@@ -10536,7 +10536,7 @@ const COFFEES = [
   "notes": "",
   "price": 336,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/apple-of-my-brew/"
  },
  {
   "id": "el-bueno-sweet-buzz",
@@ -10576,7 +10576,7 @@ const COFFEES = [
   "notes": "",
   "price": 336,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/sweetbuzz/"
  },
  {
   "id": "el-bueno-pouring-plums",
@@ -10617,7 +10617,7 @@ const COFFEES = [
   "notes": "",
   "price": 336,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/pourin-plums/"
  },
  {
   "id": "el-bueno-jaggery-pop",
@@ -10659,7 +10659,7 @@ const COFFEES = [
   "notes": "",
   "price": 336,
   "sample": false,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/jaggery-pop/"
  },
  {
   "id": "el-bueno-choc-out-loud",
@@ -10700,7 +10700,7 @@ const COFFEES = [
   "notes": "",
   "price": 336,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/choc-out-loud/"
  },
  {
   "id": "el-bueno-the-weekend",
@@ -10735,7 +10735,7 @@ const COFFEES = [
   "notes": "",
   "price": 312,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/the-weekend/"
  },
  {
   "id": "el-bueno-signature-blend",
@@ -10776,7 +10776,7 @@ const COFFEES = [
   "notes": "",
   "price": 296,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/signature-blend/"
  },
  {
   "id": "el-bueno-hello-monday",
@@ -10813,7 +10813,7 @@ const COFFEES = [
   "notes": "",
   "price": 288,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/hello-monday/"
  },
  {
   "id": "el-bueno-molten-mornings",
@@ -10851,7 +10851,7 @@ const COFFEES = [
   "notes": "",
   "price": 288,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/molten-mornings/"
  },
  {
   "id": "el-bueno-el-perfecto",
@@ -10889,7 +10889,7 @@ const COFFEES = [
   "notes": "",
   "price": 264,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/el-perfecto/"
  },
  {
   "id": "el-bueno-bean-there",
@@ -10928,7 +10928,7 @@ const COFFEES = [
   "notes": "",
   "price": 256,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/bean-there/"
  },
  {
   "id": "el-bueno-spill-the-beans",
@@ -10966,7 +10966,7 @@ const COFFEES = [
   "notes": "",
   "price": 256,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/spill-the-beans/"
  },
  {
   "id": "el-bueno-jam-session",
@@ -11003,7 +11003,7 @@ const COFFEES = [
   "notes": "",
   "price": 256,
   "sample": true,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/jam-session/"
  },
  {
   "id": "el-bueno-cascara",
@@ -11042,7 +11042,7 @@ const COFFEES = [
   "notes": "",
   "price": 160,
   "sample": false,
-  "link": ""
+  "link": "https://elbuenocoffee.com/product/cascara/"
  },
  {
   "id": "eventide-koji-cloud",
@@ -11078,7 +11078,7 @@ const COFFEES = [
   "notes": "",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://eventidecoffee.com/products/koji-cloud"
  },
  {
   "id": "eventide-clementime",
@@ -11115,7 +11115,7 @@ const COFFEES = [
   "notes": "",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://eventidecoffee.com/products/ma-cherie-copy"
  },
  {
   "id": "eventide-honeycrisp",
@@ -11151,7 +11151,7 @@ const COFFEES = [
   "notes": "",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://eventidecoffee.com/products/honeycrips-superrare-microlot"
  },
  {
   "id": "eventide-cherry-wine",
@@ -11189,7 +11189,7 @@ const COFFEES = [
   "notes": "",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://eventidecoffee.com/products/cherry-wine-micro-lot"
  },
  {
   "id": "eventide-ma-cherie",
@@ -11225,7 +11225,7 @@ const COFFEES = [
   "notes": "",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://eventidecoffee.com/products/sarchimor-fermented-washed-filter-roast-microlot"
  },
  {
   "id": "eventide-peach-eyes",
@@ -11264,7 +11264,7 @@ const COFFEES = [
   "notes": "",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://eventidecoffee.com/products/peach-eyes"
  },
  {
   "id": "eventide-sweet-nothings",
@@ -11301,7 +11301,7 @@ const COFFEES = [
   "notes": "",
   "price": 375,
   "sample": false,
-  "link": ""
+  "link": "https://eventidecoffee.com/products/clementime-copy"
  },
  {
   "id": "eventide-mundane-routine",
@@ -11337,7 +11337,7 @@ const COFFEES = [
   "notes": "",
   "price": 375,
   "sample": false,
-  "link": ""
+  "link": "https://eventidecoffee.com/products/mundane-routine"
  },
  {
   "id": "five-farms-omkara",
@@ -11371,7 +11371,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/omkara-organic-coffee-blend/"
  },
  {
   "id": "five-farms-chaundikad",
@@ -11405,7 +11405,7 @@ const COFFEES = [
   "notes": "",
   "price": 220,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/chaundikad-arabica-naturals/"
  },
  {
   "id": "five-farms-palangaala",
@@ -11441,7 +11441,7 @@ const COFFEES = [
   "notes": "",
   "price": 220,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/palangaala-wlid-forest-harvested-naturals/"
  },
  {
   "id": "five-farms-ot",
@@ -11480,7 +11480,7 @@ const COFFEES = [
   "notes": "This unique coffee is crafted through a meticulous fermentation process using a yeast culture derived from a spiced cinnamon and ginger wine popularly called OT or ‘The other thing’.",
   "price": 220,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/crystal-valley-ot/"
  },
  {
   "id": "five-farms-ceratto",
@@ -11520,7 +11520,7 @@ const COFFEES = [
   "notes": "",
   "price": 220,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/crystal-valley-ceratto/"
  },
  {
   "id": "five-farms-tangerine",
@@ -11558,7 +11558,7 @@ const COFFEES = [
   "notes": "",
   "price": 220,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/crystal-valley-tangerine/"
  },
  {
   "id": "five-farms-malhar-monsoon-malabar",
@@ -11592,7 +11592,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/malhar-monsoon-malabar/"
  },
  {
   "id": "five-farms-eterna",
@@ -11624,7 +11624,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/eterna-premium-washed-naturals/"
  },
  {
   "id": "five-farms-malhar-extra-bold-mysore-nuggets",
@@ -11656,7 +11656,7 @@ const COFFEES = [
   "notes": "",
   "price": 190,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/malhar-extra-bold-mysore-nuggets/"
  },
  {
   "id": "five-farms-the-artist-s-blend-honey-wash",
@@ -11690,7 +11690,7 @@ const COFFEES = [
   "notes": "",
   "price": 180,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/the-artists-blend-honey-wash/"
  },
  {
   "id": "five-farms-malakodu-honey-wash-aaa",
@@ -11724,7 +11724,7 @@ const COFFEES = [
   "notes": "",
   "price": 178,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/malakodu-honey-wash-aaa/"
  },
  {
   "id": "five-farms-malakodu-monsoon-malabar",
@@ -11758,7 +11758,7 @@ const COFFEES = [
   "notes": "",
   "price": 178,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/malakodu-monsoon-malabar/"
  },
  {
   "id": "five-farms-malakodu-plantation-aaa",
@@ -11792,7 +11792,7 @@ const COFFEES = [
   "notes": "",
   "price": 167,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/malakodu-plantation-aaa/"
  },
  {
   "id": "five-farms-pi",
@@ -11826,7 +11826,7 @@ const COFFEES = [
   "notes": "",
   "price": 160,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/pi-peaberry-coffee/"
  },
  {
   "id": "five-farms-the-artist-s-blend-stream-glory-breakfast-robusta",
@@ -11860,7 +11860,7 @@ const COFFEES = [
   "notes": "",
   "price": 160,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/the-artists-blend-stream-glory-breakfast-robusta/"
  },
  {
   "id": "five-farms-morning-mist",
@@ -11893,7 +11893,7 @@ const COFFEES = [
   "notes": "",
   "price": 160,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/morning-mist-single-estate-arabica/"
  },
  {
   "id": "five-farms-malakodu-select-premium-espresso-blend",
@@ -11933,7 +11933,7 @@ const COFFEES = [
   "notes": "",
   "price": 152,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/malakodu-select-premium-espresso-blend/"
  },
  {
   "id": "five-farms-malakodu-single-estate-arabica",
@@ -12001,7 +12001,7 @@ const COFFEES = [
   "notes": "",
   "price": 141,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/malakodu-arabica-cherry-naturals/"
  },
  {
   "id": "five-farms-malhar-robusta-royale",
@@ -12033,7 +12033,7 @@ const COFFEES = [
   "notes": "",
   "price": 140,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/malhar-robusta-royale-100-robusta-coffee/"
  },
  {
   "id": "five-farms-malakodu-by-karna-coffee-naturale",
@@ -12073,7 +12073,7 @@ const COFFEES = [
   "notes": "",
   "price": 140,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/malakodu-by-karna-coffee-naturale/"
  },
  {
   "id": "five-farms-malakodu-robusta-royale",
@@ -12107,7 +12107,7 @@ const COFFEES = [
   "notes": "",
   "price": 122,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/malakodu-robusta-royale/"
  },
  {
   "id": "five-farms-malakodu-classic-espresso-blend",
@@ -12141,7 +12141,7 @@ const COFFEES = [
   "notes": "",
   "price": 122,
   "sample": false,
-  "link": ""
+  "link": "https://fivefarms.in/product/malakodu-classic-espresso-blend/"
  },
  {
   "id": "fraction-9-rum-barrel-no-9",
@@ -12180,7 +12180,7 @@ const COFFEES = [
   "notes": "Aged in rum barrels",
   "price": 394,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/diwali-offer/products/rum-barrel-aged-coffee"
  },
  {
   "id": "fraction-9-frozen-cherry-imperial",
@@ -12219,7 +12219,7 @@ const COFFEES = [
   "notes": "This lot begins with carefully handpicked, fully ripened coffee cherries that are frozen in an industrial freezer for 48 hours. This freezing step enhances cellular breakdown, allowing deeper infusion of flavours during the next stage. The cherries are then anaerobically fermented with yeast, developing a complex and layered profile, before being slowly dried on raised beds for 18 days",
   "price": 356,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/diwali-offer/products/frozen-cherry-2026"
  },
  {
   "id": "fraction-9-ratnagiri-estate-red-spectrum",
@@ -12259,7 +12259,7 @@ const COFFEES = [
   "notes": "",
   "price": 320,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/diwali-offer/products/ratnagiri-red-spectrum-auto-discounted-no-codes"
  },
  {
   "id": "fraction-9-caramelized-lychee",
@@ -12300,7 +12300,7 @@ const COFFEES = [
   "notes": "",
   "price": 306,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/diwali-offer/products/ct-estate-yellow-honey"
  },
  {
   "id": "fraction-9-traditional-blend",
@@ -12336,7 +12336,7 @@ const COFFEES = [
   "notes": "",
   "price": 248,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/great-with-milk-100-coffee-options/products/traditional-blend"
  },
  {
   "id": "fraction-9-vienna-roast",
@@ -12371,7 +12371,7 @@ const COFFEES = [
   "notes": "",
   "price": 248,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/great-with-milk-100-coffee-options/products/vienna-roast-coffee-powder"
  },
  {
   "id": "fraction-9-sweet-roast",
@@ -12406,7 +12406,7 @@ const COFFEES = [
   "notes": "",
   "price": 248,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/black-coffee-specials/products/cinnamon-roast-coffee-powder"
  },
  {
   "id": "fraction-9-breakfast-roast",
@@ -12446,7 +12446,7 @@ const COFFEES = [
   "notes": "",
   "price": 248,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/black-coffee-specials/products/breakfast-roast-coffee-powder"
  },
  {
   "id": "fraction-9-christmas-roast",
@@ -12486,7 +12486,7 @@ const COFFEES = [
   "notes": "",
   "price": 248,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/great-with-milk-100-coffee-options/products/christmas-roast"
  },
  {
   "id": "fraction-9-cacppuccino-blend",
@@ -12523,7 +12523,7 @@ const COFFEES = [
   "notes": "",
   "price": 248,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/great-with-milk-100-coffee-options/products/cappuccino-blend"
  },
  {
   "id": "fraction-9-french-roast",
@@ -12557,7 +12557,7 @@ const COFFEES = [
   "notes": "",
   "price": 248,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/great-with-milk-100-coffee-options/products/french-roast-coffee"
  },
  {
   "id": "fraction-9-kardigandi-bright-zest",
@@ -12598,7 +12598,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/diwali-offer/products/kardigandi-naturals"
  },
  {
   "id": "fraction-9-prabal",
@@ -12630,7 +12630,7 @@ const COFFEES = [
   "notes": "",
   "price": 212,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/great-with-milk-100-coffee-options/products/prabal"
  },
  {
   "id": "fraction-9-everyday-gold",
@@ -12673,7 +12673,7 @@ const COFFEES = [
   "notes": "",
   "price": 174,
   "sample": false,
-  "link": ""
+  "link": "https://www.fraction9coffee.com/collections/black-coffee-specials/products/everyday-gold-affordable-premium"
  },
  {
   "id": "gb-roasters-ekate-an-naturals",
@@ -12716,7 +12716,7 @@ const COFFEES = [
   "notes": "",
   "price": 471,
   "sample": false,
-  "link": ""
+  "link": "https://www.gbroastery.com/product-page/ekata-anaerobic-naturals"
  },
  {
   "id": "gb-roasters-naga-washed",
@@ -12757,7 +12757,7 @@ const COFFEES = [
   "notes": "",
   "price": 294,
   "sample": false,
-  "link": ""
+  "link": "https://www.gbroastery.com/product-page/naga"
  },
  {
   "id": "gb-roasters-mudremane-estate-washed",
@@ -12798,7 +12798,7 @@ const COFFEES = [
   "notes": "",
   "price": 206,
   "sample": false,
-  "link": ""
+  "link": "https://www.gbroastery.com/product-page/mudremane-estate-washed"
  },
  {
   "id": "gb-roasters-monsooned-malabar",
@@ -12836,7 +12836,7 @@ const COFFEES = [
   "notes": "",
   "price": 206,
   "sample": false,
-  "link": ""
+  "link": "https://www.gbroastery.com/product-page/monsooned-malabar"
  },
  {
   "id": "genetics-coffee-jack-sparrow",
@@ -12879,7 +12879,7 @@ const COFFEES = [
   "notes": "",
   "price": 625,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/jack-sparrow"
  },
  {
   "id": "genetics-coffee-ibadat",
@@ -12921,7 +12921,7 @@ const COFFEES = [
   "notes": "SCA Cup Score:86.5",
   "price": 600,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/ibadat"
  },
  {
   "id": "genetics-coffee-nargis",
@@ -12963,7 +12963,7 @@ const COFFEES = [
   "notes": "SCA Cup Score:86.5",
   "price": 600,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/nargis"
  },
  {
   "id": "genetics-coffee-flores-blancas",
@@ -13003,7 +13003,7 @@ const COFFEES = [
   "notes": "SCA Cup Score:88.25",
   "price": 557,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/flores-blancas"
  },
  {
   "id": "genetics-coffee-blossom-naturals",
@@ -13044,7 +13044,7 @@ const COFFEES = [
   "notes": "96 hours fermentation, SCA Cup Score:88",
   "price": 495,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/blossom-naturals"
  },
  {
   "id": "genetics-coffee-sl-28-thermal-shock",
@@ -13083,7 +13083,7 @@ const COFFEES = [
   "notes": "36 Hr Anaerobic with Yeast and Thermal Shock",
   "price": 495,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/thermal-shock"
  },
  {
   "id": "genetics-coffee-mohabbat",
@@ -13123,7 +13123,7 @@ const COFFEES = [
   "notes": "48 Hrs Anaerobic Coferment with Cashew Fruit, SCA Cup Score:87",
   "price": 495,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/mohabbat-72hrs-cashew-fruit-fermented-liberica"
  },
  {
   "id": "genetics-coffee-sl-28-cm-honey",
@@ -13163,7 +13163,7 @@ const COFFEES = [
   "notes": "SCA Cup Score:86",
   "price": 455,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/sl28cm-honey"
  },
  {
   "id": "genetics-coffee-blossom-washed",
@@ -13204,7 +13204,7 @@ const COFFEES = [
   "notes": "90Hrs Sequential Yeast Culture, SCA Cup Score:87",
   "price": 455,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/blossom-washed-90hrs-sequential-yeast-culture"
  },
  {
   "id": "genetics-coffee-excelsa-naturals",
@@ -13242,7 +13242,7 @@ const COFFEES = [
   "notes": "110 Hr Sequential Fermentation, SCA Cup Score: 86",
   "price": 446,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/exelsa-naturals"
  },
  {
   "id": "genetics-coffee-wat-o-melon",
@@ -13281,7 +13281,7 @@ const COFFEES = [
   "notes": "",
   "price": 375,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/wat-o-melon-carbonic-maceration"
  },
  {
   "id": "genetics-coffee-love-blend",
@@ -13324,7 +13324,7 @@ const COFFEES = [
   "notes": "SCA Cup Score:87",
   "price": 350,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/love-blend"
  },
  {
   "id": "genetics-coffee-monsooned-malabar",
@@ -13364,7 +13364,7 @@ const COFFEES = [
   "notes": "",
   "price": 280,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/monsooned-malabar"
  },
  {
   "id": "genetics-coffee-house-blend",
@@ -13407,7 +13407,7 @@ const COFFEES = [
   "notes": "",
   "price": 280,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/house-blend"
  },
  {
   "id": "genetics-coffee-paradise",
@@ -13447,7 +13447,7 @@ const COFFEES = [
   "notes": "48 Hr carbonic maceration with pineapple",
   "price": 195,
   "sample": false,
-  "link": ""
+  "link": "https://genetics.coffee/products/paradise-pineapple-fermented-naturals"
  },
  {
   "id": "grey-soul-pink-lemonade",
@@ -13487,7 +13487,7 @@ const COFFEES = [
   "notes": "",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://greysoul.coffee/products/pink-lemonade-ultra-light-nagaland-coffee"
  },
  {
   "id": "grey-soul-mogra",
@@ -13527,7 +13527,7 @@ const COFFEES = [
   "notes": "",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://greysoul.coffee/products/mogra-light-roast"
  },
  {
   "id": "grey-soul-the-yellow-lot",
@@ -13568,7 +13568,7 @@ const COFFEES = [
   "notes": "",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://greysoul.coffee/products/the-yellow-lot-grey-soul-coffee"
  },
  {
   "id": "grey-soul-summer-in-kodaikanal",
@@ -13607,7 +13607,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://greysoul.coffee/products/kodaikanal-naturals"
  },
  {
   "id": "grey-soul-shevaroys-washed",
@@ -13646,7 +13646,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://greysoul.coffee/products/shevaroys-washed-grey-soul-coffee"
  },
  {
   "id": "grey-soul-raspberry-in-loop",
@@ -13687,7 +13687,7 @@ const COFFEES = [
   "notes": "Anaerobic fermentation done in 3 stages for 72 hours , 48 hours and 24 hours consecutively. Eventually sun-dried on raised beds for a extended period.",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://greysoul.coffee/products/raspberry-in-loop"
  },
  {
   "id": "grey-soul-strawberry-in-loop",
@@ -13728,7 +13728,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://greysoul.coffee/products/strawberry-in-loop-medium-roast-grey-soul-coffee"
  },
  {
   "id": "grey-soul-roaster-espresso",
@@ -13770,7 +13770,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://greysoul.coffee/products/roasters-espresso-med-dark-profile"
  },
  {
   "id": "grey-soul-odisha-fermented-naturals",
@@ -13809,7 +13809,7 @@ const COFFEES = [
   "notes": "",
   "price": 350,
   "sample": false,
-  "link": ""
+  "link": "https://greysoul.coffee/products/odisha-floral-honey-light-med-roast-copy"
  },
  {
   "id": "grey-soul-ultra-light-nagaland",
@@ -13849,7 +13849,7 @@ const COFFEES = [
   "notes": "",
   "price": 350,
   "sample": false,
-  "link": ""
+  "link": "https://greysoul.coffee/products/nagaland-kohima-23-naturals-light-roast-profile"
  },
  {
   "id": "half-light-banana-kent",
@@ -13891,7 +13891,7 @@ const COFFEES = [
   "notes": "Honey is shade dried under banana leaves",
   "price": 288,
   "sample": true,
-  "link": ""
+  "link": "https://halflightcoffee.com/products/banana-kents"
  },
  {
   "id": "half-light-salawara-naturals-02",
@@ -13928,7 +13928,7 @@ const COFFEES = [
   "notes": "72 hour fermentation",
   "price": 280,
   "sample": true,
-  "link": ""
+  "link": "https://halflightcoffee.com/products/salawara-naturals-02"
  },
  {
   "id": "half-light-tripura-hills",
@@ -13968,7 +13968,7 @@ const COFFEES = [
   "notes": "Waribok Daribok is a specialized coffee producer-processor based in the Garo Hills of Meghalaya, India, known for producing high-quality specialty coffee, particularly through natural and experimental fermentation methods.",
   "price": 268,
   "sample": true,
-  "link": ""
+  "link": "https://halflightcoffee.com/products/tripura-hills"
  },
  {
   "id": "half-light-ms-estate",
@@ -14009,7 +14009,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": true,
-  "link": ""
+  "link": "https://halflightcoffee.com/products/ms-estate"
  },
  {
   "id": "hebbey-anugra",
@@ -14048,7 +14048,7 @@ const COFFEES = [
   "notes": "",
   "price": 230,
   "sample": false,
-  "link": ""
+  "link": "https://www.hebbey.com/collections/coffee/products/anaerobic-naturals"
  },
  {
   "id": "hebbey-monsoon-malabar-thogarihunkal-estate",
@@ -14088,7 +14088,7 @@ const COFFEES = [
   "notes": "",
   "price": 210,
   "sample": false,
-  "link": ""
+  "link": "https://www.hebbey.com/collections/coffee/products/monsoon-malabar"
  },
  {
   "id": "hebbey-honey-processed-blend-thogarihunkal-estate",
@@ -14126,7 +14126,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": true,
-  "link": ""
+  "link": "https://www.hebbey.com/collections/coffee/products/copy-of-hebbey-coffee-100-arabica-single-origin"
  },
  {
   "id": "hebbey-100-arabica-thogarihunkal-estate",
@@ -14165,7 +14165,7 @@ const COFFEES = [
   "notes": "",
   "price": 170,
   "sample": false,
-  "link": ""
+  "link": "https://www.hebbey.com/collections/coffee/products/hebbey-coffee-200-gms"
  },
  {
   "id": "hebbey-arabica-robusta-blend-thogarihunkal-estate",
@@ -14206,7 +14206,7 @@ const COFFEES = [
   "notes": "",
   "price": 170,
   "sample": false,
-  "link": ""
+  "link": "https://www.hebbey.com/collections/coffee/products/copy-of-hebbey-coffee-single-origin-blend-washed-arabica-honey-processed-arabica"
  },
  {
   "id": "hermit-coffee-sunrise-blend",
@@ -14237,7 +14237,7 @@ const COFFEES = [
   "notes": "",
   "price": 275,
   "sample": true,
-  "link": ""
+  "link": "https://hermitcoffee.in/products/sunrise-blend?variant=43728671539421"
  },
  {
   "id": "hermit-coffee-original-blend",
@@ -14270,7 +14270,7 @@ const COFFEES = [
   "notes": "",
   "price": 275,
   "sample": true,
-  "link": ""
+  "link": "https://hermitcoffee.in/products/original-blend"
  },
  {
   "id": "hermit-coffee-vienna-roast",
@@ -14302,7 +14302,7 @@ const COFFEES = [
   "notes": "",
   "price": 275,
   "sample": true,
-  "link": ""
+  "link": "https://hermitcoffee.in/products/vienna-roast"
  },
  {
   "id": "hermit-coffee-monsooned-malabar",
@@ -14336,7 +14336,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": false,
-  "link": ""
+  "link": "https://hermitcoffee.in/products/monsoon-malabar-aa"
  },
  {
   "id": "hill-groove-moganad-estate",
@@ -14376,7 +14376,7 @@ const COFFEES = [
   "notes": "Double fermented",
   "price": 800,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/orchardale-estate-650-hrs-alt-multi-fermented-naturals-copy?variant=52016043589913"
  },
  {
   "id": "hill-groove-lithanro-partner-farms",
@@ -14413,7 +14413,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/lithanro-partner-farms-honey-sundried?variant=51647203180825"
  },
  {
   "id": "hill-groove-ratnagiri-estate-estate-lot-1",
@@ -14452,7 +14452,7 @@ const COFFEES = [
   "notes": "Another masterpiece from the Ratnagiri Estate estate, cherries with a Brix (sugar) of 24.9 when harvested were put in the Bio fermenters with a mix of different Lab grown cultures. The tanks were then purged with carbon dioxide gas, and the coffee was fermented for 60 hours. At the end of the fermentation the temperature of the Bio fermenter was increased to 47 degrees centigrade for 12 minutes before rapidly cooling the fermenter to 7 degrees centigrade, thereby allowing the coffee to be subjected to a thermal shock. After removing the coffee, it was then dried slowly with constant stirring over the next 27 days",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/ratnagiri-estate-thermal-shock-naturals?variant=51647203148057"
  },
  {
   "id": "hill-groove-ratnagiri-estate-estate-lot-2",
@@ -14491,7 +14491,7 @@ const COFFEES = [
   "notes": "A staggering 96-hour extended carbonic maceration natural processed coffee from Ratnagiri Estate estate. The Brix of the coffee cherries was 25.9 when harvested and they were put in the Bio fermenters with a mix of different Lab grown cultures. The tanks were then purged with carbon dioxide gas, and the coffee was fermented for 96 hours followed by slow drying for 31 days.",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/ratnagiri-estate-lab-sequential-naturals?variant=51647203213593"
  },
  {
   "id": "hill-groove-biccode-estate-32-hrs-oro-fermented-naturals",
@@ -14530,7 +14530,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/biccode-estate-32-hrs-oro-fermented-naturals?variant=51647203442969"
  },
  {
   "id": "hill-groove-madhu-agro-estate-sequentially-fermented",
@@ -14566,7 +14566,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/madhu-agro-estate-sequentially-fermented-washed?variant=51647203279129"
  },
  {
   "id": "hill-groove-ratnagiri-estate-estate-lot-3",
@@ -14606,7 +14606,7 @@ const COFFEES = [
   "notes": "A truly experimental coffee from the hallowed farms of Ratnagiri Estate estate, these coffee cherries with a Brix (sugar) of 25.8, were put into large Bio fermenters. A particular strain of Saccharomyces yeast from the farm's terroir along with Lactic acid bacteria was added & allowed to ferment for 72 hours in a nitrogen rich environment followed by 23 days of drying.",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/ratnagiri-estate-terroir-inoculated-washed?variant=51647203016985"
  },
  {
   "id": "hill-groove-madhu-agro-estate-black-honey",
@@ -14643,7 +14643,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/madhu-agro-estate-black-honey-48-hrs-fermented?variant=51647202918681"
  },
  {
   "id": "hill-groove-salawara-estate-anaerobic-yeast-naturals",
@@ -14682,7 +14682,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/salawara-estate-anaerobic-yeast-naturals-96-hrs-fermented?variant=51647203475737"
  },
  {
   "id": "hill-groove-orchardale-estate",
@@ -14723,7 +14723,7 @@ const COFFEES = [
   "notes": "This microlot represents a masterclass in slow-motion biology. Hand-picked ripe cherries are submerged in anaerobic tanks for over 27 days (650+ hours). By utilizing Alternative (Alt) fermentation triggers—such as specific wine yeast strains or controlled lactic acid bacteria—the estate \"steers\" the flavor development. This Multi-Fermented approach often involves a two-stage process: an initial anaerobic phase to build sweetness, followed by a secondary phase to refine the acidity, before being slow-dried as a Natural on raised beds",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/orchardale-estate-650-hrs-alt-multi-fermented-naturals?variant=52016043393305"
  },
  {
   "id": "hill-groove-stanmore-estate",
@@ -14763,7 +14763,7 @@ const COFFEES = [
   "notes": "72 hour anearobic fermentation",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/stanmore?variant=51771382595865"
  },
  {
   "id": "hill-groove-salawara-estate-anaerobic-yeast-washed",
@@ -14800,7 +14800,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/salawara-estate-anaerobic-yeast-washed-72-hrs-fermented?variant=51647202689305"
  },
  {
   "id": "hill-groove-ratnagiri-estate-estate-lot-4",
@@ -14841,7 +14841,7 @@ const COFFEES = [
   "notes": "This is a 72-hour extended terroir yeast and lactic fermented natural processed coffee. The Brix of the coffee cherries was 25.8 when harvested and they were put into Bio fermenters with a particular strain of Saccharomyces yeast from the farm's terroir and allowed to ferment for 72 hours in a carbon dioxide rich environment. After removing the coffee was directly put on raised beds for drying for 31 days",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/ratnagiri-estate-carbonic-yeast-maceration-naturals?variant=51647205081369"
  },
  {
   "id": "hill-groove-mooleh-manay",
@@ -14882,7 +14882,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/mooleh-maney-estate-natural-community?variant=51647203246361"
  },
  {
   "id": "hill-groove-harley-estate-natural-maceration",
@@ -14923,7 +14923,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/harley-estate-natural-maceration?variant=51647203115289"
  },
  {
   "id": "hill-groove-bison-valley-estate",
@@ -14964,7 +14964,7 @@ const COFFEES = [
   "notes": "900-hour extended fermentation. Utilizing Alternative (Alt) microbial starters",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/bison-valley-estate-900-hrs-alt-multi-fermented-naturals?variant=52016009904409"
  },
  {
   "id": "hill-groove-biccode-estate-42-hrs-anaerobic-fermented-washed",
@@ -15008,7 +15008,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/biccode-estate-42-hrs-anaerobic-fermented-washed?variant=51647203049753"
  },
  {
   "id": "hill-groove-sai-ashirwad-estate",
@@ -15049,7 +15049,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/sai-ashirwad-estate-84-hrs-fermented-naturals?variant=51647202951449"
  },
  {
   "id": "hill-groove-harley-estate-saccharobrew",
@@ -15090,7 +15090,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://hillgroove.coffee/products/harley-estate-saccharobrew?variant=51647202558233"
  },
  {
   "id": "hill-tiller-deep-dark-secrets",
@@ -15129,7 +15129,7 @@ const COFFEES = [
   "notes": "",
   "price": 265,
   "sample": true,
-  "link": ""
+  "link": "https://hilltiller.com/collections/hill-tiller-coffee-roaster/products/deep-dark-secrets?variant=49306438140201"
  },
  {
   "id": "hill-tiller-berry-blast",
@@ -15172,7 +15172,7 @@ const COFFEES = [
   "notes": "",
   "price": 265,
   "sample": true,
-  "link": ""
+  "link": "https://hilltiller.com/collections/hill-tiller-coffee-roaster/products/berry-blast?variant=46823389757737"
  },
  {
   "id": "hill-tiller-limoncello-afternoons",
@@ -15214,7 +15214,7 @@ const COFFEES = [
   "notes": "Cofermented with local lemons",
   "price": 265,
   "sample": true,
-  "link": ""
+  "link": "https://hilltiller.com/collections/hill-tiller-coffee-roaster/products/limoncello-afternoons?variant=46777393742121"
  },
  {
   "id": "hill-tiller-pineapple-express",
@@ -15248,7 +15248,7 @@ const COFFEES = [
   "notes": "Cofermented with Pineapple",
   "price": 265,
   "sample": true,
-  "link": ""
+  "link": "https://hilltiller.com/collections/hill-tiller-coffee-roaster/products/pineapple-express?variant=46777264341289"
  },
  {
   "id": "hill-tiller-toffee-bliss",
@@ -15288,7 +15288,7 @@ const COFFEES = [
   "notes": "",
   "price": 265,
   "sample": true,
-  "link": ""
+  "link": "https://hilltiller.com/collections/hill-tiller-coffee-roaster/products/toffee-bliss?variant=46777367658793"
  },
  {
   "id": "hill-tiller-jacaranda-tales",
@@ -15328,7 +15328,7 @@ const COFFEES = [
   "notes": "",
   "price": 265,
   "sample": true,
-  "link": ""
+  "link": "https://hilltiller.com/collections/hill-tiller-coffee-roaster/products/jacaranda-tales?variant=46777386139945"
  },
  {
   "id": "hill-tiller-gowri-estate",
@@ -15368,7 +15368,7 @@ const COFFEES = [
   "notes": "Double fermented",
   "price": 230,
   "sample": true,
-  "link": ""
+  "link": "https://hilltiller.com/collections/hill-tiller-coffee-roaster/products/gowri?variant=46777320014121"
  },
  {
   "id": "hill-tiller-brown-sugar",
@@ -15408,7 +15408,7 @@ const COFFEES = [
   "notes": "Using a unique fermentation process involving raw brown sugar",
   "price": 230,
   "sample": true,
-  "link": ""
+  "link": "https://hilltiller.com/collections/hill-tiller-coffee-roaster/products/brown-sugar?variant=46777447776553"
  },
  {
   "id": "hill-tiller-marmalade",
@@ -15446,7 +15446,7 @@ const COFFEES = [
   "notes": "",
   "price": 230,
   "sample": true,
-  "link": ""
+  "link": "https://hilltiller.com/collections/hill-tiller-coffee-roaster/products/marmalade?variant=46777460850985"
  },
  {
   "id": "hill-tiller-orchardale-gold",
@@ -15480,7 +15480,7 @@ const COFFEES = [
   "notes": "Blend",
   "price": 220,
   "sample": false,
-  "link": ""
+  "link": "https://hilltiller.com/collections/hill-tiller-coffee-roaster/products/orchardale-gold?variant=46777903972649"
  },
  {
   "id": "hill-tiller-stanmore-gold",
@@ -15514,7 +15514,7 @@ const COFFEES = [
   "notes": "Blend",
   "price": 220,
   "sample": false,
-  "link": ""
+  "link": "https://hilltiller.com/collections/hill-tiller-coffee-roaster/products/stanmore-gold?variant=46777964233001"
  },
  {
   "id": "hill-tiller-old-gold",
@@ -15548,7 +15548,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": true,
-  "link": ""
+  "link": "https://hilltiller.com/collections/hill-tiller-coffee-roaster/products/old-gold?variant=46777414451497"
  },
  {
   "id": "hill-tiller-rocket-fuel",
@@ -15587,7 +15587,7 @@ const COFFEES = [
   "notes": "Blend",
   "price": 160,
   "sample": false,
-  "link": ""
+  "link": "https://hilltiller.com/collections/hill-tiller-coffee-roaster/products/rocket-fuel?variant=46777508921641"
  },
  {
   "id": "home-blend-coffee-cask-reserve-barrel-aged",
@@ -15627,7 +15627,7 @@ const COFFEES = [
   "notes": "Aged in French wine barrels",
   "price": 304,
   "sample": false,
-  "link": ""
+  "link": "https://homeblendcoffee.com/products/wine-cask-coffee?variant=41868064456775"
  },
  {
   "id": "home-blend-coffee-monsooned-malabar",
@@ -15659,7 +15659,7 @@ const COFFEES = [
   "notes": "Monsooned for 3 months",
   "price": 280,
   "sample": true,
-  "link": ""
+  "link": "https://homeblendcoffee.com/products/wholebean-monsoonedmalabar"
  },
  {
   "id": "home-blend-coffee-mysore-nuggets-extra-bold-aaa",
@@ -15699,7 +15699,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": true,
-  "link": ""
+  "link": "https://homeblendcoffee.com/products/mysore-nuggets"
  },
  {
   "id": "home-blend-coffee-bettadamalali-estate",
@@ -15742,7 +15742,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://homeblendcoffee.com/products/whole-bean-bettadamalali-estate-pack-of-250g"
  },
  {
   "id": "home-blend-coffee-araku-valley",
@@ -15784,7 +15784,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://homeblendcoffee.com/products/araku-coffee"
  },
  {
   "id": "home-blend-coffee-gemblary-estate",
@@ -15826,7 +15826,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://homeblendcoffee.com/products/whole-bean-gemblary-estate"
  },
  {
   "id": "home-blend-coffee-unnaki-estate",
@@ -15867,7 +15867,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://homeblendcoffee.com/products/whole-bean-unakki-estate"
  },
  {
   "id": "home-blend-coffee-custom-roast-arabica-aaa-cherry-aaa",
@@ -15901,7 +15901,7 @@ const COFFEES = [
   "notes": "Mysore Nuggets Arabica AAA bean",
   "price": 216,
   "sample": true,
-  "link": ""
+  "link": "https://homeblendcoffee.com/products/wholebean-customroast"
  },
  {
   "id": "home-blend-coffee-french-roast",
@@ -15938,7 +15938,7 @@ const COFFEES = [
   "notes": "",
   "price": 216,
   "sample": true,
-  "link": ""
+  "link": "https://homeblendcoffee.com/products/frenchroast"
  },
  {
   "id": "home-blend-coffee-italian-roast",
@@ -15975,7 +15975,7 @@ const COFFEES = [
   "notes": "",
   "price": 216,
   "sample": true,
-  "link": ""
+  "link": "https://homeblendcoffee.com/products/frenchroast"
  },
  {
   "id": "home-blend-coffee-vienna-roast",
@@ -16012,7 +16012,7 @@ const COFFEES = [
   "notes": "",
   "price": 216,
   "sample": true,
-  "link": ""
+  "link": "https://homeblendcoffee.com/products/vienna-roast"
  },
  {
   "id": "humble-express-smokey-malt",
@@ -16054,7 +16054,7 @@ const COFFEES = [
   "notes": "Aged in whiskey barrels",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://www.humbleexpress.com/collections/whole-beans-ground-coffee/products/smokey-malt-medium-roast-coffee"
  },
  {
   "id": "humble-express-golden-drift",
@@ -16095,7 +16095,7 @@ const COFFEES = [
   "notes": "Cofermented with Pineapple",
   "price": 348,
   "sample": false,
-  "link": ""
+  "link": "https://www.humbleexpress.com/collections/whole-beans-ground-coffee/products/golden-drift-medium-roast-coffee"
  },
  {
   "id": "humble-express-tropical-melon",
@@ -16134,7 +16134,7 @@ const COFFEES = [
   "notes": "",
   "price": 292,
   "sample": false,
-  "link": ""
+  "link": "https://www.humbleexpress.com/collections/whole-beans-ground-coffee/products/tropical-melon-medium-coffee-roast"
  },
  {
   "id": "humble-express-unwind",
@@ -16174,7 +16174,7 @@ const COFFEES = [
   "notes": "",
   "price": 292,
   "sample": false,
-  "link": ""
+  "link": "https://www.humbleexpress.com/collections/whole-beans-ground-coffee/products/unwind-medium-roast-coffee"
  },
  {
   "id": "humble-express-bright-star",
@@ -16214,7 +16214,7 @@ const COFFEES = [
   "notes": "",
   "price": 292,
   "sample": false,
-  "link": ""
+  "link": "https://www.humbleexpress.com/collections/whole-beans-ground-coffee/products/bright-star-medium-roast-coffee"
  },
  {
   "id": "humble-express-dare-devil",
@@ -16250,7 +16250,7 @@ const COFFEES = [
   "notes": "",
   "price": 256,
   "sample": false,
-  "link": ""
+  "link": "https://www.humbleexpress.com/collections/whole-beans-ground-coffee/products/dare-devil-dark-roast-coffee"
  },
  {
   "id": "humble-express-am-pm",
@@ -16292,7 +16292,7 @@ const COFFEES = [
   "notes": "",
   "price": 256,
   "sample": false,
-  "link": ""
+  "link": "https://www.humbleexpress.com/collections/whole-beans-ground-coffee/products/am-pm-medium-dark-roast-coffee"
  },
  {
   "id": "hunkal-estate-aranya-gold",
@@ -16331,7 +16331,7 @@ const COFFEES = [
   "notes": "",
   "price": 126,
   "sample": false,
-  "link": ""
+  "link": "https://www.hunkalestatecoffee.com/collections/coffee-beans/products/aranya-gold-coffee-beans"
  },
  {
   "id": "hunkal-estate-tiger-reserve",
@@ -16371,7 +16371,7 @@ const COFFEES = [
   "notes": "80% Arabica + 20% Robusta",
   "price": 116,
   "sample": false,
-  "link": ""
+  "link": "https://www.hunkalestatecoffee.com/collections/coffee-beans/products/tiger-reserve-coffee-beans"
  },
  {
   "id": "kapikottai-nalinakanti",
@@ -16409,7 +16409,7 @@ const COFFEES = [
   "notes": "While the total fermentation time was 160 hrs, this was split between pre and post pulping. The cherries were fermented in a steel barrel with CO2 being pumped in. They were then taken out, pulped and then fermented again in similar conditionstill a total time of 160 hrs was reached.",
   "price": 500,
   "sample": true,
-  "link": ""
+  "link": "https://kapikottai.coffee/products/nalinakanti"
  },
  {
   "id": "kapikottai-hamsanadam",
@@ -16447,7 +16447,7 @@ const COFFEES = [
   "notes": "",
   "price": 380,
   "sample": true,
-  "link": ""
+  "link": "https://kapikottai.coffee/products/hamsanadam"
  },
  {
   "id": "kapikottai-kilpauk-standard",
@@ -16490,7 +16490,7 @@ const COFFEES = [
   "notes": "80% washed, 20% Natural",
   "price": 260,
   "sample": true,
-  "link": ""
+  "link": "https://kapikottai.coffee/products/kilpauk-standard"
  },
  {
   "id": "kat-and-kin-kodai-reserve",
@@ -16529,7 +16529,7 @@ const COFFEES = [
   "notes": "",
   "price": 690,
   "sample": false,
-  "link": ""
+  "link": "https://katandkincoffee.com/products/kodai-reserve?variant=51372945899829"
  },
  {
   "id": "kat-and-kin-sarchimor",
@@ -16570,7 +16570,7 @@ const COFFEES = [
   "notes": "",
   "price": 630,
   "sample": false,
-  "link": ""
+  "link": "https://katandkincoffee.com/products/sarchimor?variant=52804916740405"
  },
  {
   "id": "kat-and-kin-kodai-natural",
@@ -16611,7 +16611,7 @@ const COFFEES = [
   "notes": "",
   "price": 550,
   "sample": false,
-  "link": ""
+  "link": "https://katandkincoffee.com/products/kodai-natural"
  },
  {
   "id": "kat-and-kin-shieldtail",
@@ -16651,7 +16651,7 @@ const COFFEES = [
   "notes": "",
   "price": 520,
   "sample": false,
-  "link": ""
+  "link": "https://katandkincoffee.com/products/shieldtail"
  },
  {
   "id": "kat-and-kin-monsooned-malabar",
@@ -16686,7 +16686,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://katandkincoffee.com/products/monsooned-malabar"
  },
  {
   "id": "kat-and-kin-dark-noon",
@@ -16725,7 +16725,7 @@ const COFFEES = [
   "notes": "",
   "price": 370,
   "sample": false,
-  "link": ""
+  "link": "https://katandkincoffee.com/products/dark-moon"
  },
  {
   "id": "kat-and-kin-espresso-blend",
@@ -16765,7 +16765,7 @@ const COFFEES = [
   "notes": "",
   "price": 370,
   "sample": false,
-  "link": ""
+  "link": "https://katandkincoffee.com/products/the-rice-mill-expresso-blend"
  },
  {
   "id": "korebi-the-bourbon",
@@ -16807,7 +16807,7 @@ const COFFEES = [
   "notes": "Aged in whiskey barrels",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/the-bourbon-limited-edition-coffee"
  },
  {
   "id": "korebi-moganad-estate",
@@ -16851,7 +16851,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/moganad-estate-honey-sundried-1"
  },
  {
   "id": "korebi-baarbara-estate",
@@ -16895,7 +16895,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/baarbara-estate-honey-processed-coffee"
  },
  {
   "id": "korebi-golden-toast",
@@ -16937,7 +16937,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/golden-toast-brew"
  },
  {
   "id": "korebi-sidregavi-estate",
@@ -16979,7 +16979,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/sidrgavi-estate"
  },
  {
   "id": "korebi-bubble-bliss",
@@ -17020,7 +17020,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/bubble-bliss-anaerobic-fermented-coffee"
  },
  {
   "id": "korebi-pineapple-express",
@@ -17063,7 +17063,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/pineapple-express"
  },
  {
   "id": "korebi-kanabi",
@@ -17101,7 +17101,7 @@ const COFFEES = [
   "notes": "Cannamar hemp seel oil is incorporated in the coffee",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/kanabi-limited-edition-hemp-seed-oil-coffee"
  },
  {
   "id": "korebi-melkodige-estate",
@@ -17142,7 +17142,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/melkodige-estate-yeast-fermented"
  },
  {
   "id": "korebi-tropical-haze",
@@ -17185,7 +17185,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/tropical-haze-medium-roast-coffee"
  },
  {
   "id": "korebi-espresso-intenso",
@@ -17220,7 +17220,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/espresso-intenso"
  },
  {
   "id": "korebi-espresso-blend",
@@ -17258,7 +17258,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/espresso-blend"
  },
  {
   "id": "korebi-the-dark-side",
@@ -17297,7 +17297,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/the-dark-side-roast-coffee"
  },
  {
   "id": "korebi-wabi",
@@ -17339,7 +17339,7 @@ const COFFEES = [
   "notes": "",
   "price": 200,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/wabi-medium-dark-roast-coffee"
  },
  {
   "id": "korebi-southern-blend",
@@ -17371,7 +17371,7 @@ const COFFEES = [
   "notes": "",
   "price": 120,
   "sample": false,
-  "link": ""
+  "link": "https://korebi.coffee/products/southern-blend"
  },
  {
   "id": "los-locos-mulberry-96",
@@ -17411,7 +17411,7 @@ const COFFEES = [
   "notes": "",
   "price": 358,
   "sample": false,
-  "link": ""
+  "link": "https://www.loslocos.in/product-page/mulberry-96"
  },
  {
   "id": "los-locos-rubies-n-rum",
@@ -17451,7 +17451,7 @@ const COFFEES = [
   "notes": "Blended post roast",
   "price": 276,
   "sample": true,
-  "link": ""
+  "link": "https://www.loslocos.in/product-page/rubies-n-rum"
  },
  {
   "id": "los-locos-cherry-aa",
@@ -17490,7 +17490,7 @@ const COFFEES = [
   "notes": "",
   "price": 276,
   "sample": true,
-  "link": ""
+  "link": "https://www.loslocos.in/product-page/cherry-aa"
  },
  {
   "id": "los-locos-peaberry-mania",
@@ -17529,7 +17529,7 @@ const COFFEES = [
   "notes": "Using inhouse processing method called funk",
   "price": 276,
   "sample": true,
-  "link": ""
+  "link": "https://www.loslocos.in/product-page/peaberry-mania"
  },
  {
   "id": "los-locos-maad-city-roast",
@@ -17570,7 +17570,7 @@ const COFFEES = [
   "notes": "",
   "price": 236,
   "sample": true,
-  "link": ""
+  "link": "https://www.loslocos.in/product-page/maad-city-roast"
  },
  {
   "id": "los-locos-yellow-honey-aa",
@@ -17610,7 +17610,7 @@ const COFFEES = [
   "notes": "",
   "price": 236,
   "sample": true,
-  "link": ""
+  "link": "https://www.loslocos.in/product-page/yellow-honey-aa"
  },
  {
   "id": "los-locos-locos-city-roast",
@@ -17650,7 +17650,7 @@ const COFFEES = [
   "notes": "",
   "price": 236,
   "sample": true,
-  "link": ""
+  "link": "https://www.loslocos.in/product-page/locos-city-roast"
  },
  {
   "id": "maverick-and-farmer-mooley-manay",
@@ -17691,7 +17691,7 @@ const COFFEES = [
   "notes": "",
   "price": 320,
   "sample": false,
-  "link": ""
+  "link": "https://www.maverickandfarmer.com/products/mooley-manay"
  },
  {
   "id": "maverick-and-farmer-ol-smoky",
@@ -17728,7 +17728,7 @@ const COFFEES = [
   "notes": "Washed beans are cold smoked for 14 hours before drying",
   "price": 280,
   "sample": false,
-  "link": ""
+  "link": "https://www.maverickandfarmer.com/products/smokin-joe"
  },
  {
   "id": "maverick-and-farmer-clouds-in-my-coffee",
@@ -17765,7 +17765,7 @@ const COFFEES = [
   "notes": "Green beans are stored near the malabar coast for a few months to absorb sea air",
   "price": 280,
   "sample": true,
-  "link": ""
+  "link": "https://www.maverickandfarmer.com/products/rohan-bopannas-masterblend"
  },
  {
   "id": "maverick-and-farmer-modur-natural",
@@ -17805,7 +17805,7 @@ const COFFEES = [
   "notes": "",
   "price": 280,
   "sample": false,
-  "link": ""
+  "link": "https://www.maverickandfarmer.com/products/modur-naturals"
  },
  {
   "id": "maverick-and-farmer-say-hello-to-mellow",
@@ -17841,7 +17841,7 @@ const COFFEES = [
   "notes": "",
   "price": 272,
   "sample": true,
-  "link": ""
+  "link": "https://www.maverickandfarmer.com/products/say-hello-to-mellow"
  },
  {
   "id": "maverick-and-farmer-rohan-bopanna-s-master-blend",
@@ -17878,7 +17878,7 @@ const COFFEES = [
   "notes": "The arabica from the same estate is processed in two different ways to give this coffee an interesting body and a clean flavour.",
   "price": 272,
   "sample": false,
-  "link": ""
+  "link": "https://www.maverickandfarmer.com/products/rohan-bopannas-masterblend-1"
  },
  {
   "id": "maverick-and-farmer-parama-dark",
@@ -17917,7 +17917,7 @@ const COFFEES = [
   "notes": "Blend of 92% Arabica and 8% Robusta,",
   "price": 264,
   "sample": false,
-  "link": ""
+  "link": "https://www.maverickandfarmer.com/products/parama-dark"
  },
  {
   "id": "maverick-and-farmer-tall-dark-handsome",
@@ -17949,7 +17949,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": true,
-  "link": ""
+  "link": "https://www.maverickandfarmer.com/products/tall-dark-handsome"
  },
  {
   "id": "maverick-and-farmer-orange-you-curious",
@@ -17986,7 +17986,7 @@ const COFFEES = [
   "notes": "After washing beans are fermented in orange juice",
   "price": 260,
   "sample": false,
-  "link": ""
+  "link": "https://www.maverickandfarmer.com/products/orange-you-curious-1"
  },
  {
   "id": "maverick-and-farmer-parama",
@@ -18026,7 +18026,7 @@ const COFFEES = [
   "notes": "Blend of 92% Arabica and 8% Robusta,",
   "price": 260,
   "sample": true,
-  "link": ""
+  "link": "https://www.maverickandfarmer.com/products/parama"
  },
  {
   "id": "maverick-and-farmer-sunkissed",
@@ -18065,7 +18065,7 @@ const COFFEES = [
   "notes": "",
   "price": 248,
   "sample": false,
-  "link": ""
+  "link": "https://www.maverickandfarmer.com/products/sunkissed"
  },
  {
   "id": "maverick-and-farmer-deep-bliss",
@@ -18102,7 +18102,7 @@ const COFFEES = [
   "notes": "Blend of Arabica and Robusta",
   "price": 248,
   "sample": false,
-  "link": ""
+  "link": "https://www.maverickandfarmer.com/products/deep-blis"
  },
  {
   "id": "mokka-farms-monsoon-malabar",
@@ -18134,7 +18134,7 @@ const COFFEES = [
   "notes": "",
   "price": 220,
   "sample": true,
-  "link": ""
+  "link": "https://www.mokkafarms.com/products/mokkafarms-monsoon-malabar-coffee"
  },
  {
   "id": "mokka-farms-robusta-kaapi-royale",
@@ -18168,7 +18168,7 @@ const COFFEES = [
   "notes": "",
   "price": 162,
   "sample": true,
-  "link": ""
+  "link": "https://www.mokkafarms.com/products/rkr"
  },
  {
   "id": "mokka-farms-100-arabica",
@@ -18202,7 +18202,7 @@ const COFFEES = [
   "notes": "",
   "price": 156,
   "sample": true,
-  "link": ""
+  "link": "https://www.mokkafarms.com/products/bean100ara?variant=42883074261175"
  },
  {
   "id": "mokka-farms-80-arabica-20-robusta",
@@ -18236,7 +18236,7 @@ const COFFEES = [
   "notes": "",
   "price": 148,
   "sample": true,
-  "link": ""
+  "link": "https://www.mokkafarms.com/products/bean80ara20rob?variant=43225715900599"
  },
  {
   "id": "mokka-farms-70-arabica-30-robusta",
@@ -18270,7 +18270,7 @@ const COFFEES = [
   "notes": "",
   "price": 146,
   "sample": false,
-  "link": ""
+  "link": "https://www.mokkafarms.com/products/bean70ara30rob?variant=43226033455287"
  },
  {
   "id": "mokka-farms-50-arabica-50-robusta",
@@ -18304,7 +18304,7 @@ const COFFEES = [
   "notes": "",
   "price": 138,
   "sample": false,
-  "link": ""
+  "link": "https://www.mokkafarms.com/products/bean50ara50rob?variant=42883229483191"
  },
  {
   "id": "mokka-farms-30-arabica-70-robusta",
@@ -18338,7 +18338,7 @@ const COFFEES = [
   "notes": "",
   "price": 132,
   "sample": false,
-  "link": ""
+  "link": "https://www.mokkafarms.com/products/bean30ara70rob?variant=43226068811959"
  },
  {
   "id": "mokka-farms-100-robusta",
@@ -18372,7 +18372,7 @@ const COFFEES = [
   "notes": "",
   "price": 118,
   "sample": true,
-  "link": ""
+  "link": "https://www.mokkafarms.com/products/bean100rob?variant=42883111256247"
  },
  {
   "id": "naivo-slainte",
@@ -18411,7 +18411,7 @@ const COFFEES = [
   "notes": "At Harley Estate, the process of creating this whiskey barrel-aged coffee begins with the careful selection of Selection 9 coffee cherries. These cherries are then aged for 8 – 10 weeks in Amrut Whiskey Barrels, where they absorb the rich boozy aromas and flavors. After aging, the cherries are removed and dried on raised beds",
   "price": 396,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/slainte-whiskey-barrel-aged-coffee/"
  },
  {
   "id": "naivo-salud",
@@ -18452,7 +18452,7 @@ const COFFEES = [
   "notes": "At Harley Estate, the process of creating this rum barrel-aged coffee begins with the careful selection of Selection 9 coffee cherries. These cherries are then aged for 8 – 10 weeks in rum barrels, where they absorb the rich boozy aromas and flavors. After aging, the cherries are removed and dried on raised beds, accentuating their development and enhancing their unique flavor profile.",
   "price": 380,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/salud-rum-barrel-aged-coffee/"
  },
  {
   "id": "naivo-ratnagiri-estate-estate-dark-room-naturals",
@@ -18493,7 +18493,7 @@ const COFFEES = [
   "notes": "Thermal shock was applied directly to cherries before fermentation, creating rapid cellular stress that primes sugars for microbial activity. The cherries then underwent a 48-hour controlled fermentation inoculated with lactic acid bacteria (LAB), ensuring predictable acidity and flavor development. Post-fermentation, they were dried in a dark room for 12 days—an approach that minimizes UV degradation, stabilizes moisture migration, and locks in layered complexity without compromising structural integrity.",
   "price": 358,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/ratnagiri-estate-dark-room-naturals/"
  },
  {
   "id": "naivo-kraken-jam",
@@ -18535,7 +18535,7 @@ const COFFEES = [
   "notes": "",
   "price": 356,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/kraken-jam-orchardale-naturals/"
  },
  {
   "id": "naivo-ratnagiri-estate-estate-lab-processed-naturals",
@@ -18576,7 +18576,7 @@ const COFFEES = [
   "notes": "",
   "price": 354,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/ratnagiri-estate-lab-process-naturals/"
  },
  {
   "id": "naivo-ratnagiri-estate-estate-culture-naturals-jasmine",
@@ -18615,7 +18615,7 @@ const COFFEES = [
   "notes": "Cherries underwent a controlled 52-hour anaerobic fermentation in sealed bio-fermenters using selected lab-cultured microbes to enhance flavor development. Following fermentation, the coffee was dried on raised beds for 27 days",
   "price": 342,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/ratnagiri-estate-culture-naturals-jasmine/"
  },
  {
   "id": "naivo-ratnagiri-estate-estate-culture-naturals-rose",
@@ -18655,7 +18655,7 @@ const COFFEES = [
   "notes": "",
   "price": 338,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/ratnagiri-estate-culture-naturals-rose/"
  },
  {
   "id": "naivo-tropical-splash",
@@ -18696,7 +18696,7 @@ const COFFEES = [
   "notes": "Only perfectly ripe cherries are harvested and pulped to remove the outer skin while keeping the mucilage intact. The parchment is then transferred into fermentation tanks along with freshly cut pineapple. During this stage, both the coffee mucilage and the fruit undergo natural breakdown, driving active microbial processes. The sugars and enzymes from the pineapple integrate with those of the coffee, enhancing sweetness and amplifying bright, fruity characteristics. Fermentation continues until both components decompose into a complex mixture of flavorful compounds. Once the target profile is reached, the coffee is carefully washed and laid out to dry under controlled sunlight",
   "price": 316,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/tropical-splash-baarbara-pineapple-fermented/"
  },
  {
   "id": "naivo-pichia-parables",
@@ -18738,7 +18738,7 @@ const COFFEES = [
   "notes": "Pichia yeast was introduced and the lot was fermented under controlled conditions for 36 hours, allowing fruit sugars to be converted into aroma-active compounds. This process enhanced ester formation, organic acid development, and glycerol production, contributing to brighter fruit expression, a smoother texture, and improved consistency. After fermentation, the coffee was shade dried for 24 days,",
   "price": 306,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/pichia-parables-harley-36h-pichia-yeast-naturals/"
  },
  {
   "id": "naivo-currant-affairs",
@@ -18780,7 +18780,7 @@ const COFFEES = [
   "notes": "Fully ripe cherries were harvested and fermented with unrefined natural sugars, allowing the sugars and mucilage to interact and enhance flavor development",
   "price": 290,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/currant-affairs-karadykan-naturals/"
  },
  {
   "id": "naivo-mooleh-manay-honey",
@@ -18820,7 +18820,7 @@ const COFFEES = [
   "notes": "",
   "price": 274,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/mooleh-manay-honey/"
  },
  {
   "id": "naivo-balanoor-vontekad",
@@ -18859,7 +18859,7 @@ const COFFEES = [
   "notes": "",
   "price": 272,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/balanoor-vontekad/"
  },
  {
   "id": "naivo-berry-dawn-baarbara-dual-phase-natural",
@@ -18900,7 +18900,7 @@ const COFFEES = [
   "notes": "Handpicked cherries at peak ripeness undergo an initial fermentation in whole cherry form, building deep fruit character. They are then pulped, and the parchment with mucilage enters a second fermentation stage to refine body, clarity, and complexity. Following fermentation, the coffee is washed and sun-dried on raised beds until optimal moisture is reached.",
   "price": 272,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/berry-dawn-baarbara-dual-phase-naturals/"
  },
  {
   "id": "naivo-ratnagiri-estate-estate-robusta-mosto-naturals",
@@ -18944,7 +18944,7 @@ const COFFEES = [
   "notes": "Ripe CxR Robusta cherries are sealed in bio-fermenters for 48 hours of anaerobic fermentation, inoculated with an Arabica mosto culture—a liquid starter derived from the mucilage and juice of fermented Arabica cherries. This culture is rich in wild yeasts, bacteria, and enzymes, and acts as a catalyst, shaping the microbial environment to drive complex flavor development. After fermentation, cherries are dried on raised beds for 28 days as a natural, locking in structure and intensity. The process delivers a robust cup with clarity and layered expression.",
   "price": 268,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/ratnagiri-estate-robusta-mosto-naturals/"
  },
  {
   "id": "naivo-dragon-jam",
@@ -18986,7 +18986,7 @@ const COFFEES = [
   "notes": "Post-fermentation, drying was carried out in two stages: seven days under shade, followed by 21 days in the sun, with protection from direct exposure during the peak heat of the day. This careful sequence of fermentation and drying preserves fruit integrity, accentuates sweetness, and delivers a clean, complex expression of the anaerobic process.",
   "price": 266,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/dragon-jam-kolli-berri-anaerobic-naturals/"
  },
  {
   "id": "naivo-maillard-s-dream",
@@ -19028,7 +19028,7 @@ const COFFEES = [
   "notes": "TR9 Robusta cherries underwent a mosto-cultured natural fermentation designed to intensify sweetness and complexity. Mosto — a fermentation starter derived from previous coffee fermentations — was introduced in sealed drums and allowed to ferment under anoxic conditions for 62 hours.",
   "price": 262,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/maillards-dream-kerehaklu-62h-mosto-culture-naturals/"
  },
  {
   "id": "naivo-dunduga-estate-naturals",
@@ -19068,7 +19068,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/dunduga-estate-naturals/"
  },
  {
   "id": "naivo-unakki-dark-honey-honey",
@@ -19108,7 +19108,7 @@ const COFFEES = [
   "notes": "Initially, only the ripest cherries are carefully selected for harvest. These cherries are then packed for a day in vacuum bags, allowing controlled fermentation that enhances their intrinsic flavors. Following this step, the cherries are pulped without the addition of water, preserving the natural sugars and mucilage around the beans. The beans then undergo a drying process lasting 9-10 days, where they are sun-dried to develop a rich and complex profile.",
   "price": 258,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/unakki-dark-honey/"
  },
  {
   "id": "naivo-ratnagiri-estate-estate-double-washed-classic",
@@ -19151,7 +19151,7 @@ const COFFEES = [
   "notes": "Ripe cherries were pulped to remove skin and pulp, leaving beans with mucilage intact. The first fermentation began, breaking down mucilage before the beans were thoroughly washed. A second controlled fermentation followed, ensuring every remaining layer was dissolved. After another wash, the parchment was left clean. Finally, the produce was dried slowly on raised beds under the mountain sun until moisture stabilized. The double washed method delivers a cup that is bold, clean, and juicy.",
   "price": 258,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/ratnagiri-estate-double-washed-classic/"
  },
  {
   "id": "naivo-attikan-white-mist",
@@ -19191,7 +19191,7 @@ const COFFEES = [
   "notes": "",
   "price": 252,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/attikan-white-mist/"
  },
  {
   "id": "naivo-dunduga-estate-washed",
@@ -19232,7 +19232,7 @@ const COFFEES = [
   "notes": "",
   "price": 250,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/dunduga-estate-washed/"
  },
  {
   "id": "naivo-seethargundu-estate-washed",
@@ -19271,7 +19271,7 @@ const COFFEES = [
   "notes": "",
   "price": 246,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/seethargundu-estate-washed/"
  },
  {
   "id": "naivo-unakki-dark-honey-washed",
@@ -19312,7 +19312,7 @@ const COFFEES = [
   "notes": "",
   "price": 244,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/unakki-estate-washed/"
  },
  {
   "id": "naivo-kolli-berri-washed",
@@ -19354,7 +19354,7 @@ const COFFEES = [
   "notes": "",
   "price": 238,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/kolli-berri-washed/"
  },
  {
   "id": "naivo-monsoon-malabar-aa",
@@ -19392,7 +19392,7 @@ const COFFEES = [
   "notes": "Monosooned for 12 to 16 weeks",
   "price": 236,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/monsoon-malabar-aa/"
  },
  {
   "id": "naivo-balanoor-chandragiri-washed",
@@ -19431,7 +19431,7 @@ const COFFEES = [
   "notes": "",
   "price": 234,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/balanoor-chandragiri-washed/"
  },
  {
   "id": "naivo-bettadamalali-estate-washed",
@@ -19472,7 +19472,7 @@ const COFFEES = [
   "notes": "",
   "price": 232,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/bettadamalali-estate-washed/"
  },
  {
   "id": "naivo-the-nut-job-mooleh-manay-120h-carbonic-naturals-fine-robusta",
@@ -19514,7 +19514,7 @@ const COFFEES = [
   "notes": "",
   "price": 218,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/the-nut-job-mooleh-manay-120h-carbonic-naturals/"
  },
  {
   "id": "naivo-venkids-valley-washed-robusta",
@@ -19556,7 +19556,7 @@ const COFFEES = [
   "notes": "",
   "price": 218,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/venkids-valley-washed-fine-robusta/"
  },
  {
   "id": "naivo-harley-kaapi-royale",
@@ -19596,7 +19596,7 @@ const COFFEES = [
   "notes": "",
   "price": 212,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/harley-kaapi-royale-fine-robusta/"
  },
  {
   "id": "naivo-sweet-illusions-bewild-permaculture-180h-anoxic-naturals-fine-robusta",
@@ -19638,7 +19638,7 @@ const COFFEES = [
   "notes": "",
   "price": 210,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/sweet-illusions-bewild-permaculture-180h-anoxic-naturals-fine-robusta/"
  },
  {
   "id": "naivo-cashew-barley-sugars",
@@ -19680,7 +19680,7 @@ const COFFEES = [
   "notes": "",
   "price": 204,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/cashews-barley-sugar-kerehaklu-25h-pichia-naturals-fine-robusta/"
  },
  {
   "id": "naivo-bewild-anoxic-naturals",
@@ -19722,7 +19722,7 @@ const COFFEES = [
   "notes": "",
   "price": 188,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/bewild-poomale-anoxic-naturals/"
  },
  {
   "id": "naivo-skia-red-honey-fine-robusta",
@@ -19763,7 +19763,7 @@ const COFFEES = [
   "notes": "",
   "price": 176,
   "sample": false,
-  "link": ""
+  "link": "https://naivo.in/product/skia-red-honey-fine-robusta/"
  },
  {
   "id": "quick-brown-fox-attikan-estate-wild-gooseberry-honey",
@@ -19803,7 +19803,7 @@ const COFFEES = [
   "notes": "38 hours cofermentation with wild gooseberries in air-tight barrels",
   "price": 500,
   "sample": false,
-  "link": ""
+  "link": "https://qbfcoffee.com/collections/all-coffees/products/attikan-estate-wild-gooseberry-honey-filter-roast-microlot"
  },
  {
   "id": "quick-brown-fox-salawara-estate-cm-naturals",
@@ -19842,7 +19842,7 @@ const COFFEES = [
   "notes": "72 hours Carbonic Maceration",
   "price": 500,
   "sample": false,
-  "link": ""
+  "link": "https://qbfcoffee.com/collections/all-coffees/products/salawara-estate-cm-naturals-filter-roast-microlot"
  },
  {
   "id": "quick-brown-fox-salawara-estate-cm-intenso-natural",
@@ -19881,7 +19881,7 @@ const COFFEES = [
   "notes": "48 hours Carbonic Maceration with Intenso Yeast",
   "price": 500,
   "sample": false,
-  "link": ""
+  "link": "https://qbfcoffee.com/collections/all-coffees/products/salawara-estate-cm-intenso-naturals-filter-roast-microlot"
  },
  {
   "id": "quick-brown-fox-ratnagiri-estate-estate-bioreactor-thermal-shock-naturals",
@@ -19919,7 +19919,7 @@ const COFFEES = [
   "notes": "Bioreactor with Lab-Inoculated Microbes",
   "price": 500,
   "sample": false,
-  "link": ""
+  "link": "https://qbfcoffee.com/collections/all-coffees/products/ratnagiri-estate-bioreactor-thermal-shock-naturals-lab-inoculated-microbes-filter-roast-micro-lot-1"
  },
  {
   "id": "quick-brown-fox-stanmore-estate-naturals",
@@ -19958,7 +19958,7 @@ const COFFEES = [
   "notes": "",
   "price": 500,
   "sample": false,
-  "link": ""
+  "link": "https://qbfcoffee.com/collections/all-coffees/products/stanmore-estate-naturals-filter-roast-microlot"
  },
  {
   "id": "quick-brown-fox-salawara-estate-yeast-anaerobic-natura-s",
@@ -20000,7 +20000,7 @@ const COFFEES = [
   "notes": "",
   "price": 500,
   "sample": false,
-  "link": ""
+  "link": "https://qbfcoffee.com/collections/all-coffees/products/salawara-estate-yeast-anaerobic-naturals-espresso-roast-microlot"
  },
  {
   "id": "quick-brown-fox-vontekad-estate",
@@ -20040,7 +20040,7 @@ const COFFEES = [
   "notes": "",
   "price": 393,
   "sample": false,
-  "link": ""
+  "link": "https://qbfcoffee.com/collections/all-coffees/products/ms-estate-organic-espresso-roast"
  },
  {
   "id": "quick-brown-fox-attikan-estate-catimor",
@@ -20080,7 +20080,7 @@ const COFFEES = [
   "notes": "",
   "price": 388,
   "sample": false,
-  "link": ""
+  "link": "https://qbfcoffee.com/collections/all-coffees/products/attikan-estate-catimor-culture-washed-espresso-roast"
  },
  {
   "id": "quick-brown-fox-badnekhan-estate-espresso-roast",
@@ -20121,7 +20121,7 @@ const COFFEES = [
   "notes": "",
   "price": 388,
   "sample": false,
-  "link": ""
+  "link": "https://qbfcoffee.com/collections/all-coffees/products/badnekhan-estate-sl13-washed-espresso-roast"
  },
  {
   "id": "quick-brown-fox-middle-ground-espresso-blend",
@@ -20153,7 +20153,7 @@ const COFFEES = [
   "notes": "",
   "price": 313,
   "sample": false,
-  "link": ""
+  "link": "https://qbfcoffee.com/collections/all-coffees/products/middle-ground-espresso-blend"
  },
  {
   "id": "reserved-ratnagiri-estate-dark-room-honey",
@@ -20192,7 +20192,7 @@ const COFFEES = [
   "notes": "",
   "price": 600,
   "sample": false,
-  "link": ""
+  "link": "https://www.reserved.co.in/products/ratnagiri-dark-room-honey"
  },
  {
   "id": "reserved-ratnagiri-estate-thermal-shock-washed",
@@ -20232,7 +20232,7 @@ const COFFEES = [
   "notes": "SCA Cup Score:89",
   "price": 600,
   "sample": false,
-  "link": ""
+  "link": "https://www.reserved.co.in/products/ratnagiri-thermal-shock-washed"
  },
  {
   "id": "reserved-ratnagiri-estate-hydro-honey",
@@ -20271,7 +20271,7 @@ const COFFEES = [
   "notes": "",
   "price": 500,
   "sample": false,
-  "link": ""
+  "link": "https://www.reserved.co.in/products/ratnagiri-hydro-honey"
  },
  {
   "id": "reserved-ratnagiri-estate-culture-naturals",
@@ -20313,7 +20313,7 @@ const COFFEES = [
   "notes": "",
   "price": 500,
   "sample": false,
-  "link": ""
+  "link": "https://www.reserved.co.in/products/ratnagiri-culture-naturals"
  },
  {
   "id": "reserved-aruku-naturals",
@@ -20352,7 +20352,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://www.reserved.co.in/products/araku-naturals"
  },
  {
   "id": "roastery-coffee-mooleh-manay-estate-excelsa",
@@ -20392,7 +20392,7 @@ const COFFEES = [
   "notes": "",
   "price": 380,
   "sample": false,
-  "link": ""
+  "link": "https://roasterycoffee.co.in/product/mooleh-manay-estate-excelsa/"
  },
  {
   "id": "roastery-coffee-ratnagiri-estate-estate-seraphine",
@@ -20433,7 +20433,7 @@ const COFFEES = [
   "notes": "",
   "price": 340,
   "sample": false,
-  "link": ""
+  "link": "https://roasterycoffee.co.in/product/ratnagiri-estate-saraphina/"
  },
  {
   "id": "roastery-coffee-ratnagiri-estate-estate-amara-rose",
@@ -20474,7 +20474,7 @@ const COFFEES = [
   "notes": "",
   "price": 340,
   "sample": false,
-  "link": ""
+  "link": "https://roasterycoffee.co.in/product/ratnagiri-estate-amara-rose/"
  },
  {
   "id": "roastery-coffee-baarbara-estate-frozen-cherry",
@@ -20514,7 +20514,7 @@ const COFFEES = [
   "notes": "",
   "price": 340,
   "sample": false,
-  "link": ""
+  "link": "https://roasterycoffee.co.in/product/baarbara-estate-frozen-cherry/"
  },
  {
   "id": "roastery-coffee-mooleh-manay-estate-sln-795",
@@ -20553,7 +20553,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://roasterycoffee.co.in/product/mooleh-manay-estate/"
  },
  {
   "id": "roastery-coffee-baarbara-estate-hsd",
@@ -20595,7 +20595,7 @@ const COFFEES = [
   "notes": "",
   "price": 288,
   "sample": false,
-  "link": ""
+  "link": "https://roasterycoffee.co.in/product/baarbara-estate/"
  },
  {
   "id": "roastery-coffee-baarbara-estate-pineapple",
@@ -20636,7 +20636,7 @@ const COFFEES = [
   "notes": "",
   "price": 288,
   "sample": false,
-  "link": ""
+  "link": "https://roasterycoffee.co.in/product/baarbara-estate-pineapple/"
  },
  {
   "id": "roastery-coffee-monsoon-malabar",
@@ -20673,7 +20673,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": false,
-  "link": ""
+  "link": "https://roasterycoffee.co.in/product/monsoon-malabar/"
  },
  {
   "id": "roastery-coffee-mandalkhan-estate",
@@ -20715,7 +20715,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": false,
-  "link": ""
+  "link": "https://roasterycoffee.co.in/product/mandalkhan-estate-2/"
  },
  {
   "id": "roastery-coffee-cappucino-blend",
@@ -20755,7 +20755,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": false,
-  "link": ""
+  "link": "https://roasterycoffee.co.in/product/espresso-milk-blend/"
  },
  {
   "id": "roastery-coffee-basan-khan-estate",
@@ -20796,7 +20796,7 @@ const COFFEES = [
   "notes": "",
   "price": 252,
   "sample": false,
-  "link": ""
+  "link": "https://roasterycoffee.co.in/product/basan-khan-estate/"
  },
  {
   "id": "roastery-coffee-harley-estate-robusta",
@@ -20835,7 +20835,7 @@ const COFFEES = [
   "notes": "",
   "price": 140,
   "sample": false,
-  "link": ""
+  "link": "https://roasterycoffee.co.in/product/harley-estate-robusta/"
  },
  {
   "id": "rossette-coffee-ratnagiri-estate-whiskey-barrel-aged-naturals",
@@ -20878,7 +20878,7 @@ const COFFEES = [
   "notes": "SCA Cup Score:87+",
   "price": 625,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/ratnagiri-whiskey-barrel-aged-naturals-sca-87"
  },
  {
   "id": "rossette-coffee-harley-whiskey-barrel-aged",
@@ -20921,7 +20921,7 @@ const COFFEES = [
   "notes": "SCA Cup Score:87+",
   "price": 625,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/harley-whiskey-barrel-aged"
  },
  {
   "id": "rossette-coffee-harley-rum-aged",
@@ -20962,7 +20962,7 @@ const COFFEES = [
   "notes": "SCA Cup Score:87+",
   "price": 600,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/harley-rum-aged"
  },
  {
   "id": "rossette-coffee-ratnagiri-estate-hydro-honey",
@@ -21000,7 +21000,7 @@ const COFFEES = [
   "notes": "SCA Cup Score:86+",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/ratnagiri-hydro-honey-sca-86"
  },
  {
   "id": "rossette-coffee-hardoor-estate",
@@ -21043,7 +21043,7 @@ const COFFEES = [
   "notes": "",
   "price": 350,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/hardoor-estate-farm-organic-washed"
  },
  {
   "id": "rossette-coffee-equinox",
@@ -21088,7 +21088,7 @@ const COFFEES = [
   "notes": "",
   "price": 350,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/equinox-arabica-blend"
  },
  {
   "id": "rossette-coffee-basankhan-fermented-washed",
@@ -21130,7 +21130,7 @@ const COFFEES = [
   "notes": "",
   "price": 350,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/basankhan-fermented-wash"
  },
  {
   "id": "rossette-coffee-monsoon-malabar-aa",
@@ -21170,7 +21170,7 @@ const COFFEES = [
   "notes": "Monsooned for 3 months",
   "price": 325,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/monsoon-malabar"
  },
  {
   "id": "rossette-coffee-midnight-blues",
@@ -21212,7 +21212,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/midnight-blues?variant=50550846128344"
  },
  {
   "id": "rossette-coffee-wave",
@@ -21253,7 +21253,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/wave?variant=50550931390680"
  },
  {
   "id": "rossette-coffee-robusta-kaapi-royale",
@@ -21299,7 +21299,7 @@ const COFFEES = [
   "notes": "Double fermented",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/robusta-kaapi-royale"
  },
  {
   "id": "rossette-coffee-truffle-twilight",
@@ -21340,7 +21340,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/truffle-twilight"
  },
  {
   "id": "rossette-coffee-robusta-kaapi-royale-vienna",
@@ -21382,7 +21382,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/robusta-kaapi-royale-vienna"
  },
  {
   "id": "rossette-coffee-vienna-roast",
@@ -21418,7 +21418,7 @@ const COFFEES = [
   "notes": "",
   "price": 300,
   "sample": false,
-  "link": ""
+  "link": "https://rossettecoffee.com/products/vienna-roast"
  },
  {
   "id": "savorworks-godfather",
@@ -21459,7 +21459,7 @@ const COFFEES = [
   "notes": "Cultivated at Riverdale Estate, the sun-grown Geisha coffee thrives at 1500 MAS",
   "price": 1080,
   "sample": false,
-  "link": ""
+  "link": "https://www.savorworksroasters.com/products/godfather-brown-tip-panama-geisha"
  },
  {
   "id": "savorworks-phenom",
@@ -21498,7 +21498,7 @@ const COFFEES = [
   "notes": "Cofermented with Italian champagne",
   "price": 420,
   "sample": false,
-  "link": ""
+  "link": "https://www.savorworksroasters.com/products/phenom"
  },
  {
   "id": "savorworks-red-globe-grape-maceration-coffee",
@@ -21539,7 +21539,7 @@ const COFFEES = [
   "notes": "90 Hour cofermentation",
   "price": 420,
   "sample": false,
-  "link": ""
+  "link": "https://www.savorworksroasters.com/products/red-globe-grape-maceration-coffee"
  },
  {
   "id": "savorworks-vienna-dark-roast",
@@ -21579,7 +21579,7 @@ const COFFEES = [
   "notes": "",
   "price": 252,
   "sample": false,
-  "link": ""
+  "link": "https://www.savorworksroasters.com/products/vienna-dark-roast"
  },
  {
   "id": "savorworks-boss-s-wife-house-blend",
@@ -21624,7 +21624,7 @@ const COFFEES = [
   "notes": "",
   "price": 252,
   "sample": false,
-  "link": ""
+  "link": "https://www.savorworksroasters.com/products/bosss-wife-house-blend"
  },
  {
   "id": "savorworks-riverdale",
@@ -21665,7 +21665,7 @@ const COFFEES = [
   "notes": "",
   "price": 252,
   "sample": false,
-  "link": ""
+  "link": "https://www.savorworksroasters.com/products/riverdale-medium-dark-roast"
  },
  {
   "id": "seven-beans-maley",
@@ -21704,7 +21704,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://sevenbeans.co/collections/coffee/products/maley-medium-dark-roast-single-origin-gourmet-indian-coffee"
  },
  {
   "id": "seven-beans-mishta",
@@ -21744,7 +21744,7 @@ const COFFEES = [
   "notes": "",
   "price": 220,
   "sample": false,
-  "link": ""
+  "link": "https://sevenbeans.co/collections/coffee/products/mishta"
  },
  {
   "id": "seven-beans-100-arabica",
@@ -21783,7 +21783,7 @@ const COFFEES = [
   "notes": "",
   "price": 220,
   "sample": false,
-  "link": ""
+  "link": "https://sevenbeans.co/collections/coffee/products/seven-beans-100-arabica-single-origin-gourmet-indian-coffee"
  },
  {
   "id": "seven-beans-nava",
@@ -21825,7 +21825,7 @@ const COFFEES = [
   "notes": "",
   "price": 220,
   "sample": false,
-  "link": ""
+  "link": "https://sevenbeans.co/collections/coffee/products/nava-medium-roast-single-origin-gourmet-indian-coffee-copy"
  },
  {
   "id": "seven-beans-urja",
@@ -21865,7 +21865,7 @@ const COFFEES = [
   "notes": "",
   "price": 190,
   "sample": false,
-  "link": ""
+  "link": "https://sevenbeans.co/collections/coffee/products/urja-whole-bean-coffee"
  },
  {
   "id": "seven-beans-eka",
@@ -21905,7 +21905,7 @@ const COFFEES = [
   "notes": "",
   "price": 180,
   "sample": false,
-  "link": ""
+  "link": "https://sevenbeans.co/collections/coffee/products/eka"
  },
  {
   "id": "seven-beans-woddae",
@@ -21938,7 +21938,7 @@ const COFFEES = [
   "notes": "",
   "price": 156,
   "sample": false,
-  "link": ""
+  "link": "https://sevenbeans.co/collections/coffee/products/woddae"
  },
  {
   "id": "seven-beans-spresso",
@@ -21971,7 +21971,7 @@ const COFFEES = [
   "notes": "",
   "price": 156,
   "sample": false,
-  "link": ""
+  "link": "https://sevenbeans.co/collections/coffee/products/spresso-coffee"
  },
  {
   "id": "shodh-summer-shade",
@@ -22013,7 +22013,7 @@ const COFFEES = [
   "notes": "Sugarcane juice cofermentation",
   "price": 395,
   "sample": false,
-  "link": ""
+  "link": "https://www.shodhcoffee.in/products/summer-shade"
  },
  {
   "id": "shodh-gentle-cups",
@@ -22055,7 +22055,7 @@ const COFFEES = [
   "notes": "",
   "price": 350,
   "sample": false,
-  "link": ""
+  "link": "https://www.shodhcoffee.in/products/gentle-cups"
  },
  {
   "id": "siolim-excelsa",
@@ -22093,7 +22093,7 @@ const COFFEES = [
   "notes": "",
   "price": 800,
   "sample": false,
-  "link": ""
+  "link": "http://siolim.coffee/products/excelsa"
  },
  {
   "id": "siolim-whiskey-barrel-aged",
@@ -22135,7 +22135,7 @@ const COFFEES = [
   "notes": "Whiskey Barrel Aged",
   "price": 600,
   "sample": false,
-  "link": ""
+  "link": "https://www.siolim.coffee/products/whiskey-barrel-aged?variant=49321248883005"
  },
  {
   "id": "siolim-rum-barrel-aged",
@@ -22177,7 +22177,7 @@ const COFFEES = [
   "notes": "Rum Barrel Aged",
   "price": 600,
   "sample": false,
-  "link": ""
+  "link": "https://www.siolim.coffee/products/rum-barrel-aged"
  },
  {
   "id": "siolim-raxidi-lobo-s-p1-natural",
@@ -22216,7 +22216,7 @@ const COFFEES = [
   "notes": "The finest coffee cherries were selectively picked, then thoroughly washed and placed in a stainless steel container. A P1 strain, a mix of yeast and bacteria, was then introduced to ferment the cherries in an anaerobic environment for 18 hours. Once fermentation was complete, the cherries were transferred to raised beds for slow drying over 21 days.",
   "price": 392,
   "sample": false,
-  "link": ""
+  "link": "https://www.siolim.coffee/products/raxidi-lobo-p1"
  },
  {
   "id": "siolim-raxidi-lobo-s-w1-natural",
@@ -22255,7 +22255,7 @@ const COFFEES = [
   "notes": "The finest coffee cherries were selectively picked, thoroughly washed, and placed in a stainless steel container. A W1 strain, a mix of yeast and bacteria, was then introduced to ferment the cherries in an anaerobic environment for 20 hours. Once fermentation was complete, the cherries were transferred to raised beds for slow drying over 21 days.",
   "price": 392,
   "sample": false,
-  "link": ""
+  "link": "https://www.siolim.coffee/products/raxidi-lobo-w1"
  },
  {
   "id": "siolim-morjim-blend",
@@ -22297,7 +22297,7 @@ const COFFEES = [
   "notes": "",
   "price": 316,
   "sample": false,
-  "link": ""
+  "link": "https://www.siolim.coffee/products/morjim-blend"
  },
  {
   "id": "siolim-ratnagiri-estate-estate-washed",
@@ -22338,7 +22338,7 @@ const COFFEES = [
   "notes": "",
   "price": 316,
   "sample": true,
-  "link": ""
+  "link": "https://www.siolim.coffee/products/ratnagiri-washed"
  },
  {
   "id": "siolim-anjuna-blend",
@@ -22377,7 +22377,7 @@ const COFFEES = [
   "notes": "",
   "price": 316,
   "sample": true,
-  "link": ""
+  "link": "https://www.siolim.coffee/products/anjuna-blend"
  },
  {
   "id": "siolim-aarambol-blend",
@@ -22417,7 +22417,7 @@ const COFFEES = [
   "notes": "",
   "price": 316,
   "sample": false,
-  "link": ""
+  "link": "https://www.siolim.coffee/products/aarambol-blend"
  },
  {
   "id": "siolim-candolim-blend",
@@ -22456,7 +22456,7 @@ const COFFEES = [
   "notes": "",
   "price": 316,
   "sample": false,
-  "link": ""
+  "link": "https://www.siolim.coffee/products/candolim-blend"
  },
  {
   "id": "sip-magic-mysore-nuggets-bold",
@@ -22496,7 +22496,7 @@ const COFFEES = [
   "notes": "",
   "price": 160,
   "sample": true,
-  "link": ""
+  "link": "https://sipmagic.in/collections/arabica-and-robusta/products/mysorenuggets?variant=40447175163978"
  },
  {
   "id": "sip-magic-monsoon-melody",
@@ -22538,7 +22538,7 @@ const COFFEES = [
   "notes": "",
   "price": 148,
   "sample": true,
-  "link": ""
+  "link": "https://sipmagic.in/collections/arabica-and-robusta/products/monsoon-melody"
  },
  {
   "id": "sip-magic-sunshine-sweetness",
@@ -22578,7 +22578,7 @@ const COFFEES = [
   "notes": "",
   "price": 148,
   "sample": true,
-  "link": ""
+  "link": "https://sipmagic.in/collections/arabica-and-robusta/products/sunshine-sweetness?variant=40447179685962"
  },
  {
   "id": "sip-magic-rockstar-roast",
@@ -22618,7 +22618,7 @@ const COFFEES = [
   "notes": "",
   "price": 140,
   "sample": true,
-  "link": ""
+  "link": "https://sipmagic.in/collections/arabica-and-robusta/products/rockstar-blues?variant=40447177719882"
  },
  {
   "id": "sip-magic-arabian-sunset",
@@ -22658,7 +22658,7 @@ const COFFEES = [
   "notes": "",
   "price": 132,
   "sample": true,
-  "link": ""
+  "link": "https://sipmagic.in/collections/arabica-and-robusta/products/arabian-sunset"
  },
  {
   "id": "sip-magic-mountain-crest",
@@ -22691,7 +22691,7 @@ const COFFEES = [
   "notes": "",
   "price": 132,
   "sample": true,
-  "link": ""
+  "link": "https://sipmagic.in/collections/arabica-and-robusta/products/mountain-crest"
  },
  {
   "id": "sip-magic-brekkie-roast",
@@ -22731,7 +22731,7 @@ const COFFEES = [
   "notes": "",
   "price": 128,
   "sample": true,
-  "link": ""
+  "link": "https://sipmagic.in/collections/arabica-and-robusta/products/brekkie-roast"
  },
  {
   "id": "sip-magic-robusta-kaapi-royale",
@@ -22765,7 +22765,7 @@ const COFFEES = [
   "notes": "",
   "price": 120,
   "sample": true,
-  "link": ""
+  "link": "https://sipmagic.in/collections/arabica-and-robusta/products/robusta-kaapi-royale?variant=40447190270026"
  },
  {
   "id": "sip-magic-forest-flush",
@@ -22806,7 +22806,7 @@ const COFFEES = [
   "notes": "",
   "price": 120,
   "sample": true,
-  "link": ""
+  "link": "https://sipmagic.in/collections/arabica-and-robusta/products/forest-flush"
  },
  {
   "id": "sip-magic-crema-instensa",
@@ -22847,7 +22847,7 @@ const COFFEES = [
   "notes": "",
   "price": 120,
   "sample": true,
-  "link": ""
+  "link": "https://sipmagic.in/collections/arabica-and-robusta/products/darth-vader?variant=40447170707530"
  },
  {
   "id": "subko-agave-barrel-aged-washed",
@@ -22888,7 +22888,7 @@ const COFFEES = [
   "notes": "After fermentation the cheeries were pulped by handwashing, post processing the beans were aged in Pistola agave barrels for 77 days",
   "price": 520,
   "sample": false,
-  "link": ""
+  "link": "https://www.subko.coffee/products/mooleh-manay-coorg-karnataka-excelsa-84-hours-yeast-inoculated-natural-medium-roast-copy-1"
  },
  {
   "id": "subko-project-360",
@@ -22927,7 +22927,7 @@ const COFFEES = [
   "notes": "Blend of beans from different altitudes within Badra estates, fermented for 60 hours, black honey drying is done",
   "price": 398,
   "sample": false,
-  "link": ""
+  "link": "https://www.subko.coffee/products/project-360-badra-estates-karnataka-black-honey-filter-roast-medium-light"
  },
  {
   "id": "subko-project-pearl",
@@ -22966,7 +22966,7 @@ const COFFEES = [
   "notes": "Catuai - Carbonic fermentation for 72 hours, 29 days drying, \n Hemavathi - Carbonic fermentation for 60 hours, 28 days drying,",
   "price": 398,
   "sample": true,
-  "link": ""
+  "link": "https://www.subko.coffee/products/project-pearl-ratnagiri-estate-karnataka-sca-86-culture-naturals-anaerobic-naturals-filter-roast?variant=46543074459802"
  },
  {
   "id": "subko-project-salawara-bros",
@@ -23008,7 +23008,7 @@ const COFFEES = [
   "notes": "Carbonic fermentation for 96 hours",
   "price": 398,
   "sample": false,
-  "link": ""
+  "link": "https://www.subko.coffee/products/project-salawara-bros-salawara-estate-karnataka-naturals-omniroast-medium-dark"
  },
  {
   "id": "subko-vlge",
@@ -23049,7 +23049,7 @@ const COFFEES = [
   "notes": "Subko has created a village cooperative to farm this coffee",
   "price": 358,
   "sample": true,
-  "link": ""
+  "link": "https://www.subko.coffee/products/lot-sv09"
  },
  {
   "id": "the-caffeine-baar-whiskey-barrel-aged",
@@ -23089,7 +23089,7 @@ const COFFEES = [
   "notes": "Washed green beans are aged for 120 days in authentic whiskey barrels",
   "price": 360,
   "sample": true,
-  "link": ""
+  "link": "https://www.thecaffeinebaar.com/collections/packaged-coffee/products/whisky-barrel-aged"
  },
  {
   "id": "the-caffeine-baar-frozen-cherry",
@@ -23128,7 +23128,7 @@ const COFFEES = [
   "notes": "Whole cherries are fermented and put in a freezer in bags so the sugars accumulate. Further removed and slow dried on raised beds.",
   "price": 320,
   "sample": true,
-  "link": ""
+  "link": "https://www.thecaffeinebaar.com/collections/packaged-coffee/products/frozen-cherry"
  },
  {
   "id": "the-caffeine-baar-intenso-fermentation",
@@ -23170,7 +23170,7 @@ const COFFEES = [
   "notes": "",
   "price": 320,
   "sample": true,
-  "link": ""
+  "link": "https://www.thecaffeinebaar.com/collections/packaged-coffee/products/intenso-fermentation"
  },
  {
   "id": "the-caffeine-baar-pineapple-fermentation",
@@ -23210,7 +23210,7 @@ const COFFEES = [
   "notes": "Pulped coffee is fermented with fresh pineapple",
   "price": 300,
   "sample": true,
-  "link": ""
+  "link": "https://www.thecaffeinebaar.com/collections/packaged-coffee/products/pineapple-fermentation-coffee"
  },
  {
   "id": "the-caffeine-baar-honey-sun-dried",
@@ -23249,7 +23249,7 @@ const COFFEES = [
   "notes": "",
   "price": 280,
   "sample": true,
-  "link": ""
+  "link": "https://www.thecaffeinebaar.com/collections/packaged-coffee/products/honey-sun-dried"
  },
  {
   "id": "the-caffeine-baar-naturals",
@@ -23289,7 +23289,7 @@ const COFFEES = [
   "notes": "",
   "price": 280,
   "sample": true,
-  "link": ""
+  "link": "https://www.thecaffeinebaar.com/collections/packaged-coffee/products/natural"
  },
  {
   "id": "the-caffeine-baar-72-hour-fermented-washed",
@@ -23329,7 +23329,7 @@ const COFFEES = [
   "notes": "Wet-processed coffee is fermented in stainless steel tanks for 72 hours",
   "price": 260,
   "sample": true,
-  "link": ""
+  "link": "https://www.thecaffeinebaar.com/collections/packaged-coffee/products/72-hour-fermented-washed"
  },
  {
   "id": "the-caffeine-baar-mix-fruit-fermentation",
@@ -23371,7 +23371,7 @@ const COFFEES = [
   "notes": "Cherries are washed in natural spring water and fermented alongside pineapple, papaya, and watermelon in stainless steel tanks. The process is closely monitored for pH and temperature to ensure consistency, with a 1:2 coffee-to-fruit ratio enhancing complexity",
   "price": null,
   "sample": true,
-  "link": ""
+  "link": "https://www.thecaffeinebaar.com/collections/packaged-coffee/products/mixed-fruit-fermentation"
  },
  {
   "id": "tulum-pulneys",
@@ -23410,7 +23410,7 @@ const COFFEES = [
   "notes": "",
   "price": 274,
   "sample": true,
-  "link": ""
+  "link": "https://www.tulum.coffee/products/pulneys-100-organic-coffee"
  },
  {
   "id": "tulum-the-saigon-blend",
@@ -23448,7 +23448,7 @@ const COFFEES = [
   "notes": "Inspired by the rich culture, traditions, and flavours of Vietnam, The Saigon Blend is a tribute to the vibrant coffee heritage of this Southeast Asian gem. Crafted from premium Indian Arabica beans, this dark roast is meticulously balanced to offer a harmonious experience of bitterness, sweetness, and acidity.",
   "price": 274,
   "sample": true,
-  "link": ""
+  "link": "https://www.tulum.coffee/products/the-saigon-blend-specialty-blend"
  },
  {
   "id": "tulum-the-sol-blend",
@@ -23485,7 +23485,7 @@ const COFFEES = [
   "notes": "",
   "price": 274,
   "sample": true,
-  "link": ""
+  "link": "https://www.tulum.coffee/products/the-sol-blend-medium-roast-mellow"
  },
  {
   "id": "tulum-the-lumen-blend",
@@ -23520,7 +23520,7 @@ const COFFEES = [
   "notes": "",
   "price": 274,
   "sample": true,
-  "link": ""
+  "link": "https://www.tulum.coffee/products/lumen"
  },
  {
   "id": "tulum-thogarihunkal-washed",
@@ -23562,7 +23562,7 @@ const COFFEES = [
   "notes": "",
   "price": 274,
   "sample": true,
-  "link": ""
+  "link": "https://www.tulum.coffee/products/thogarihunkal-medium-roasted-coffee"
  },
  {
   "id": "tulum-the-swell-blend",
@@ -23604,7 +23604,7 @@ const COFFEES = [
   "notes": "",
   "price": 274,
   "sample": true,
-  "link": ""
+  "link": "https://www.tulum.coffee/products/the-swell-blend-specialty-blend"
  },
  {
   "id": "tulum-baarbara-hsd-hazelnutty",
@@ -23647,7 +23647,7 @@ const COFFEES = [
   "notes": "",
   "price": 274,
   "sample": true,
-  "link": ""
+  "link": "https://www.tulum.coffee/products/baarbara"
  },
  {
   "id": "vithai-lot-5",
@@ -23686,7 +23686,7 @@ const COFFEES = [
   "notes": "",
   "price": 450,
   "sample": false,
-  "link": ""
+  "link": "https://vithaicoffee.in/shop/97944aba-25ef-49cb-9492-e753dde5b6b1"
  },
  {
   "id": "vithai-lot-4",
@@ -23727,7 +23727,7 @@ const COFFEES = [
   "notes": "",
   "price": 425,
   "sample": false,
-  "link": ""
+  "link": "https://vithaicoffee.in/shop/34d2de62-7ea1-4c8e-b44b-d1b7875cda45"
  },
  {
   "id": "vithai-lot-7",
@@ -23766,7 +23766,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://vithaicoffee.in/shop/57b77d97-f789-4423-9b14-e81cb12870c6"
  },
  {
   "id": "vithai-2026-mix",
@@ -23807,7 +23807,7 @@ const COFFEES = [
   "notes": "",
   "price": 400,
   "sample": false,
-  "link": ""
+  "link": "https://vithaicoffee.in/shop/a5ceb991-0599-4e79-849f-172455eb9956"
  },
  {
   "id": "vithai-lot-8",
@@ -23848,7 +23848,7 @@ const COFFEES = [
   "notes": "",
   "price": 350,
   "sample": false,
-  "link": ""
+  "link": "https://vithaicoffee.in/shop/0d12a959-0aa1-4fae-b347-2e351fb24c9b"
  },
  {
   "id": "yagachi-the-waterfall-reserve",
@@ -23889,7 +23889,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": false,
-  "link": ""
+  "link": "https://yagachi.coffee/products/the-waterfall-reserve?variant=49064927002866"
  },
  {
   "id": "yagachi-the-estate-classis",
@@ -23930,7 +23930,7 @@ const COFFEES = [
   "notes": "",
   "price": 260,
   "sample": false,
-  "link": ""
+  "link": "https://yagachi.coffee/products/the-estate-classic?variant=49064891187442"
  },
  {
   "id": "yagachi-the-golden-hour",
@@ -23971,7 +23971,7 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://yagachi.coffee/products/the-golden-hour?variant=49076576747762"
  },
  {
   "id": "yagachi-the-hustler-s-grind",
@@ -24013,6 +24013,6 @@ const COFFEES = [
   "notes": "",
   "price": 240,
   "sample": false,
-  "link": ""
+  "link": "https://yagachi.coffee/products/the-hustler-s-grind?variant=49064928149746"
  }
 ];
