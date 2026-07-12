@@ -395,7 +395,7 @@ h3{ font-size:1.2rem; }
 }
 .match-card{ position:relative; }
 .buy-btn{ align-self:flex-start; margin-top:8px; font-size:.82rem; padding:7px 14px; }
-.news-form iframe{ height:90px !important; max-width:480px; margin:0 auto; }
+.news-form iframe{ height:56px !important; width:400px !important; max-width:100%; display:block; margin:0 auto; }
 
 /* ============================================================
    ARTICLES

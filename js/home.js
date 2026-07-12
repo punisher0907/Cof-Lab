@@ -100,47 +100,6 @@ function updateParallax(){
 }
 
 /* ============================================================
-   2b · CASE CARDS — mouse scrubbing (drag + wheel) on the row
-   ============================================================ */
-const caseTrack = document.getElementById("case-track");
-if (caseTrack){
-  // drag-to-scrub with the mouse (touch keeps native scrolling)
-  let dragging = false, startX = 0, startLeft = 0, moved = 0;
-  caseTrack.addEventListener("pointerdown", e => {
-    if (e.pointerType !== "mouse") return;
-    dragging = true; moved = 0;
-    startX = e.clientX; startLeft = caseTrack.scrollLeft;
-    caseTrack.classList.add("dragging");
-    caseTrack.setPointerCapture(e.pointerId);
-  });
-  caseTrack.addEventListener("pointermove", e => {
-    if (!dragging) return;
-    const dx = e.clientX - startX;
-    moved = Math.max(moved, Math.abs(dx));
-    caseTrack.scrollLeft = startLeft - dx;
-  });
-  const endDrag = e => {
-    if (!dragging) return;
-    dragging = false;
-    caseTrack.classList.remove("dragging");   // restoring snap eases to the nearest card
-  };
-  caseTrack.addEventListener("pointerup", endDrag);
-  caseTrack.addEventListener("pointercancel", endDrag);
-  caseTrack.addEventListener("click", e => { if (moved > 6) e.preventDefault(); }, true);
-
-  // vertical wheel scrubs the row — but never traps the page at the ends
-  caseTrack.addEventListener("wheel", e => {
-    if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;   // trackpad horizontal: native
-    const max = caseTrack.scrollWidth - caseTrack.clientWidth;
-    const atStart = caseTrack.scrollLeft <= 0 && e.deltaY < 0;
-    const atEnd = caseTrack.scrollLeft >= max - 1 && e.deltaY > 0;
-    if (atStart || atEnd) return;                          // hand back to page scroll
-    e.preventDefault();
-    caseTrack.scrollLeft += e.deltaY;
-  }, { passive: false });
-}
-
-/* ============================================================
    3 · REVEALS
    ============================================================ */
 const io = new IntersectionObserver(es => es.forEach(e => {
