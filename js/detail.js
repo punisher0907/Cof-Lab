@@ -44,10 +44,9 @@ if (!c){
 
       <div class="detail-cta">
         <span class="detail-price">${c.price ? `₹${c.price}<small>PER 100 G</small>` : `<span style="font-size:1.1rem">Price on request</span>`}</span>
-        <a class="btn btn-primary" target="_blank" rel="noopener"
-           href="${c.link ? esc(c.link) : `https://www.google.com/search?q=${encodeURIComponent(c.brand + " " + c.name + " coffee buy")}`}">
+        ${c.link ? `<a class="btn btn-primary" target="_blank" rel="noopener" href="${esc(c.link)}">
            Buy from website
-           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>` : ""}
         <a class="btn btn-ghost" href="brand.html?brand=${encodeURIComponent(c.brand)}">More from ${esc(c.brand)}</a>
         ${c.sample ? `<span class="tag gold" style="font-size:.74rem">Sample pack available</span>` : ""}
       </div>
