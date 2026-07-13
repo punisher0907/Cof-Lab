@@ -4,8 +4,8 @@
 <script src="js/analytics.js"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Become a partner — Coffee Lab</title>
-<meta name="description" content="Roast specialty coffee in India? Register your brand to be listed in the Coffee Lab directory.">
+<title>Become a partner — Kaapi Atlas</title>
+<meta name="description" content="Roast specialty coffee in India? Register your brand to be listed in the Kaapi Atlas directory.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,600&display=swap" rel="stylesheet">
@@ -45,7 +45,7 @@
     <div class="wrap">
       <p class="eyebrow">Become a partner</p>
       <h1>Put your roastery on the shelf</h1>
-      <p class="lede" style="color:#C9D3C3">Coffee Lab lists India's specialty roasters side by side — searchable, filterable, and matched to the drinkers looking for exactly what you make.</p>
+      <p class="lede" style="color:#C9D3C3">Kaapi Atlas lists India's specialty roasters side by side — searchable, filterable, and matched to the drinkers looking for exactly what you make.</p>
     </div>
   </section>
 
@@ -130,10 +130,15 @@
         <label for="p-msg">Tell us about your coffee</label>
         <textarea id="p-msg" rows="4" placeholder="Estates you work with, processes you love, anything worth tasting…"></textarea>
       </div>
+      <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
       <div style="display:flex; gap:14px; align-items:center; flex-wrap:wrap">
-        <button class="btn btn-primary" type="submit">Register with Coffee Lab</button>
+        <button class="btn btn-primary" type="submit" id="p-submit">Register with Kaapi Atlas</button>
         <span style="font-family:var(--font-mono); font-size:.68rem; letter-spacing:.1em; color:var(--ink-soft)">WE REPLY WITHIN A WEEK</span>
       </div>
+      <p class="pform-error" id="p-error" hidden style="margin-top:16px; color:var(--berry); font-size:.9rem">
+        Something went wrong sending your registration. Please try again, or email us directly at
+        <a href="mailto:shasleen@gmail.com" style="color:var(--berry); text-decoration:underline">shasleen@gmail.com</a>.
+      </p>
     </form>
 
     <div class="partner-ok" id="partner-ok" hidden>
@@ -152,7 +157,9 @@
 <script>
 renderChrome("partner");
 const form = document.getElementById("pform");
-form.addEventListener("submit", e => {
+const WEB3FORMS_KEY = "8378d625-d83b-43df-8331-be7613e589f9";
+
+form.addEventListener("submit", async e => {
   e.preventDefault();
   let ok = true, first = null;
   form.querySelectorAll(".field[data-req]").forEach(f => {
@@ -160,14 +167,53 @@ form.addEventListener("submit", e => {
     const v = inp.value.trim();
     const bad = !v || (f.dataset.type === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v));
     f.classList.toggle("invalid", bad);
-    if (bad && !ok === false && !first) first = inp;
     if (bad){ ok = false; if (!first) first = inp; }
   });
   if (!ok){ (first || form).focus(); return; }
-  document.getElementById("ok-brand").textContent = document.getElementById("p-brand").value.trim();
-  form.hidden = true;
-  document.getElementById("partner-ok").hidden = false;
-  window.scrollTo({ top: 0, behavior: "smooth" });
+
+  const brand = document.getElementById("p-brand").value.trim();
+  const val = id => document.getElementById(id).value.trim();
+  const errBox = document.getElementById("p-error");
+  const btn = document.getElementById("p-submit");
+  errBox.hidden = true;
+
+  const payload = {
+    access_key: WEB3FORMS_KEY,
+    subject: `New Kaapi Atlas partner: ${brand}`,
+    from_name: "Kaapi Atlas — Partner form",
+    botcheck: form.querySelector('[name="botcheck"]').checked,
+    "Brand": brand,
+    "Contact person": val("p-name"),
+    "Email": val("p-email"),
+    "Phone": val("p-phone"),
+    "City & state": val("p-city"),
+    "Website / Instagram": val("p-web"),
+    "Lineup size": val("p-count"),
+    "Roasts": val("p-src"),
+    "Message": val("p-msg"),
+  };
+
+  btn.disabled = true;
+  const label = btn.textContent;
+  btn.textContent = "Sending…";
+  try {
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    const data = await res.json();
+    if (!data.success) throw new Error(data.message || "submit failed");
+    if (window.posthog) posthog.capture("partner_registered", { brand });
+    document.getElementById("ok-brand").textContent = brand;
+    form.hidden = true;
+    document.getElementById("partner-ok").hidden = false;
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  } catch (err) {
+    errBox.hidden = false;
+    btn.disabled = false;
+    btn.textContent = label;
+  }
 });
 </script>
 </body>

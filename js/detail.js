@@ -11,7 +11,7 @@ if (!c){
     <p>It may have been renamed or removed from the directory.</p>
     <a class="btn btn-primary" href="directory.html">Browse the directory</a></div>`;
 } else {
-  document.title = `${c.name} by ${c.brand} — Coffee Lab`;
+  document.title = `${c.name} by ${c.brand} — Kaapi Atlas`;
   document.getElementById("crumb-name").textContent = c.name;
 
   const famDot = { fruity: "#96453B", floral: "#7A5A74", chocolatey: "#4A3423", nutty: "#8A6A3C", sweet: "#DFA126", spicy: "#2C5238" };

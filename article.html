@@ -4,7 +4,7 @@
 <script src="js/analytics.js"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Article — Coffee Lab</title>
+<title>Article — Kaapi Atlas</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,600&display=swap" rel="stylesheet">
@@ -33,7 +33,7 @@ if (!a){
   el.innerHTML = `<div class="empty-state"><h3>We couldn't find that article</h3>
     <p>It may have moved.</p><a class="btn btn-primary" href="learn.html">Back to Coffee 101</a></div>`;
 } else {
-  document.title = `${a.title} — Coffee Lab`;
+  document.title = `${a.title} — Kaapi Atlas`;
   const backHref = a.type === "story" ? "blogs.html" : "learn.html";
   const backLabel = a.type === "story" ? "Stories" : "Coffee 101";
   const siblings = ARTICLES.filter(x => x.type === a.type);

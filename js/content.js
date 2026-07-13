@@ -10,7 +10,7 @@ const ARTICLES = [
   title: "Roast levels, decoded",
   standfirst: "Light, medium, dark — what actually changes in the bean, and how to pick the roast that matches how you drink.",
   body: [
-   ["p", "Every coffee on Coffee Lab carries a roast level, shown as our five-bean roast meter. It is the single most useful signal on a bag, because roast decides more about what ends up in your cup than origin, varietal or process."],
+   ["p", "Every coffee on Kaapi Atlas carries a roast level, shown as our five-bean roast meter. It is the single most useful signal on a bag, because roast decides more about what ends up in your cup than origin, varietal or process."],
    ["h2", "What roasting does"],
    ["p", "Green coffee is dense, grassy and almost flavourless. Heat sets off hundreds of reactions — sugars caramelise, acids break down, aromatic compounds form. The longer and hotter the roast, the more the roaster's flavour replaces the farm's flavour."],
    ["h2", "Light (beans 1–2)"],
@@ -77,7 +77,7 @@ const ARTICLES = [
   title: "Match the brew to the bean",
   standfirst: "Espresso, pour over, French press, AeroPress, cold brew and the steel South Indian filter — what each method rewards.",
   body: [
-   ["p", "There is no best brewing method, only better and worse pairings. Every coffee page on Coffee Lab suggests brews for that bean; here is the logic behind those suggestions."],
+   ["p", "There is no best brewing method, only better and worse pairings. Every coffee page on Kaapi Atlas suggests brews for that bean; here is the logic behind those suggestions."],
    ["h2", "Pour over and AeroPress — for clarity"],
    ["p", "Paper filters strip oils and fines, leaving a clean, articulate cup. This is where light roasts and delicate washed coffees show their fruit and florals. Grind medium-fine, water just off the boil, and taste it black before you judge it."],
    ["h2", "French press and moka pot — for body"],
@@ -125,7 +125,7 @@ const ARTICLES = [
   title: "How to read a specialty coffee label",
   standfirst: "Estate, elevation, varietal, MASL, microlot — a translation guide for everything printed on the bag.",
   body: [
-   ["p", "Specialty coffee bags are dense with jargon. Here is what each field on a Coffee Lab page (and on the bag it describes) actually means."],
+   ["p", "Specialty coffee bags are dense with jargon. Here is what each field on a Kaapi Atlas page (and on the bag it describes) actually means."],
    ["h2", "Estate and district"],
    ["p", "Where the coffee grew. 'Single estate' means every bean came from one farm — a signature you can trace. A district tells you the broader terroir: Chikkamagaluru, Kodagu, Araku and so on."],
    ["h2", "Elevation (MASL)"],
