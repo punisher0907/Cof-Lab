@@ -113,7 +113,8 @@ h3{ font-size:1.2rem; }
 }
 .site-header .wrap{ display:flex; align-items:center; gap:28px; height:66px; }
 .logo{ display:flex; align-items:center; gap:10px; text-decoration:none; margin-right:auto; }
-.logo svg{ width:34px; height:34px; }
+.logo-mark{ width:44px; height:44px; display:block; }
+.logo-for-dark{ display:none; }
 .logo b{ font-family:var(--font-display); font-size:1.28rem; font-weight:700; color:var(--roast); letter-spacing:-.01em; }
 .logo b em{ font-style:italic; color:var(--canopy); }
 .main-nav{ display:flex; gap:4px; }

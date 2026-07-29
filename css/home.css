@@ -18,6 +18,8 @@ body.home-v2 main{ overflow-x:clip; }   /* orbs bleed off-canvas without widenin
 /* ---------- header over the dark hero ---------- */
 body.home-v2 .site-header{ transition: background .35s, border-color .35s; }
 .site-header.over-hero{ background:transparent; border-color:transparent; backdrop-filter:none; }
+.site-header.over-hero .logo-for-light{ display:none; }
+.site-header.over-hero .logo-for-dark{ display:block; }
 .site-header.over-hero .logo b, .site-header.over-hero .logo b em{ color:#F2EFE4; }
 .site-header.over-hero .main-nav a{ color:#D8D2C2; }
 .site-header.over-hero .main-nav a:hover{ color:#fff; background:rgba(255,255,255,.08); }

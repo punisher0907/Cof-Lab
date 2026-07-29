@@ -100,12 +100,6 @@ function buyBtn(c, source){
 
 /* ---------- site chrome ---------- */
 function renderChrome(active){
-  const logoSVG = `
-    <svg viewBox="0 0 40 40" aria-hidden="true">
-      <circle cx="20" cy="20" r="19" fill="var(--canopy)"/>
-      <ellipse cx="20" cy="20" rx="8.5" ry="12" fill="var(--marigold)" transform="rotate(24 20 20)"/>
-      <path d="M20 8.5 Q16 20 20 31.5" stroke="var(--canopy)" stroke-width="2.6" fill="none" transform="rotate(24 20 20)"/>
-    </svg>`;
   const nav = [
     ["index.html", "Home", "home"],
     ["directory.html", "Coffee directory", "directory"],
@@ -114,7 +108,11 @@ function renderChrome(active){
   ];
   document.getElementById("site-header").innerHTML = `
     <div class="wrap">
-      <a class="logo" href="index.html">${logoSVG}<b>Kaapi <em>Atlas</em></b></a>
+      <a class="logo" href="index.html" aria-label="Kaapi Atlas home">
+        <img class="logo-mark logo-for-light" src="assets/logo.svg" alt="" aria-hidden="true" width="44" height="44">
+        <img class="logo-mark logo-for-dark" src="assets/logo-light.svg" alt="" aria-hidden="true" width="44" height="44">
+        <b>Kaapi <em>Atlas</em></b>
+      </a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" onclick="const n=document.querySelector('.main-nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
@@ -127,7 +125,10 @@ function renderChrome(active){
   document.getElementById("site-footer").innerHTML = `
     <div class="wrap">
       <div>
-        <a class="logo" href="index.html">${logoSVG}<b>Kaapi <em>Atlas</em></b></a>
+        <a class="logo" href="index.html" aria-label="Kaapi Atlas home">
+          <img class="logo-mark" src="assets/logo-light.svg" alt="" aria-hidden="true" width="44" height="44">
+          <b>Kaapi <em>Atlas</em></b>
+        </a>
         <p style="max-width:36ch;font-size:.92rem;margin-top:14px;">One place to know everything about coffee in India — ${COFFEES.length} beans from ${new Set(COFFEES.map(c => c.brand)).size} roasters, and how to find yours.</p>
       </div>
       <div>
